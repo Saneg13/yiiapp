@@ -18,6 +18,7 @@ class SiteController extends Controller
 			'page'=>array(
 				'class'=>'CViewAction',
 			),
+            'lol' => 'application.protected.actions.LolAction',
 		);
 	}
 
@@ -30,7 +31,11 @@ class SiteController extends Controller
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
 		$this->render('index');
-	}
+
+        echo ("Привет! Это actionIndex()");
+
+    }
+
 
 	/**
 	 * This is the action to handle external exceptions.
@@ -59,6 +64,7 @@ class SiteController extends Controller
 			{
 				$name='=?UTF-8?B?'.base64_encode($model->name).'?=';
 				$subject='=?UTF-8?B?'.base64_encode($model->subject).'?=';
+				$place='=?UTF-8?B?'.base64_encode($model->place).'?=';
 				$headers="From: $name <{$model->email}>\r\n".
 					"Reply-To: {$model->email}\r\n".
 					"MIME-Version: 1.0\r\n".
@@ -106,4 +112,37 @@ class SiteController extends Controller
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
+
+    public function actionPNH()
+    {
+        echo "hello, world";
+    }
+
+    public function actionMap()
+    {
+
+        $this->render('map',array('var1'=>$value1='10'),false);
+    }
+
+    public function actionFortest()
+    {
+        // var_dump('ole');
+
+        $model = new ForTest;
+
+        //$this->render('index', array('a' => $a));
+        // display the
+        //$this->render('fortest',array('model' => $model->getTest()), false);
+
+        $this->render('fortest',array('var1'=>$value1='10'."<br />", 'var2'=>$model->getTest()));
+    }
+
+    public function actionAuthor()
+    {
+        var_dump('ole');
+        $this->render('fortest',array('var1'=>$value1 = 100, 'var2'=>$value1= " Привет! Это Z!"), false);
+
+        echo ("Привет! Это actionAuthor()");
+
+    }
 }

@@ -20,7 +20,7 @@ $this->breadcrumbs=array(
 <?php else: ?>
 
 <p>
-Following this fucking form!!! Please!
+If you have business inquiries or other questions, please fill out the following form to contact us. Thank you.
 </p>
 
 <div class="form">
@@ -49,11 +49,17 @@ Following this fucking form!!! Please!
 		<?php echo $form->error($model,'email'); ?>
 	</div>
 
-    <div class="row">
-        <?php echo $form->labelEx($model,'place'); ?>
-        <?php echo $form->textField($model,'place',array('size'=>60,'maxlength'=>128)); ?>
-        <?php echo $form->error($model,'place'); ?>
-    </div>
+	<div class="row">
+		<?php echo $form->labelEx($model,'subject'); ?>
+		<?php echo $form->textField($model,'subject',array('size'=>60,'maxlength'=>128)); ?>
+		<?php echo $form->error($model,'subject'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'body'); ?>
+		<?php echo $form->textArea($model,'body',array('rows'=>6, 'cols'=>50)); ?>
+		<?php echo $form->error($model,'body'); ?>
+	</div>
 
 	<?php if(CCaptcha::checkRequirements()): ?>
 	<div class="row">
