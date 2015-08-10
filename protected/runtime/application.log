@@ -2177,3 +2177,147 @@ REQUEST_URI=/index.php/site/fortest
 in /var/www/yiitestapp/protected/views/site/fortest.php (11)
 in /var/www/yiitestapp/protected/controllers/SiteController.php (137)
 in /var/www/yiitestapp/index.php (13)
+2015/08/07 19:17:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('style.css')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('style.css')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/style.css')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/style.css
+HTTP_REFERER=http://localhost/index.php/site/map
+---
+2015/08/07 19:19:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('style.css')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('style.css')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/style.css')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/style.css
+HTTP_REFERER=http://localhost/index.php/site/map
+---
+2015/08/07 19:33:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('style.css')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('style.css')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/style.css')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/style.css
+HTTP_REFERER=http://localhost/index.php/site/map
+---
+2015/08/07 19:33:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('style.css')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('style.css')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/style.css')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/style.css
+HTTP_REFERER=http://localhost/index.php/site/map
+---
+2015/08/07 19:33:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "style.css".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('style.css')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('style.css')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/style.css')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/style.css
+HTTP_REFERER=http://localhost/index.php/site/map
+---
+2015/08/07 19:53:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fortest".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('fortest')
+#1 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/yiitestapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/fortest
+---
+2015/08/07 19:53:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "test".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('test')
+#1 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/yiitestapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/test
+---
+2015/08/08 15:39:48 [error] [php] include(Arena.php): failed to open stream: No such file or directory (/var/www/yii/framework/YiiBase.php:432)
+Stack trace:
+#0 /var/www/yiitestapp/protected/controllers/SiteController.php(132): spl_autoload_call()
+#1 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionFortest()
+#2 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /var/www/yii/framework/web/CController.php(286): SiteController->runAction()
+#4 /var/www/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /var/www/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/fortest
+in /var/www/yiitestapp/protected/controllers/SiteController.php (132)
+in /var/www/yiitestapp/index.php (13)
+2015/08/08 15:41:35 [error] [php] include(Fighter.php): failed to open stream: No such file or directory (/var/www/yii/framework/YiiBase.php:432)
+Stack trace:
+#0 /var/www/yiitestapp/protected/controllers/SiteController.php(132): spl_autoload_call()
+#1 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionFortest()
+#2 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /var/www/yii/framework/web/CController.php(286): SiteController->runAction()
+#4 /var/www/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /var/www/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/fortest
+in /var/www/yiitestapp/protected/controllers/SiteController.php (132)
+in /var/www/yiitestapp/index.php (13)
+2015/08/08 15:42:31 [error] [php] include(Fighter.php): failed to open stream: No such file or directory (/var/www/yii/framework/YiiBase.php:432)
+Stack trace:
+#0 /var/www/yiitestapp/protected/controllers/SiteController.php(132): spl_autoload_call()
+#1 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionFortest()
+#2 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /var/www/yii/framework/web/CController.php(286): SiteController->runAction()
+#4 /var/www/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /var/www/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/fortest
+in /var/www/yiitestapp/protected/controllers/SiteController.php (132)
+in /var/www/yiitestapp/index.php (13)
+2015/08/08 15:42:31 [error] [php] include(Fighter.php): failed to open stream: No such file or directory (/var/www/yii/framework/YiiBase.php:432)
+Stack trace:
+#0 /var/www/yiitestapp/protected/controllers/SiteController.php(132): spl_autoload_call()
+#1 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionFortest()
+#2 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /var/www/yii/framework/web/CController.php(286): SiteController->runAction()
+#4 /var/www/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /var/www/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/fortest
+in /var/www/yiitestapp/protected/controllers/SiteController.php (132)
+in /var/www/yiitestapp/index.php (13)
+2015/08/08 15:45:11 [error] [php] Undefined variable: var2 (/var/www/yiitestapp/protected/views/site/fortest.php:11)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(135): SiteController->render()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionFortest()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yii/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/fortest
+in /var/www/yiitestapp/protected/views/site/fortest.php (11)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (135)
+in /var/www/yiitestapp/index.php (13)

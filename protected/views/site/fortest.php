@@ -6,7 +6,9 @@
  * Time: 20:32
  */
 
-echo $var1;
+print $arena."<br />";
 
-echo $var2;
+print $cost1."<br />";
+
+print $cost2."<br />";
 

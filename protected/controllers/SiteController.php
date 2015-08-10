@@ -128,13 +128,18 @@ class SiteController extends Controller
     {
         // var_dump('ole');
 
-        $model = new ForTest;
+        //$model = new Arena(new Fighter(new LightArmor(20, 5), new Bow(40, 10), 100, 5), new Fighter(new LightArmor(20, 10), new Sword(120, 5), 100, 4));
+
+        $model = new Arena(new Fighter(new LightArmor(20, 5), new Bow(40, 10), 100, 5), new Fighter(new LightArmor(20, 10), new Sword(120, 5), 100, 4));
+
+        $this->render('fortest', array('arena'=>$model->startFight(), 'cost1'=>$model->getFighter1()->getSum(), 'cost2'=>$model->getFighter2()->getSum()), false);
 
         //$this->render('index', array('a' => $a));
         // display the
         //$this->render('fortest',array('model' => $model->getTest()), false);
 
-        $this->render('fortest',array('var1'=>$value1='10'."<br />", 'var2'=>$model->getTest()));
+        //$model = new ForTest;
+        //$this->render('fortest',array('var1'=>$value1='10'."<br />", 'var2'=>$model->getTest()), false);
     }
 
     public function actionAuthor()
