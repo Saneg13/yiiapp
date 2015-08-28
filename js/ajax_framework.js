@@ -32,7 +32,7 @@ function insert() {
     // Set te random number to add to URL request
     nocache = Math.random();
     // Pass the login variables like URL variable
-    // http.open('get', 'insertInfo.php?user_name='+user_name+'&user_address=' +user_address+'&lat=' +lat+'&lng=' +lng+'&nocache = '+nocache);
+    // http.open('get', 'insert.php?user_name='+user_name+'&user_address=' +user_address+'&lat=' +lat+'&lng=' +lng+'&nocache = '+nocache);
     http.open('get', 'insert.php?user_name='+user_name+'&nocache = '+nocache);
     http.onreadystatechange = insertReply;
     http.send(null);

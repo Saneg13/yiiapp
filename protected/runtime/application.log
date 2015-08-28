@@ -3053,3 +3053,13 @@ Stack trace:
 #10 {main}
 REQUEST_URI=/index.php/site/dotest
 ---
+2015/08/28 22:36:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/test
+---
