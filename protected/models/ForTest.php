@@ -13,12 +13,12 @@ class ForTest
     {
         $this->cost = $cost = 100;
 
-        echo "Конструктор ForTest работает..<br />";
+       // echo "Конструктор ForTest работает..<br />";
     }
 
     public function getTest()
     {
-        return $this->cost;
+        return $this->cost."<br />";
     }
 
     public function doTest()
@@ -26,3 +26,4 @@ class ForTest
         echo "<br />".$this->cost."<br />";
     }
 }
+

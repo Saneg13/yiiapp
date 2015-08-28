@@ -32,8 +32,8 @@ class SiteController extends Controller
 		// using the default layout 'protected/views/layouts/main.php'
 		$this->render('index');
 
-        echo ("Привет! Это actionIndex()");
-
+        /*for example..
+        echo ("Привет! Это actionIndex()");*/
     }
 
 
@@ -54,55 +54,54 @@ class SiteController extends Controller
 	/**
 	 * Displays the contact page
 	 */
-	public function actionContact()
-	{
-		$model=new ContactForm;
-		if(isset($_POST['ContactForm']))
-		{
-			$model->attributes=$_POST['ContactForm'];
-			if($model->validate())
-			{
-				$name='=?UTF-8?B?'.base64_encode($model->name).'?=';
-				$subject='=?UTF-8?B?'.base64_encode($model->subject).'?=';
-				$place='=?UTF-8?B?'.base64_encode($model->place).'?=';
-				$headers="From: $name <{$model->email}>\r\n".
-					"Reply-To: {$model->email}\r\n".
-					"MIME-Version: 1.0\r\n".
-					"Content-Type: text/plain; charset=UTF-8";
+    public function actionContact()
+    {
+        $model=new ContactForm;
+        if(isset($_POST['ContactForm']))
+        {
+            $model->attributes=$_POST['ContactForm'];
+            if($model->validate())
+            {
+                $name='=?UTF-8?B?'.base64_encode($model->name).'?=';
+                $subject='=?UTF-8?B?'.base64_encode($model->subject).'?=';
+                $headers="From: $name <{$model->email}>\r\n".
+                    "Reply-To: {$model->email}\r\n".
+                    "MIME-Version: 1.0\r\n".
+                    "Content-Type: text/plain; charset=UTF-8";
 
-				mail(Yii::app()->params['adminEmail'],$subject,$model->body,$headers);
-				Yii::app()->user->setFlash('contact','Thank you for contacting us. We will respond to you as soon as possible.');
-				$this->refresh();
-			}
-		}
-		$this->render('contact',array('model'=>$model));
-	}
+                mail(Yii::app()->params['adminEmail'],$subject,$model->body,$headers);
+                Yii::app()->user->setFlash('contact','Thank you for contacting us. We will respond to you as soon as possible.');
+                $this->refresh();
+            }
+        }
+        $this->render('contact',array('model'=>$model));
+    }
 
 	/**
 	 * Displays the login page
 	 */
-	public function actionLogin()
-	{
-		$model=new LoginForm;
+    public function actionLogin()
+    {
+        $model=new LoginForm;
 
-		// if it is ajax validation request
-		if(isset($_POST['ajax']) && $_POST['ajax']==='login-form')
-		{
-			echo CActiveForm::validate($model);
-			Yii::app()->end();
-		}
+        // if it is ajax validation request
+        if(isset($_POST['ajax']) && $_POST['ajax']==='login-form')
+        {
+            echo CActiveForm::validate($model);
+            Yii::app()->end();
+        }
 
-		// collect user input data
-		if(isset($_POST['LoginForm']))
-		{
-			$model->attributes=$_POST['LoginForm'];
-			// validate user input and redirect to the previous page if valid
-			if($model->validate() && $model->login())
-				$this->redirect(Yii::app()->user->returnUrl);
-		}
-		// display the login form
-		$this->render('login',array('model'=>$model));
-	}
+        // collect user input data
+        if(isset($_POST['LoginForm']))
+        {
+            $model->attributes=$_POST['LoginForm'];
+            // validate user input and redirect to the previous page if valid
+            if($model->validate() && $model->login())
+                $this->redirect(Yii::app()->user->returnUrl);
+        }
+        // display the login form
+        $this->render('login',array('model'=>$model));
+    }
 
 	/**
 	 * Logs out the current user and redirect to homepage.
@@ -120,26 +119,30 @@ class SiteController extends Controller
 
     public function actionMap()
     {
+        /*$cs = Yii::app()->getClientScript();
+        $cs->registerScriptFile('/js/my_script.js');
+        $cs->registerCssFile('/css/my_css.css');*/
 
-        $this->render('map',array('var1'=>$value1='10'),false);
+        $fighter1 = new Fighter(new LightArmor(20, 15),new Bow(40, rand(10, 15)), 100, 5);
+
+        $this->render('map',array('fightersWeapon'=>$fighter1->getWeaponName()),false);
     }
 
     public function actionFortest()
     {
         // var_dump('ole');
 
-        //$model = new Arena(new Fighter(new LightArmor(20, 5), new Bow(40, 10), 100, 5), new Fighter(new LightArmor(20, 10), new Sword(120, 5), 100, 4));
+        // $model = new Arena(new Fighter(new LightArmor(20, 5), new Bow(40, 10), 100, 5), new Fighter(new LightArmor(20, 10), new Sword(120, 5), 100, 4));
 
         $model = new Arena(new Fighter(new LightArmor(20, 5), new Bow(40, 10), 100, 5), new Fighter(new LightArmor(20, 10), new Sword(120, 5), 100, 4));
 
-        $this->render('fortest', array('arena'=>$model->startFight(), 'cost1'=>$model->getFighter1()->getSum(), 'cost2'=>$model->getFighter2()->getSum()), false);
+        $this->render('fortest', array('cost1'=>$model->getFighter1()->getSum(), 'cost2'=>$model->getFighter2()->getSum()), false);
+        // $this->render('fortest', array('arena'=>$model->startFight(), 'cost1'=>$model->getFighter1()->getSum(), 'cost2'=>$model->getFighter2()->getSum()), false);
+    }
 
-        //$this->render('index', array('a' => $a));
-        // display the
-        //$this->render('fortest',array('model' => $model->getTest()), false);
-
-        //$model = new ForTest;
-        //$this->render('fortest',array('var1'=>$value1='10'."<br />", 'var2'=>$model->getTest()), false);
+    public function actiondotest()
+    {
+        $this->render('test');
     }
 
     public function actionAuthor()
