@@ -5,7 +5,7 @@ function loadPhones() {
 
     var xhr = new XMLHttpRequest();
 
-    xhr.open('GET', '/js/phones.json', true);
+    xhr.open('POST', '/js/phones.json', true);
 
     xhr.setRequestHeader('Content-Type', 'application/json');
 

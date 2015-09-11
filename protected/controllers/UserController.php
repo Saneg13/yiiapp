@@ -9,13 +9,13 @@
 class UserController extends CController
 {
 
-    public function actionIndex{
+    public function actionIndex(){
 
         echo ("Привет! Это actionIndex()");
 
     }
 
-    public function actionAuthor{
+    public function actionAuthor(){
 
     }
 }

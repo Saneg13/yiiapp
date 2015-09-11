@@ -140,9 +140,10 @@ class SiteController extends Controller
         // $this->render('fortest', array('arena'=>$model->startFight(), 'cost1'=>$model->getFighter1()->getSum(), 'cost2'=>$model->getFighter2()->getSum()), false);
     }
 
-    public function actiondotest()
+    public function actionDotest()
     {
-        $this->render('test');
+
+        $this->render('test', false);
     }
 
     public function actionAuthor()

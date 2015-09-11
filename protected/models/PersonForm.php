@@ -1,23 +1,21 @@
 <?php
 
 /**
- * This is the model class for table "info".
+ * This is the model class for table "person".
  *
- * The followings are the available columns in table 'info':
+ * The followings are the available columns in table 'person':
  * @property integer $id
- * @property string $user_name
- * @property string $user_address
- * @property double $lat
- * @property double $lng
+ * @property string $name
+ * @property integer $age
  */
-class Info extends CActiveRecord
+class PersonForm extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
 	{
-		return 'info';
+		return 'person';
 	}
 
 	/**
@@ -28,12 +26,11 @@ class Info extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('lat, lng', 'numerical'),
-			array('user_name', 'length', 'max'=>100),
-			array('user_address', 'length', 'max'=>300),
+			array('age', 'numerical', 'integerOnly'=>true),
+			array('name', 'length', 'max'=>30),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, user_name, user_address, lat, lng', 'safe', 'on'=>'search'),
+			array('id, name, age', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -55,10 +52,8 @@ class Info extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'user_name' => 'User Name',
-			'user_address' => 'User Address',
-			'lat' => 'Lat',
-			'lng' => 'Lng',
+			'name' => 'Name',
+			'age' => 'Age',
 		);
 	}
 
@@ -81,10 +76,8 @@ class Info extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
-		$criteria->compare('user_name',$this->user_name,true);
-		$criteria->compare('user_address',$this->user_address,true);
-		$criteria->compare('lat',$this->lat);
-		$criteria->compare('lng',$this->lng);
+		$criteria->compare('name',$this->name,true);
+		$criteria->compare('age',$this->age);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -95,11 +88,11 @@ class Info extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return Info the static model class
+	 * @return PersonForm the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
 		return parent::model($className);
 	}
-
 }
+
