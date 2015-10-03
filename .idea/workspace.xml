@@ -2,149 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84ce664b-7537-4830-8ae9-40a0a3981fae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/1.3.2-jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/person/exam1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/person/exam2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/person/exam3.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/person/exam4.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-1.4.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/markerclusterer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/markers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/person/new1.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/protected/models/insert.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/protected/models/insertInfo.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/yiiapp" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/yiitestapp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/5d85397f/gridview/bg.gif" afterPath="$PROJECT_DIR$/assets/5d85397f/gridview/bg.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/blank.gif" afterPath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/blank.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/5d85397f/gridview/delete.png" afterPath="$PROJECT_DIR$/assets/5d85397f/gridview/delete.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/5d85397f/gridview/down.gif" afterPath="$PROJECT_DIR$/assets/5d85397f/gridview/down.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/5d85397f/listview/down.gif" afterPath="$PROJECT_DIR$/assets/5d85397f/listview/down.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_close.png" afterPath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_close.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_loading.png" afterPath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_loading.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_nav_left.png" afterPath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_nav_left.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_nav_right.png" afterPath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_nav_right.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_shadow_e.png" afterPath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_shadow_e.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_shadow_n.png" afterPath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_shadow_n.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_shadow_ne.png" afterPath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_shadow_ne.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_shadow_nw.png" afterPath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_shadow_nw.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_shadow_s.png" afterPath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_shadow_s.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_shadow_se.png" afterPath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_shadow_se.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_shadow_sw.png" afterPath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_shadow_sw.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_shadow_w.png" afterPath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_shadow_w.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_title_left.png" afterPath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_title_left.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_title_main.png" afterPath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_title_main.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_title_over.png" afterPath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_title_over.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_title_right.png" afterPath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancy_title_right.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancybox-x.png" afterPath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancybox-x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancybox-y.png" afterPath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancybox-y.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancybox.png" afterPath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/fancybox.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/hills_1.jpg" afterPath="$PROJECT_DIR$/images/hills_1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/5d85397f/gridview/loading.gif" afterPath="$PROJECT_DIR$/assets/5d85397f/gridview/loading.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/5d85397f/listview/loading.gif" afterPath="$PROJECT_DIR$/assets/5d85397f/listview/loading.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/6c7d8d38/images/logo.png" afterPath="$PROJECT_DIR$/assets/6c7d8d38/images/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/nature_1.jpeg" afterPath="$PROJECT_DIR$/images/nature_1.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/road_!.jpg" afterPath="$PROJECT_DIR$/images/road_!.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/5d85397f/gridview/up.gif" afterPath="$PROJECT_DIR$/assets/5d85397f/gridview/up.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/5d85397f/listview/up.gif" afterPath="$PROJECT_DIR$/assets/5d85397f/listview/up.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/5d85397f/gridview/update.png" afterPath="$PROJECT_DIR$/assets/5d85397f/gridview/update.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/5d85397f/gridview/view.png" afterPath="$PROJECT_DIR$/assets/5d85397f/gridview/view.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Arena/Arena.php" afterPath="$PROJECT_DIR$/protected/models/Arena/Arena.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/ArenaForm.php" afterPath="$PROJECT_DIR$/protected/models/ArenaForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Arena/Armor.php" afterPath="$PROJECT_DIR$/protected/models/Arena/Armor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/actions/AuthorAction.php" afterPath="$PROJECT_DIR$/protected/actions/AuthorAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Arena/Bow.php" afterPath="$PROJECT_DIR$/protected/models/Arena/Bow.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/gii-1.1.16/ControllerCode.php" afterPath="$PROJECT_DIR$/protected/runtime/gii-1.1.16/ControllerCode.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/gii-1.1.16/CrudCode.php" afterPath="$PROJECT_DIR$/protected/runtime/gii-1.1.16/CrudCode.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Arena/Fighter.php" afterPath="$PROJECT_DIR$/protected/models/Arena/Fighter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Arena/FireBall.php" afterPath="$PROJECT_DIR$/protected/models/Arena/FireBall.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/ForTest.php" afterPath="$PROJECT_DIR$/protected/models/ForTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/actions/FortestAction.php" afterPath="$PROJECT_DIR$/protected/actions/FortestAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/GoblinController.php" afterPath="$PROJECT_DIR$/protected/controllers/GoblinController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/actions/IndexAction.php" afterPath="$PROJECT_DIR$/protected/actions/IndexAction.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Info.php" afterPath="$PROJECT_DIR$/protected/models/Info.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/InfoController.php" afterPath="$PROJECT_DIR$/protected/controllers/InfoController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Arena/Item.php" afterPath="$PROJECT_DIR$/protected/models/Arena/Item.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Arena/Knife.php" afterPath="$PROJECT_DIR$/protected/models/Arena/Knife.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Arena/LightArmor.php" afterPath="$PROJECT_DIR$/protected/models/Arena/LightArmor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/actions/LolAction.php" afterPath="$PROJECT_DIR$/protected/actions/LolAction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/gii-1.1.16/ModelCode.php" afterPath="$PROJECT_DIR$/protected/runtime/gii-1.1.16/ModelCode.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/gii-1.1.16/ModuleCode.php" afterPath="$PROJECT_DIR$/protected/runtime/gii-1.1.16/ModuleCode.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/PersonController.php" afterPath="$PROJECT_DIR$/protected/controllers/PersonController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/PersonForm.php" afterPath="$PROJECT_DIR$/protected/models/PersonForm.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/SiteController.php" afterPath="$PROJECT_DIR$/protected/controllers/SiteController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Arena/Spell.php" afterPath="$PROJECT_DIR$/protected/models/Arena/Spell.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Arena/Sword.php" afterPath="$PROJECT_DIR$/protected/models/Arena/Sword.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/UserController.php" afterPath="$PROJECT_DIR$/protected/controllers/UserController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Usersinfo.php" afterPath="$PROJECT_DIR$/protected/models/Usersinfo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/UsersinfoController.php" afterPath="$PROJECT_DIR$/protected/controllers/UsersinfoController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Arena/Weapon.php" afterPath="$PROJECT_DIR$/protected/models/Arena/Weapon.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/person/_ajaxContent.php" afterPath="$PROJECT_DIR$/protected/views/person/_ajaxContent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/info/_form.php" afterPath="$PROJECT_DIR$/protected/views/info/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/usersinfo/_form.php" afterPath="$PROJECT_DIR$/protected/views/usersinfo/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/info/_search.php" afterPath="$PROJECT_DIR$/protected/views/info/_search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/usersinfo/_search.php" afterPath="$PROJECT_DIR$/protected/views/usersinfo/_search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/info/_view.php" afterPath="$PROJECT_DIR$/protected/views/info/_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/usersinfo/_view.php" afterPath="$PROJECT_DIR$/protected/views/usersinfo/_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/info/admin.php" afterPath="$PROJECT_DIR$/protected/views/info/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/usersinfo/admin.php" afterPath="$PROJECT_DIR$/protected/views/usersinfo/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/ajax_framework.js" afterPath="$PROJECT_DIR$/js/ajax_framework.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/application.log" afterPath="$PROJECT_DIR$/protected/runtime/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/arena.php" afterPath="$PROJECT_DIR$/protected/views/site/arena.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/connect.php" afterPath="$PROJECT_DIR$/protected/models/connect.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/info/create.php" afterPath="$PROJECT_DIR$/protected/views/info/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/usersinfo/create.php" afterPath="$PROJECT_DIR$/protected/views/usersinfo/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/dotest.php" afterPath="$PROJECT_DIR$/protected/views/site/dotest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/person/exam.php" afterPath="$PROJECT_DIR$/protected/views/person/exam.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/pages/form.html" afterPath="$PROJECT_DIR$/protected/views/site/pages/form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/fortest.php" afterPath="$PROJECT_DIR$/protected/views/site/fortest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/frameworkRootSettings.xml" afterPath="$PROJECT_DIR$/.idea/frameworkRootSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/6c7d8d38/css/ie.css" afterPath="$PROJECT_DIR$/assets/6c7d8d38/css/ie.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/info/index.php" afterPath="$PROJECT_DIR$/protected/views/info/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/person/index.php" afterPath="$PROJECT_DIR$/protected/views/person/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/usersinfo/index.php" afterPath="$PROJECT_DIR$/protected/views/usersinfo/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/dump/info.sql" afterPath="$PROJECT_DIR$/protected/dump/info.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery-1.5.2.min.js" afterPath="$PROJECT_DIR$/js/jquery-1.5.2.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/jquery.fancybox-1.3.1.css" afterPath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/jquery.fancybox-1.3.1.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/jquery.fancybox-1.3.1.pack.js" afterPath="$PROJECT_DIR$/assets/6c7d8d38/js/fancybox/jquery.fancybox-1.3.1.pack.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/5d85397f/gridview/jquery.yiigridview.js" afterPath="$PROJECT_DIR$/assets/5d85397f/gridview/jquery.yiigridview.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/5d85397f/listview/jquery.yiilistview.js" afterPath="$PROJECT_DIR$/assets/5d85397f/listview/jquery.yiilistview.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/6c7d8d38/css/main.css" afterPath="$PROJECT_DIR$/assets/6c7d8d38/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/6c7d8d38/js/main.js" afterPath="$PROJECT_DIR$/assets/6c7d8d38/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/layouts/main.php" afterPath="$PROJECT_DIR$/protected/views/layouts/main.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/map.php" afterPath="$PROJECT_DIR$/protected/views/site/map.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/my_css.css" afterPath="$PROJECT_DIR$/css/my_css.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/my_map.js" afterPath="$PROJECT_DIR$/js/my_map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/my_script.js" afterPath="$PROJECT_DIR$/js/my_script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/9e9697c3/pager.css" afterPath="$PROJECT_DIR$/assets/9e9697c3/pager.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/person/person_form.php" afterPath="$PROJECT_DIR$/protected/views/person/person_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/phones.html" afterPath="$PROJECT_DIR$/protected/views/site/phones.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/phones.json" afterPath="$PROJECT_DIR$/js/phones.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/6c7d8d38/css/print.css" afterPath="$PROJECT_DIR$/assets/6c7d8d38/css/print.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/6c7d8d38/css/screen.css" afterPath="$PROJECT_DIR$/assets/6c7d8d38/css/screen.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/server.js" afterPath="$PROJECT_DIR$/js/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/show.php" afterPath="$PROJECT_DIR$/protected/models/show.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/some.xml" afterPath="$PROJECT_DIR$/js/some.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/state.bin" afterPath="$PROJECT_DIR$/protected/runtime/state.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/5d85397f/detailview/styles.css" afterPath="$PROJECT_DIR$/assets/5d85397f/detailview/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/5d85397f/gridview/styles.css" afterPath="$PROJECT_DIR$/assets/5d85397f/gridview/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/5d85397f/listview/styles.css" afterPath="$PROJECT_DIR$/assets/5d85397f/listview/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/test.php" afterPath="$PROJECT_DIR$/protected/views/site/test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/data/testdrive_dump.sql" afterPath="$PROJECT_DIR$/protected/data/testdrive_dump.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/6c7d8d38/js/tooltip.js" afterPath="$PROJECT_DIR$/assets/6c7d8d38/js/tooltip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/info/update.php" afterPath="$PROJECT_DIR$/protected/views/info/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/usersinfo/update.php" afterPath="$PROJECT_DIR$/protected/views/usersinfo/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/info/view.php" afterPath="$PROJECT_DIR$/protected/views/info/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/usersinfo/view.php" afterPath="$PROJECT_DIR$/protected/views/usersinfo/view.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/yiitestapp.iml" afterPath="$PROJECT_DIR$/.idea/yiitestapp.iml" />
     </list>
     <ignored path="yiitestapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -188,11 +53,11 @@
       <file leaf-file-name="Info.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/models/Info.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.962963" vertical-offset="2350" max-vertical-offset="2844">
-              <caret line="150" column="5" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
+            <state vertical-scroll-proportion="-9.62963" vertical-offset="1972" max-vertical-offset="2844">
+              <caret line="124" column="5" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
               <folding>
-                <marker date="1443894578409" expanded="true" signature="2822:3022" placeholder="{...}" />
-                <marker date="1443894578409" expanded="true" signature="2850:3014" placeholder="..." />
+                <marker date="1443898799594" expanded="true" signature="2822:3022" placeholder="{...}" />
+                <marker date="1443898799594" expanded="true" signature="2850:3014" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -201,18 +66,8 @@
       <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.0" vertical-offset="2574" max-vertical-offset="3528">
-              <caret line="149" column="43" selection-start-line="149" selection-start-column="43" selection-end-line="149" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Fighter.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/models/Arena/Fighter.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.296296" vertical-offset="136" max-vertical-offset="1656">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state vertical-scroll-proportion="-4.296296" vertical-offset="2080" max-vertical-offset="3060">
+              <caret line="122" column="49" selection-start-line="122" selection-start-column="48" selection-end-line="122" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -221,11 +76,9 @@
       <file leaf-file-name="map.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/views/site/map.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9067358" vertical-offset="1054" max-vertical-offset="1548">
-              <caret line="83" column="4" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
-              <folding>
-                <element signature="e#6#85#0#PHP" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.746114" vertical-offset="0" max-vertical-offset="1260">
+              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -287,8 +140,8 @@
         <option value="$PROJECT_DIR$/protected/views/person/_ajaxContent.php" />
         <option value="$PROJECT_DIR$/protected/controllers/PersonController.php" />
         <option value="$PROJECT_DIR$/protected/models/Info.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/protected/views/site/map.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
       </list>
     </option>
   </component>
@@ -394,131 +247,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiitestapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiitestapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiitestapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiitestapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="person" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiitestapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiitestapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiitestapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiitestapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="info" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiitestapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiitestapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiitestapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiitestapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="dump" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -873,8 +602,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2376">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1443894578409" expanded="true" signature="2822:3022" placeholder="{...}" />
-            <marker date="1443894578409" expanded="true" signature="2850:3014" placeholder="..." />
+            <marker date="1443898799594" expanded="true" signature="2822:3022" placeholder="{...}" />
+            <marker date="1443898799594" expanded="true" signature="2850:3014" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -891,9 +620,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="1422">
           <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-          <folding>
-            <element signature="e#6#85#0#PHP" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -910,8 +637,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2376">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1443894578409" expanded="true" signature="2822:3022" placeholder="{...}" />
-            <marker date="1443894578409" expanded="true" signature="2850:3014" placeholder="..." />
+            <marker date="1443898799594" expanded="true" signature="2822:3022" placeholder="{...}" />
+            <marker date="1443898799594" expanded="true" signature="2850:3014" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -928,9 +655,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="1422">
           <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-          <folding>
-            <element signature="e#6#85#0#PHP" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1187,17 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Info.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.962963" vertical-offset="2350" max-vertical-offset="2844">
-          <caret line="150" column="5" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
-          <folding>
-            <marker date="1443894578409" expanded="true" signature="2822:3022" placeholder="{...}" />
-            <marker date="1443894578409" expanded="true" signature="2850:3014" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/Arena/Fighter.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.296296" vertical-offset="136" max-vertical-offset="1656">
@@ -1206,21 +920,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.62963" vertical-offset="1972" max-vertical-offset="2844">
+          <caret line="124" column="5" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
+          <folding>
+            <marker date="1443898799594" expanded="true" signature="2822:3022" placeholder="{...}" />
+            <marker date="1443898799594" expanded="true" signature="2850:3014" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0" vertical-offset="2574" max-vertical-offset="3528">
-          <caret line="149" column="43" selection-start-line="149" selection-start-column="43" selection-end-line="149" selection-end-column="43" />
+        <state vertical-scroll-proportion="-4.296296" vertical-offset="2080" max-vertical-offset="3060">
+          <caret line="122" column="49" selection-start-line="122" selection-start-column="48" selection-end-line="122" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/map.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9067358" vertical-offset="1054" max-vertical-offset="1548">
-          <caret line="83" column="4" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
-          <folding>
-            <element signature="e#6#85#0#PHP" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.746114" vertical-offset="0" max-vertical-offset="1260">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>

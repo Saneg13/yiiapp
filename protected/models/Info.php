@@ -140,7 +140,7 @@ class Info extends CActiveRecord
          * Перечислим элементы массива find()
          */
         foreach($info as $key => $value) {
-            echo $value['user_name'], ' ', $value['user_address'], ' ', $value['lat'], ' ', $value['lng'], '<br />';
+            /*echo $value['user_name'], ' ', $value['user_address'], ' ', $value['lat'], ' ', $value['lng'], '<br />';*/
             return array(
                 $this->user_name = $value['user_name'],
                 $this->user_address = $value['user_address'],

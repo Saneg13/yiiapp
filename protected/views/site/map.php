@@ -5,7 +5,6 @@
  * Date: 18.07.15
  * Time: 11:10
  */
-var_dump($data4);
 ?>
 
 <!DOCSTYLE HTML>
@@ -27,8 +26,8 @@ html, body, #map-canvas {
     <script type="text/javascript">
         function initialize() {
             var latlng = new google.maps.LatLng(
-                <?php print $data7; ?>,
-                <?php print $data8; ?>);
+                <?php print $userLat; ?>,
+                <?php print $userLng; ?>);
             var settings = {
                 zoom: 15,
                 center: latlng,
@@ -42,11 +41,10 @@ html, body, #map-canvas {
                 document.getElementById("map_canvas"), settings
             );
             var infowindow = new google.maps.InfoWindow({
-                /*content: ' Hello, Ualera! '*/
                 content:
             '<?php
-            print $data5.'<br />';
-            print $data6.'<br />';
+            print $userName.'<br />';
+            print $userAddress.'<br />';
             ?>'
             });
             var marker = new google.maps.Marker({
@@ -59,27 +57,13 @@ html, body, #map-canvas {
         }
         </script>
         </head>
-<!--Run first script-->
 <body onload="initialize()">
 <h1>My first map..</h1>
 <div id="map_canvas" style="width:640px; height:480px"></div>
-<p>Всякая ерунда, для проверки. </br>
-    <?php foreach($data1 as $key => $value) {
-        echo $value['name'], ' ', $value['age'], '<br />';
-    } ?>
-</p>
-<p>Эт-с, еще проверочка. </br>
-    <?php foreach($data2 as $key => $value) {
-        echo $value['name'], ' ', $value['age'], '<br />';
-    } ?>
-</p>
-<p>Еще немного.. </br>
+<p>Coords.. </br>
     <?php
-    foreach($data3 as $key => $value) {
-        echo $value['user_name'], ' ', $value['user_address'], '<br />';
-    }
-    print $data7.'<br />';
-    echo $data8.'<br />';
+    print $userLat.'<br />';
+    echo $userLng.'<br />';
     ?>
 </p>
 </body>

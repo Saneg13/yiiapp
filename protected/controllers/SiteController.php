@@ -119,46 +119,20 @@ class SiteController extends Controller
 
     public function actionMap()
     {
-        /*$cs = Yii::app()->getClientScript();
-        $cs->registerScriptFile('/js/my_script.js');
-        $cs->registerCssFile('/css/my_css.css');*/
-
-        $fighter1 = new Fighter(new LightArmor(20, 15),new Bow(40, rand(10, 15)), 100, 5);
-
-        $person1=array(PersonForm::model()->find(array(
-            'select'=>array('name', 'age'),
-            'condition'=>'id=:id',
-            'params'=>array(':id'=>2),
-        )),
-        );
-
-        $person2=array(PersonForm::model()->find(array(
-            'select'=>array('name', 'age'),
-            'condition'=>'id=:id',
-            'params'=>array(':id'=>1),
-        )),
-        );
-
-        $info1=array(Info::model()->find(array(
-            'select'=>array('user_name', 'user_address', 'lat', 'lng'),
-            'condition'=>'user_address=:user_address',
-            'params'=>array(':user_address'=>'house'),
-        )),
-        );
-
         $info2 = new Info();
-        $info = $info2->getUserByName('Ole');
+        $info3 = $info2->getUserByName('Barbar');
+        $info3 = array(
+            0=>$info2->user_name,
+            $info2->user_address,
+            $info2->lat,
+            $info2->lng
+        );
 
         $this->render('map',array(
-            'fightersWeapon'=>$fighter1->getWeaponName(),
-            'data1'=>$person1,
-            'data2'=>$person2,
-            'data3'=>$info1,
-            'data4'=>$info,
-            'data5'=>$info2->user_name,
-            'data6'=>$info2->user_address,
-            'data7'=>$info2->lat,
-            'data8'=>$info2->lng),
+            'userName'=>$info3[0],
+            'userAddress'=>$info3[1],
+            'userLat'=>$info3[2],
+            'userLng'=>$info3[3]),
             false);
     }
 
