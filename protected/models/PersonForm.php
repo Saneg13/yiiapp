@@ -94,5 +94,28 @@ class PersonForm extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+
+    /**
+     * @return array
+     */
+    public function findAllPerson()
+    {
+        $criteria = new CDbCriteria(array(
+            'select'=>'name, age',
+            'order'=>'id',
+        ));
+        $reglist=CHtml::listData($this->findAll($criteria), 'name', 'age');
+        if (isset($_POST['person_list']))
+        {
+            foreach($reglist as $value=>$name)
+            {
+                echo CHtml::tag('option', array('value'=>$value),CHtml::encode($name),true);
+            }
+        }
+        else
+        {
+            return $reglist;
+        }
+    }
 }
 

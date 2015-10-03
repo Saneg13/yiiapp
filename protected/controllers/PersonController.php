@@ -4,10 +4,106 @@ class PersonController extends Controller
 {
 	public function actionIndex()
 	{
-        $data = array('myValue2'=>$a="А сейчас узнаем ", 'myValue3'=>$b="имя таблицы", 'myValue'=>$c="");
+        /*$mode11 = new Info;
+        $data1 = "<br />".$mode11->tableName();*/
+        $data = "Данные пользователя - ";
+        /*$data1 = array(PersonForm::model()->find(array(
+            'select'=>array('name', 'age'),
+            'condition'=>'id=:id',
+            'params'=>array(':id'=>3),
+        )),
+        );*/
 
-        $this->render('index', array($data));
+        $data1 = array(PersonForm::model()->find(array(
+            'select'=>array('name', 'age'),
+            'condition'=>'id=:id',
+            'params'=>array(':id'=>1),
+        )),
+        );
+
+        foreach($data1 as $key => $value) {
+            printf($value['name'], '. Возраст: ', $value['age'], '<br />');
+        }
+
+        $this->render('index', array('myValue'=>$data, 'myValue2'=>$data1));
 	}
+
+    public function actionUpdateAjax()
+    {
+        /*$model=new PersonForm;
+
+        $data2 = $model->tableName();*/
+        $data = "Новые данные пользователя - ";
+        $data2=array(PersonForm::model()->find(array(
+            'select'=>array('name', 'age'),
+            'condition'=>'id=:id',
+            'params'=>array(':id'=>2),
+        )),
+        );
+
+        $this->renderPartial('_ajaxContent', array('myValue1'=>$data, 'myValue3'=>$data2), false, true);
+    }
+
+    public function actionExam4()
+    {
+
+        //$person = new PersonForm();
+
+        $person=array(PersonForm::model()->find(array(
+            'select'=>array('name', 'age'),
+            'condition'=>'id=:id',
+            'params'=>array(':id'=>2),
+        )),
+    );
+
+        $this->render('exam4', array('data'=>$person));
+        //$this->render('exam4', array('model'=>$person), false);
+
+    }
+
+    /**
+     * @return array
+     */
+    public function accessRules()
+    {
+        return array(
+            array('allow',  // allow all users to perform 'index' and 'view' actions
+                'actions'=>array('index','view'),
+                'users'=>array('*'),
+            ),
+            array('allow', // allow authenticated user to perform 'create' and 'update' actions
+                'actions'=>array('create','update', 'findallperson'),
+                'users'=>array('@'),
+            ),
+        );
+    }
+
+    /**
+     * @return mixed
+     */
+    public function actionFindAllPerson()
+    {
+        if(isset($_POST['person_list']))
+        {
+            return PersonForm::model()->findAllPerson($_POST['person_list']);
+        }
+        $this->render('exam4');
+    }
+
+    public function actionExam1()
+    {
+        $this->render('exam1');
+    }
+
+    public function actionExam2()
+    {
+        $this->render('exam2');
+    }
+
+    public function actionExam3()
+    {
+        $this->render('exam3');
+    }
 
 	// Uncomment the following methods and override them if needed
 	/*
@@ -65,22 +161,15 @@ class PersonController extends Controller
 
             }
         }
+
         $this->render('person_form',array('model'=>$model));
 
-    }
-
-    public function actionUpdateAjax()
-    {
-
-        $model=new PersonForm;
-
-        $data = array('myValue3'=>$b="нашей БД: ", 'myValue2'=>$a="Имя таблицы ", 'myValue1'=>$c=$model->tableName());
-
-        $this->renderPartial('_ajaxContent', array('myValue1'=>$data), false, true);
     }
 
     public function actionExample()
     {
         $this->render('exam', false);
     }
+
+
 }

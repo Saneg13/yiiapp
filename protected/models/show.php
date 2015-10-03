@@ -24,3 +24,5 @@ $rows=$command->queryAll();
 
 // получаем все строки разом в виде массива
 $rows=$dataReader->readAll();
+
+echo $rows;

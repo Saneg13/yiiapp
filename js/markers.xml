@@ -1,0 +1,2016 @@
+<?xml version="1.0"?>
+<markers>
+
+    <marker>
+        <name>Оазис, ООО &quot;Лига&quot;</name>
+        <address> г. Нижний Новгород,  Печеры сл., 177, Гребной канал</address>
+        <lat>56.329918</lat>
+        <lng>44.009193</lng>
+    </marker>
+
+    <marker>
+        <name>Крона, кафе, ООО</name>
+
+        <address> г. Нижний Новгород,  Гагарина пр., 25 б</address>
+        <lat>56.294853</lat>
+        <lng>43.975372</lng>
+    </marker>
+
+    <marker>
+        <name>Shizgara, караоке-клуб, ООО</name>
+        <address> г. Нижний Новгород,  Рождественская ул., 20</address>
+        <lat>56.328667</lat>
+
+        <lng>43.990444</lng>
+    </marker>
+
+    <marker>
+        <name>Cafe, ИП Ушакова Е. В.</name>
+        <address> г. Нижний Новгород,  М. Ямская ул., 78 а</address>
+        <lat>56.306511</lat>
+        <lng>43.980701</lng>
+    </marker>
+
+    <marker>
+
+        <name>12 стульев, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Зеленский съезд, 8/10</address>
+        <lat>56.329060</lat>
+        <lng>43.996727</lng>
+    </marker>
+
+    <marker>
+        <name>2 х 2, кафе ООО &quot;Аргоф&quot;</name>
+        <address> г. Нижний Новгород,  Кирова пр., 6</address>
+
+        <lat>56.249176</lat>
+        <lng>43.859974</lng>
+    </marker>
+
+    <marker>
+        <name>3 Пескаря, харчевня, ООО</name>
+        <address> г. Нижний Новгород,  Попова героя ул., 39/1</address>
+        <lat>56.257530</lat>
+        <lng>43.927856</lng>
+    </marker>
+
+    <marker>
+        <name>57-я Параллель, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Бурнаковский проезд, 1</address>
+        <lat>56.319283</lat>
+        <lng>43.905540</lng>
+    </marker>
+
+    <marker>
+        <name>9-е небо, кафе, ИП Щербаков А. Л.</name>
+        <address> г. Нижний Новгород,  Ванеева ул., 127</address>
+
+        <lat>56.301193</lat>
+        <lng>44.029984</lng>
+    </marker>
+
+    <marker>
+        <name>ABCafe, кафе ООО &quot;АвтоВолга&quot;</name>
+        <address> г. Нижний Новгород,  Родионова ул., 163</address>
+        <lat>56.312805</lat>
+        <lng>44.072201</lng>
+
+    </marker>
+
+    <marker>
+        <name>Aventura, club-cafe, ООО</name>
+        <address> г. Нижний Новгород,  Б. Покровская ул., 4 д</address>
+        <lat>56.325123</lat>
+        <lng>44.004150</lng>
+    </marker>
+
+    <marker>
+        <name>Cafe de la Tour, кафе ООО &quot;КАС-Трэйд&quot;</name>
+
+        <address> г. Нижний Новгород,  Студеная ул., 7</address>
+        <lat>56.312901</lat>
+        <lng>43.999950</lng>
+    </marker>
+
+    <marker>
+        <name>Chicago, кафе ООО &quot;Брунс&quot;</name>
+        <address> г. Нижний Новгород,  Буревестника ул., 15 а</address>
+        <lat>56.333340</lat>
+
+        <lng>43.876209</lng>
+    </marker>
+
+    <marker>
+        <name>CRAZY PARK, семейный развлекательный центр ЗАО &quot;Премьер Парк&quot;</name>
+        <address> г. Нижний Новгород,  Белинского ул., 124, ТРЦ "Шоколад", 4-й этаж</address>
+        <lat>56.318970</lat>
+        <lng>44.025665</lng>
+    </marker>
+
+    <marker>
+        <name>Dolce Vero, кофейня ООО &quot;Ринальдо&quot;</name>
+        <address> г. Нижний Новгород,  Пискунова ул., 11</address>
+        <lat>56.323853</lat>
+        <lng>44.004910</lng>
+    </marker>
+
+    <marker>
+        <name>Hustler, бильярдный клуб-кафе, ИП Петрищев С. В.</name>
+        <address> г. Нижний Новгород,  Б. Покровская ул., 32</address>
+
+        <lat>56.317764</lat>
+        <lng>43.996765</lng>
+    </marker>
+
+    <marker>
+        <name>Ice King, кафе-мороженое ООО &quot;БП&quot;</name>
+        <address> г. Нижний Новгород,  Ленина пр., 33, ТРЦ "Муравей", 5-й этаж</address>
+        <lat>56.268341</lat>
+        <lng>43.915131</lng>
+
+    </marker>
+
+    <marker>
+        <name>Karelin, арт-кафе ООО &quot;Кафе истории&quot;</name>
+        <address> г. Нижний Новгород,  Варварская ул., 8</address>
+        <lat>56.324871</lat>
+        <lng>44.008644</lng>
+    </marker>
+
+    <marker>
+        <name>Las Vegas, кафе ООО &quot;Золотой век&quot;</name>
+
+        <address> г. Нижний Новгород,  Лескова ул., 60</address>
+        <lat>56.230968</lat>
+        <lng>43.850170</lng>
+    </marker>
+
+    <marker>
+        <name>Leon, кафе-бар ООО &quot;Вегас&quot;</name>
+        <address> г. Нижний Новгород,  Казанское шоссе, 10/6</address>
+        <lat>56.284729</lat>
+
+        <lng>44.078918</lng>
+    </marker>
+
+    <marker>
+        <name>Love-кафе, ООО &quot;Ресторанные технологии&quot;</name>
+        <address> г. Нижний Новгород,  Карла Маркса ул., 8 а, ТЦ "Купеческая слобода"</address>
+        <lat>56.345009</lat>
+        <lng>43.928482</lng>
+    </marker>
+
+    <marker>
+        <name>Penthouse, сити-кафе, ООО</name>
+        <address> г. Нижний Новгород,  М. Покровская ул., 2 а</address>
+        <lat>56.325413</lat>
+        <lng>44.004471</lng>
+    </marker>
+
+    <marker>
+        <name>Ritz, спорт-кафе, ООО</name>
+        <address> г. Нижний Новгород,  Торговая ул., 18/4</address>
+
+        <lat>56.329918</lat>
+        <lng>44.009193</lng>
+    </marker>
+
+    <marker>
+        <name>Yes, кафе, ИП Волков В. А.</name>
+        <address> г. Нижний Новгород,  Октябрьская ул., 9</address>
+        <lat>56.322086</lat>
+        <lng>44.004028</lng>
+    </marker>
+
+    <marker>
+        <name>Айвенго, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Баранова ул., 17</address>
+        <lat>56.337059</lat>
+        <lng>43.840805</lng>
+    </marker>
+
+    <marker>
+        <name>Акварель, кафе ООО &quot;Лесное озеро&quot;</name>
+
+        <address> г. Нижний Новгород,  Полтавская ул., 32</address>
+        <lat>56.311264</lat>
+        <lng>44.030273</lng>
+    </marker>
+
+    <marker>
+        <name>Аквариум, кафе, ИП Галушина Л. Д.</name>
+        <address> г. Нижний Новгород,  Университетский пер., 9</address>
+        <lat>56.319939</lat>
+
+        <lng>43.992908</lng>
+    </marker>
+
+    <marker>
+        <name>Александровский сад, кафе ООО &quot;Триумф&quot;</name>
+        <address> г. Нижний Новгород,  Минина и Пожарского пл.</address>
+        <lat>56.327522</lat>
+        <lng>44.007374</lng>
+    </marker>
+
+    <marker>
+        <name>Аленушка, кафе, МУП</name>
+        <address> г. Нижний Новгород,  6-й м/р-н, 43</address>
+        <lat>56.329918</lat>
+        <lng>44.009193</lng>
+    </marker>
+
+    <marker>
+        <name>Алиса, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Ильинская ул., 93</address>
+
+        <lat>56.314674</lat>
+        <lng>43.986263</lng>
+    </marker>
+
+    <marker>
+        <name>Алые паруса, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Удмуртская ул., 2 а</address>
+        <lat>56.286076</lat>
+        <lng>43.889496</lng>
+    </marker>
+
+    <marker>
+        <name>Альбатрос, кафе, ИП Жуков С. А.</name>
+        <address> г. Нижний Новгород,  Удмуртская ул., 37 в</address>
+        <lat>56.289795</lat>
+        <lng>43.887741</lng>
+    </marker>
+
+    <marker>
+        <name>Альтаир, кафе ОАО &quot;Хлебозавод № 5&quot;</name>
+
+        <address> г. Нижний Новгород,  Б. Покровская ул., 30 а</address>
+        <lat>56.318810</lat>
+        <lng>43.997414</lng>
+    </marker>
+
+    <marker>
+        <name>Ареал, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Кирова пр., 8</address>
+        <lat>56.249512</lat>
+
+        <lng>43.856403</lng>
+    </marker>
+
+    <marker>
+        <name>Астор, ООО</name>
+        <address> г. Нижний Новгород,  Штеменко генерала ул., 5</address>
+        <lat>56.285858</lat>
+        <lng>44.044910</lng>
+    </marker>
+
+    <marker>
+
+        <name>Атаман, кафе ОАО &quot;Восход&quot;</name>
+        <address> г. Нижний Новгород,  Баха академика ул., 5</address>
+        <lat>56.289326</lat>
+        <lng>43.935505</lng>
+    </marker>
+
+    <marker>
+        <name>Балкан Гриль, кафе-бар ООО &quot;Даниил&quot;</name>
+        <address> г. Нижний Новгород,  Минина и Пожарского пл., 6</address>
+
+        <lat>56.327732</lat>
+        <lng>44.008034</lng>
+    </marker>
+
+    <marker>
+        <name>Бамбук-хаус, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Костина ул., 3</address>
+        <lat>56.310249</lat>
+        <lng>43.991329</lng>
+    </marker>
+
+    <marker>
+        <name>Баскин-Роббинс, магазин-кафе ООО &quot;Айскрим НН&quot;</name>
+        <address> г. Нижний Новгород,  Белинского ул., 124, ТРЦ "Шоколад"</address>
+        <lat>56.318970</lat>
+        <lng>44.025665</lng>
+    </marker>
+
+    <marker>
+        <name>Бездна, развлекательный комплекс, ООО</name>
+
+        <address> г. Нижний Новгород,  Кирова пр., 4 а</address>
+        <lat>56.248882</lat>
+        <lng>43.863377</lng>
+    </marker>
+
+    <marker>
+        <name>Безухов, арт-кафе ЗАО &quot;Кофебук&quot;</name>
+        <address> г. Нижний Новгород,  Рождественская ул., 6</address>
+        <lat>56.329418</lat>
+
+        <lng>43.994473</lng>
+    </marker>
+
+    <marker>
+        <name>Белое, кафе ЗАО &quot;Кофебук&quot;</name>
+        <address> г. Нижний Новгород,  Белинского ул., 63, ТЦ "Этажи", 6-й этаж</address>
+        <lat>56.316914</lat>
+        <lng>44.020382</lng>
+    </marker>
+
+    <marker>
+        <name>Белый попугай, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Казанское шоссе</address>
+        <lat>56.289585</lat>
+        <lng>44.075352</lng>
+    </marker>
+
+    <marker>
+        <name>Бенвенути, кафе ООО &quot;Нижегородобщепитсервис&quot;</name>
+        <address> г. Нижний Новгород,  Варварская ул., 4</address>
+
+        <lat>56.325489</lat>
+        <lng>44.007927</lng>
+    </marker>
+
+    <marker>
+        <name>Берег, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Чукотская ул., 32 а</address>
+        <lat>56.293533</lat>
+        <lng>44.025166</lng>
+    </marker>
+
+    <marker>
+        <name>Березка, кафе ООО &quot;Фирма &quot;Весна&quot;</name>
+        <address> г. Нижний Новгород,  Чкалова ул., 3</address>
+        <lat>56.319031</lat>
+        <lng>43.944538</lng>
+    </marker>
+
+    <marker>
+        <name>Березовая роща, кафе, ООО</name>
+
+        <address> г. Нижний Новгород,  д. Ольгино 1</address>
+        <lat>56.241467</lat>
+        <lng>43.969872</lng>
+    </marker>
+
+    <marker>
+        <name>Беркут, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Дубравная ул., 1 б, за железнодорожным переездом</address>
+        <lat>56.388973</lat>
+
+        <lng>43.739140</lng>
+    </marker>
+
+    <marker>
+        <name>Бессонница, кофе-клуб ООО &quot;Элемент&quot;</name>
+        <address> г. Нижний Новгород,  Ошарская ул., 1/2</address>
+        <lat>56.322971</lat>
+        <lng>44.007072</lng>
+    </marker>
+
+    <marker>
+        <name>Блинком, кафе ООО &quot;Шарманка&quot;</name>
+        <address> г. Нижний Новгород,  Б. Покровская ул., 39</address>
+        <lat>56.318626</lat>
+        <lng>43.996082</lng>
+    </marker>
+
+    <marker>
+        <name>Блюз, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Свободы ул., 19</address>
+
+        <lat>56.360710</lat>
+        <lng>43.867317</lng>
+    </marker>
+
+    <marker>
+        <name>Бригантина, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Минина ул., 5 б</address>
+        <lat>56.327797</lat>
+        <lng>44.013985</lng>
+    </marker>
+
+    <marker>
+        <name>Бриз, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Советская ул., 5</address>
+        <lat>56.323681</lat>
+        <lng>43.956242</lng>
+    </marker>
+
+    <marker>
+        <name>Бумеранг, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Березовская ул., 104 а</address>
+
+        <lat>56.334450</lat>
+        <lng>43.871059</lng>
+    </marker>
+
+    <marker>
+        <name>Буфет, арт-кафе ЗАО &quot;Кофебук&quot;</name>
+        <address> г. Нижний Новгород,  Ошарская ул., 14</address>
+        <lat>56.321056</lat>
+        <lng>44.009628</lng>
+
+    </marker>
+
+    <marker>
+        <name>Бухара, кафе, ИП Галушина Л. Д.</name>
+        <address> г. Нижний Новгород,  Университетский пер., 9</address>
+        <lat>56.319939</lat>
+        <lng>43.992908</lng>
+    </marker>
+
+    <marker>
+        <name>Былина, кафе, ООО</name>
+
+        <address> г. Нижний Новгород,  Рождественская ул., 18</address>
+        <lat>56.328739</lat>
+        <lng>43.990734</lng>
+    </marker>
+
+    <marker>
+        <name>Варя, кафе ООО &quot;Юлия&quot;</name>
+        <address> г. Нижний Новгород,  Страж Революции ул., 3 а</address>
+        <lat>56.337254</lat>
+
+        <lng>43.882412</lng>
+    </marker>
+
+    <marker>
+        <name>Вдвое лучше, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Гагарина пр., 156</address>
+        <lat>56.259460</lat>
+        <lng>43.973454</lng>
+    </marker>
+
+    <marker>
+
+        <name>Ветерок, чайная ООО &quot;Сайвишшейнер и компания Лтд.&quot;</name>
+        <address> г. Нижний Новгород,  Б. Покровская ул., 4</address>
+        <lat>56.325123</lat>
+        <lng>44.004150</lng>
+    </marker>
+
+    <marker>
+        <name>Визит, кафе ООО &quot;Перспектива Транс-НН&quot;</name>
+        <address> г. Нижний Новгород,  Корейская ул., 21</address>
+
+        <lat>56.275017</lat>
+        <lng>43.988411</lng>
+    </marker>
+
+    <marker>
+        <name>Вояж, кафе ООО &quot;БЛГ&quot;</name>
+        <address> г. Нижний Новгород,  Б. Покровская ул., 68</address>
+        <lat>56.311363</lat>
+        <lng>43.988785</lng>
+
+    </marker>
+
+    <marker>
+        <name>Гавань, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Ногина ул., 2 а</address>
+        <lat>56.359684</lat>
+        <lng>43.848404</lng>
+    </marker>
+
+    <marker>
+        <name>Гаврош, французское бистро ООО &quot;Группа компаний &quot;ПИР&quot;</name>
+
+        <address> г. Нижний Новгород,  Рождественская ул., 23</address>
+        <lat>56.329590</lat>
+        <lng>43.992989</lng>
+    </marker>
+
+    <marker>
+        <name>Гейша, кафе-бар ООО &quot;Аллюр&quot;</name>
+        <address> г. Нижний Новгород,  М. Ямская ул., 4</address>
+        <lat>56.315296</lat>
+
+        <lng>43.984123</lng>
+    </marker>
+
+    <marker>
+        <name>Гермес, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Дружаева ул., 24</address>
+        <lat>56.264542</lat>
+        <lng>43.879070</lng>
+    </marker>
+
+    <marker>
+
+        <name>Горизонт, кафе НГСХА</name>
+        <address> г. Нижний Новгород,  Гагарина пр., 97</address>
+        <lat>56.241970</lat>
+        <lng>43.954571</lng>
+    </marker>
+
+    <marker>
+        <name>Город Горький, кафе ООО &quot;Ник&quot;</name>
+        <address> г. Нижний Новгород,  Б. Покровская ул., 30, здание Дома офицеров</address>
+
+        <lat>56.318810</lat>
+        <lng>43.997414</lng>
+    </marker>
+
+    <marker>
+        <name>Горожанин, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Варварская ул., 32</address>
+        <lat>56.321121</lat>
+        <lng>44.012962</lng>
+    </marker>
+
+    <marker>
+        <name>Горячий чебурек, кафе, ИП Игонюшкина Г. И.</name>
+        <address> г. Нижний Новгород,  Бусыгина пр., 16 а</address>
+        <lat>56.263096</lat>
+        <lng>43.897293</lng>
+    </marker>
+
+    <marker>
+        <name>Гоша, кафе-бар, ООО</name>
+        <address> г. Нижний Новгород,  Октябрьской революции ул., 43</address>
+
+        <lat>56.304554</lat>
+        <lng>43.937256</lng>
+    </marker>
+
+    <marker>
+        <name>Град-Камень, кафе ООО &quot;Триумф&quot;</name>
+        <address> г. Нижний Новгород,  Минина и Пожарского пл.</address>
+        <lat>56.327522</lat>
+        <lng>44.007374</lng>
+
+    </marker>
+
+    <marker>
+        <name>Граф, кафе ООО &quot;Лавер&quot;</name>
+        <address> г. Нижний Новгород,  Коминтерна ул., 121</address>
+        <lat>56.350773</lat>
+        <lng>43.868256</lng>
+    </marker>
+
+    <marker>
+        <name>Грин-Spot, кафе-бар ООО &quot;Партнер-1&quot;</name>
+
+        <address> г. Нижний Новгород,  Бекетова ул., 30</address>
+        <lat>56.291649</lat>
+        <lng>44.001991</lng>
+    </marker>
+
+    <marker>
+        <name>Грот, кафе ООО &quot;Мрия&quot;</name>
+        <address> г. Нижний Новгород,  Ленина пр., 53</address>
+        <lat>56.277607</lat>
+
+        <lng>43.921280</lng>
+    </marker>
+
+    <marker>
+        <name>Два капитана, кафе ООО &quot;Праздник по-домашнему&quot;</name>
+        <address> г. Нижний Новгород,  Московское шоссе, 187</address>
+        <lat>56.312904</lat>
+        <lng>43.852318</lng>
+    </marker>
+
+    <marker>
+        <name>Дель Пара, кофейня, ООО</name>
+        <address> г. Нижний Новгород,  Алексеевская ул., 6</address>
+        <lat>56.324619</lat>
+        <lng>44.005901</lng>
+    </marker>
+
+    <marker>
+        <name>До-Ре-Ми, сеть кафе ООО &quot;Квартет&quot;</name>
+        <address> г. Нижний Новгород,  Белинского ул., 124, ТРЦ "Шоколад"</address>
+
+        <lat>56.318970</lat>
+        <lng>44.025665</lng>
+    </marker>
+
+    <marker>
+        <name>Добрый дом, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Советская ул., 12</address>
+        <lat>56.325504</lat>
+        <lng>43.958027</lng>
+    </marker>
+
+    <marker>
+        <name>Дорвард, ИП Атаулина Т. Н.</name>
+        <address> г. Нижний Новгород,  Мурашкинская ул., 15</address>
+        <lat>56.326553</lat>
+        <lng>43.953667</lng>
+    </marker>
+
+    <marker>
+        <name>Дюна, кафе ООО &quot;Добрыня&quot;</name>
+
+        <address> г. Нижний Новгород,  Чкалова ул., 12</address>
+        <lat>56.315590</lat>
+        <lng>43.940788</lng>
+    </marker>
+
+    <marker>
+        <name>Железный конь, кафе ООО &quot;Волга-Вест М&quot;</name>
+        <address> г. Нижний Новгород,  Родионова ул., 134</address>
+        <lat>56.312805</lat>
+
+        <lng>44.072201</lng>
+    </marker>
+
+    <marker>
+        <name>Жигули, кафе ООО &quot;Каприз-НН&quot;</name>
+        <address> г. Нижний Новгород,  50 лет Победы ул., 26</address>
+        <lat>56.226398</lat>
+        <lng>43.947922</lng>
+    </marker>
+
+    <marker>
+        <name>Зеленая лампа, кафе ООО &quot;Флинт&quot;</name>
+        <address> г. Нижний Новгород,  Б. Покровская ул., 14 д</address>
+        <lat>56.322662</lat>
+        <lng>44.001526</lng>
+    </marker>
+
+    <marker>
+        <name>Золотая корица, кафе ООО &quot;Сакура&quot;</name>
+
+        <address> г. Нижний Новгород,  Нестерова ул., 3</address>
+        <lat>56.328354</lat>
+        <lng>44.018311</lng>
+    </marker>
+
+    <marker>
+        <name>Золотая курочка, кафе, ИП Пиногоров С. И.</name>
+        <address> г. Нижний Новгород,  Таганская ул., 3</address>
+        <lat>56.271694</lat>
+
+        <lng>43.922386</lng>
+    </marker>
+
+    <marker>
+        <name>Золотая рыбка, кафе, ИП Эларян М. А.</name>
+        <address> г. Нижний Новгород,  Подольская ул., 21</address>
+        <lat>56.286823</lat>
+        <lng>43.892387</lng>
+    </marker>
+
+    <marker>
+
+        <name>Золотой слон, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Баумана ул., напротив дома № 58</address>
+        <lat>56.273750</lat>
+        <lng>43.949448</lng>
+    </marker>
+
+    <marker>
+        <name>Иволга, ООО</name>
+        <address> г. Нижний Новгород,  Федосеенко ул., 60</address>
+
+        <lat>56.341270</lat>
+        <lng>43.817390</lng>
+    </marker>
+
+    <marker>
+        <name>Иком, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Ленина пр., 36</address>
+        <lat>56.284966</lat>
+        <lng>43.929813</lng>
+    </marker>
+
+    <marker>
+        <name>Индиго, кафе ООО &quot;Шенонсо&quot;</name>
+        <address> г. Нижний Новгород,  Проходной пер., 3</address>
+        <lat>56.329918</lat>
+        <lng>44.009193</lng>
+    </marker>
+
+    <marker>
+        <name>К Палычу, кафе, ООО</name>
+
+        <address> г. Нижний Новгород,  Патриотов ул., 35</address>
+        <lat>56.216480</lat>
+        <lng>43.829311</lng>
+    </marker>
+
+    <marker>
+        <name>Кавказский дворик, ООО &quot;Вэла&quot;</name>
+        <address> г. Нижний Новгород,  Московское шоссе, 142</address>
+        <lat>56.312904</lat>
+
+        <lng>43.852318</lng>
+    </marker>
+
+    <marker>
+        <name>Калитка, кафе ООО &quot;СФЕРА&quot;</name>
+        <address> г. Нижний Новгород,  Ларина ул., 13</address>
+        <lat>56.238670</lat>
+        <lng>43.993053</lng>
+    </marker>
+
+    <marker>
+        <name>Камелия, кафе ООО &quot;Престиж-2002&quot;</name>
+        <address> г. Нижний Новгород,  Гордеевская ул., 7</address>
+        <lat>56.325066</lat>
+        <lng>43.946915</lng>
+    </marker>
+
+    <marker>
+        <name>Каприз, кафе ОАО &quot;ПКО &quot;Теплообменник&quot;</name>
+
+        <address> г. Нижний Новгород,  Ленина пр., 93</address>
+        <lat>56.266548</lat>
+        <lng>43.909092</lng>
+    </marker>
+
+    <marker>
+        <name>Карамель, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Костина ул., 3</address>
+        <lat>56.310249</lat>
+
+        <lng>43.991329</lng>
+    </marker>
+
+    <marker>
+        <name>Кардинал, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Гаугеля ул., 1</address>
+        <lat>56.359367</lat>
+        <lng>43.806618</lng>
+    </marker>
+
+    <marker>
+
+        <name>Карта вин, кафе-бар ООО &quot;Автомоечный комплекс &quot;Водяной&quot;</name>
+        <address> г. Нижний Новгород,  Пискунова ул., 10</address>
+        <lat>56.324245</lat>
+        <lng>44.009068</lng>
+    </marker>
+
+    <marker>
+        <name>Катюша, кафе, МП</name>
+        <address> г. Нижний Новгород,  Витебская ул., 6</address>
+
+        <lat>56.313103</lat>
+        <lng>43.941193</lng>
+    </marker>
+
+    <marker>
+        <name>Кафе ДК ОАО &quot;ГАЗ&quot;</name>
+        <address> г. Нижний Новгород,  Смирнова героя ул., 12</address>
+        <lat>56.234901</lat>
+        <lng>43.852295</lng>
+
+    </marker>
+
+    <marker>
+        <name>Кафе ОАО &quot;Колос-3&quot;</name>
+        <address> г. Нижний Новгород,  Молодежный пр., 4 а</address>
+        <lat>56.242542</lat>
+        <lng>43.862362</lng>
+    </marker>
+
+    <marker>
+        <name>Кафе, ИП Ротанова Е. Н.</name>
+
+        <address> г. Нижний Новгород,  Нартова ул., 6</address>
+        <lat>56.281342</lat>
+        <lng>43.995743</lng>
+    </marker>
+
+    <marker>
+        <name>Каюта, развлекательно-оздоровительный центр, ИП Субботин К. Ю.</name>
+        <address> г. Нижний Новгород,  Ленина пл., пристань, напротив ГК "Центральный"</address>
+        <lat>56.268341</lat>
+
+        <lng>43.915131</lng>
+    </marker>
+
+    <marker>
+        <name>Классик, бильярдный клуб, ИП Копьев Н. В.</name>
+        <address> г. Нижний Новгород,  50 лет Победы ул., 18</address>
+        <lat>56.226398</lat>
+        <lng>43.947922</lng>
+    </marker>
+
+    <marker>
+
+        <name>Князь, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Удмуртская ул., 2 б</address>
+        <lat>56.286076</lat>
+        <lng>43.889496</lng>
+    </marker>
+
+    <marker>
+        <name>Ковчег, кафе ООО &quot;Метеор&quot;</name>
+        <address> г. Нижний Новгород,  Белинского ул., 96</address>
+
+        <lat>56.313915</lat>
+        <lng>44.009735</lng>
+    </marker>
+
+    <marker>
+        <name>Козьма Минич, корчма ООО &quot;Здоровое питание&quot;</name>
+        <address> г. Нижний Новгород,  Кожевенный пер., 3</address>
+        <lat>56.330093</lat>
+        <lng>43.997429</lng>
+
+    </marker>
+
+    <marker>
+        <name>Колизей, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Минская ул., 16 а</address>
+        <lat>56.289127</lat>
+        <lng>43.902107</lng>
+    </marker>
+
+    <marker>
+        <name>Корвет, кафе, ООО</name>
+
+        <address> г. Нижний Новгород,  Станиславского ул., 5</address>
+        <lat>56.354630</lat>
+        <lng>43.835072</lng>
+    </marker>
+
+    <marker>
+        <name>Корона, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Горького Максима пл., 6</address>
+        <lat>56.313210</lat>
+
+        <lng>43.992916</lng>
+    </marker>
+
+    <marker>
+        <name>Круазе, кафе, ИП Грознова Н. А.</name>
+        <address> г. Нижний Новгород,  Родионова ул., 23</address>
+        <lat>56.317871</lat>
+        <lng>44.060719</lng>
+    </marker>
+
+    <marker>
+
+        <name>Кураж, кафе ООО &quot;Ника&quot;</name>
+        <address> г. Нижний Новгород,  Красных зорь ул., 24/5</address>
+        <lat>56.332664</lat>
+        <lng>43.868813</lng>
+    </marker>
+
+    <marker>
+        <name>Лаваш, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Коминтерна ул., 159</address>
+
+        <lat>56.354961</lat>
+        <lng>43.866703</lng>
+    </marker>
+
+    <marker>
+        <name>Лагуна, кафе-шашлычная, ИП Эларян Х. А.</name>
+        <address> г. Нижний Новгород,  Архитектурная ул., 2/2</address>
+        <lat>56.281136</lat>
+        <lng>43.947079</lng>
+    </marker>
+
+    <marker>
+        <name>Лазана, кафе, ООО</name>
+        <address> г. Нижний Новгород,  40 лет Победы ул., 8</address>
+        <lat>56.225281</lat>
+        <lng>43.947941</lng>
+    </marker>
+
+    <marker>
+        <name>Лайнер, кафе, ООО &quot;Айк&quot;</name>
+
+        <address> г. Нижний Новгород,  Аэропорт </address>
+        <lat>56.329918</lat>
+        <lng>44.009193</lng>
+    </marker>
+
+    <marker>
+        <name>ЛАНСЕЛОТ, кафе-бар ООО &quot;Теплый стан&quot;</name>
+        <address> г. Нижний Новгород,  Мира б-р, 17 а</address>
+        <lat>56.329220</lat>
+
+        <lng>43.953537</lng>
+    </marker>
+
+    <marker>
+        <name>Лесная ладья, таверна, ЗАО &quot;ТРИНИТИ&quot;</name>
+        <address> г. Нижний Новгород,  Энгельса ул., 31</address>
+        <lat>56.342400</lat>
+        <lng>43.869194</lng>
+    </marker>
+
+    <marker>
+        <name>Летучая мышь, кафе ООО &quot;Дионис НН&quot;</name>
+        <address> г. Нижний Новгород,  Студенческая ул., 15 б</address>
+        <lat>56.303982</lat>
+        <lng>43.982101</lng>
+    </marker>
+
+    <marker>
+        <name>Лица, кафе ООО &quot;Банкет&quot;</name>
+
+        <address> г. Нижний Новгород,  Зеленский съезд, 8/10</address>
+        <lat>56.329060</lat>
+        <lng>43.996727</lng>
+    </marker>
+
+    <marker>
+        <name>Ложки, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Гагарина пр., 186</address>
+        <lat>56.275192</lat>
+
+        <lng>43.977627</lng>
+    </marker>
+
+    <marker>
+        <name>Маленькая Япония, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Б. Покровская ул., 32</address>
+        <lat>56.317764</lat>
+        <lng>43.996765</lng>
+    </marker>
+
+    <marker>
+
+        <name>Малина, кафе-бар ООО &quot;Пицайоло&quot;</name>
+        <address> г. Нижний Новгород,  Коминтерна ул., 105 а, ТРК "Золотая миля", 3-й этаж</address>
+        <lat>56.347252</lat>
+        <lng>43.870079</lng>
+    </marker>
+
+    <marker>
+        <name>Мегаполис, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Маковского ул., около дома № 17</address>
+
+        <lat>56.232758</lat>
+        <lng>43.836365</lng>
+    </marker>
+
+    <marker>
+        <name>Мерилин, кафе, ИП Комарова Е. В.</name>
+        <address> г. Нижний Новгород,  Мануфактурная ул., 14 а</address>
+        <lat>56.331532</lat>
+        <lng>43.959221</lng>
+    </marker>
+
+    <marker>
+        <name>Меркурий, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Чкалова ул., 5</address>
+        <lat>56.318478</lat>
+        <lng>43.943741</lng>
+    </marker>
+
+    <marker>
+        <name>Мечта, кафе, ИП Алиев Р. Х.</name>
+        <address> г. Нижний Новгород,  Коминтерна ул., 248</address>
+
+        <lat>56.347252</lat>
+        <lng>43.870079</lng>
+    </marker>
+
+    <marker>
+        <name>Мещера, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Акимова Сергея ул., около д. 10</address>
+        <lat>56.329918</lat>
+        <lng>44.009193</lng>
+    </marker>
+
+    <marker>
+        <name>Мираж, кафе, ИП Алиев А. С.</name>
+        <address> г. Нижний Новгород,  Возрождения ул., 1</address>
+        <lat>56.302334</lat>
+        <lng>43.945313</lng>
+    </marker>
+
+    <marker>
+        <name>Мираж, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Поющева ул., 25</address>
+
+        <lat>56.253613</lat>
+        <lng>43.870113</lng>
+    </marker>
+
+    <marker>
+        <name>Мишель, кофе-бар ООО &quot;Арктур-НН&quot;</name>
+        <address> г. Нижний Новгород,  Б. Покровская ул., 6</address>
+        <lat>56.324818</lat>
+        <lng>44.003822</lng>
+
+    </marker>
+
+    <marker>
+        <name>Моn Paris, кафе ООО &quot;АборусЪ&quot;</name>
+        <address> г. Нижний Новгород,  Минина и Пожарского пл., 6</address>
+        <lat>56.327732</lat>
+        <lng>44.008034</lng>
+    </marker>
+
+    <marker>
+        <name>Мока, кофейня ООО &quot;Глобус&quot;</name>
+
+        <address> г. Нижний Новгород,  Белинского ул., 124, ТРЦ "Шоколад"</address>
+        <lat>56.318970</lat>
+        <lng>44.025665</lng>
+    </marker>
+
+    <marker>
+        <name>Москва, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Героев пр., 3</address>
+        <lat>56.315987</lat>
+
+        <lng>43.898087</lng>
+    </marker>
+
+    <marker>
+        <name>Муха-джан, кафе-бар, ООО</name>
+        <address> г. Нижний Новгород,  Октябрьская ул., 6</address>
+        <lat>56.322086</lat>
+        <lng>44.004028</lng>
+    </marker>
+
+    <marker>
+
+        <name>На Ванеева, бизнес-кафе филиала НОПО</name>
+        <address> г. Нижний Новгород,  Ванеева ул., 199, 2-й этаж</address>
+        <lat>56.293240</lat>
+        <lng>44.034069</lng>
+    </marker>
+
+    <marker>
+        <name>На Ильинке, кафе ООО &quot;Эксперт&quot;</name>
+        <address> г. Нижний Новгород,  Нижегородская ул., 3</address>
+
+        <lat>56.321732</lat>
+        <lng>43.989494</lng>
+    </marker>
+
+    <marker>
+        <name>На площади, кафе ООО &quot;Полесье&quot;</name>
+        <address> г. Нижний Новгород,  Горького Максима пл., 4/2</address>
+        <lat>56.314182</lat>
+        <lng>43.990246</lng>
+
+    </marker>
+
+    <marker>
+        <name>На Полтавской, кафе, ИП Макарова Е. В.</name>
+        <address> г. Нижний Новгород,  Полтавская ул., 14</address>
+        <lat>56.316628</lat>
+        <lng>44.025322</lng>
+    </marker>
+
+    <marker>
+        <name>Наслаждение, кафе, ООО</name>
+
+        <address> г. Нижний Новгород,  Сормовское шоссе, около д. 15</address>
+        <lat>56.328053</lat>
+        <lng>43.906990</lng>
+    </marker>
+
+    <marker>
+        <name>Нептун, закусочная, ИП Багдасарян Д. А.</name>
+        <address> г. Нижний Новгород,  Рождественская ул., 10 а</address>
+        <lat>56.329205</lat>
+
+        <lng>43.993034</lng>
+    </marker>
+
+    <marker>
+        <name>Нептун, кафе ООО &quot;Берег&quot;</name>
+        <address> г. Нижний Новгород,  Гребного канала наб.</address>
+        <lat>56.318699</lat>
+        <lng>44.075867</lng>
+    </marker>
+
+    <marker>
+        <name>Нижегородское, кафе, ОАО</name>
+        <address> г. Нижний Новгород,  Заломова ул., 2</address>
+        <lat>56.323505</lat>
+        <lng>43.981258</lng>
+    </marker>
+
+    <marker>
+        <name>Нижний Посадъ, кафе ООО &quot;Фет&quot;</name>
+        <address> г. Нижний Новгород,  Кожевенная ул., 18</address>
+
+        <lat>56.330303</lat>
+        <lng>43.999249</lng>
+    </marker>
+
+    <marker>
+        <name>Ника, кафе-бар ООО &quot;Аум&quot;</name>
+        <address> г. Нижний Новгород,  Минина ул., 10 б</address>
+        <lat>56.328720</lat>
+        <lng>44.013943</lng>
+
+    </marker>
+
+    <marker>
+        <name>Новый век, кафе ООО &quot;Ройл-НН&quot;</name>
+        <address> г. Нижний Новгород,  Березовская ул., 104, корп. 1</address>
+        <lat>56.332363</lat>
+        <lng>43.873055</lng>
+    </marker>
+
+    <marker>
+        <name>Ностальжи, кафе ООО &quot;Мой дом&quot;</name>
+
+        <address> г. Нижний Новгород,  Коминтерна ул., 157</address>
+        <lat>56.347252</lat>
+        <lng>43.870079</lng>
+    </marker>
+
+    <marker>
+        <name>Огонек, кафе ООО &quot;Аргоф&quot;</name>
+        <address> г. Нижний Новгород,  Краснодонцев ул., 17</address>
+        <lat>56.253830</lat>
+
+        <lng>43.851929</lng>
+    </marker>
+
+    <marker>
+        <name>Ода, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Бекетова ул., 6 а</address>
+        <lat>56.291439</lat>
+        <lng>43.988190</lng>
+    </marker>
+
+    <marker>
+
+        <name>Окские зори, кафе ГЖД, филиал ОАО &quot;РЖД&quot;</name>
+        <address> г. Нижний Новгород,  Искры ул., 17</address>
+        <lat>56.302231</lat>
+        <lng>43.935356</lng>
+    </marker>
+
+    <marker>
+        <name>Олимп, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Пискунова ул., 40</address>
+
+        <lat>56.327480</lat>
+        <lng>44.013180</lng>
+    </marker>
+
+    <marker>
+        <name>Ордер, сеть кафе, ИП Козлова О. А.</name>
+        <address> г. Нижний Новгород,  Попова героя ул., 35 б</address>
+        <lat>56.258171</lat>
+        <lng>43.931282</lng>
+    </marker>
+
+    <marker>
+        <name>Ореол, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Ленина пр., 10 а</address>
+        <lat>56.297935</lat>
+        <lng>43.939987</lng>
+    </marker>
+
+    <marker>
+        <name>Ореховская слобода, кафе ООО &quot;Джудалф&quot;</name>
+
+        <address> г. Нижний Новгород,  Ореховская ул., 80</address>
+        <lat>56.209084</lat>
+        <lng>43.814999</lng>
+    </marker>
+
+    <marker>
+        <name>Орион, гостиничный комплекс, ИП Сергин А. Б.</name>
+        <address> г. Нижний Новгород,  Тепличная ул., 4</address>
+        <lat>56.310390</lat>
+
+        <lng>43.814156</lng>
+    </marker>
+
+    <marker>
+        <name>Островок, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Штеменко генерала ул., 1 а</address>
+        <lat>56.285278</lat>
+        <lng>44.045467</lng>
+    </marker>
+
+    <marker>
+
+        <name>От заката до рассвета, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Народная ул., 48</address>
+        <lat>56.335266</lat>
+        <lng>43.920883</lng>
+    </marker>
+
+    <marker>
+        <name>Отдохни, кафе, ИП Лукьянов Е. Н.</name>
+        <address> г. Нижний Новгород,  Ларина ул., 28</address>
+
+        <lat>56.238010</lat>
+        <lng>44.009392</lng>
+    </marker>
+
+    <marker>
+        <name>Очаг, пирожковая, ООО</name>
+        <address> г. Нижний Новгород,  Б. Покровская ул., 44 </address>
+        <lat>56.317207</lat>
+        <lng>43.995472</lng>
+    </marker>
+
+    <marker>
+        <name>Папаша Билли, ООО &quot;Группа компаний &quot;ПИР&quot;</name>
+        <address> г. Нижний Новгород,  Рождественская ул., 22</address>
+        <lat>56.328526</lat>
+        <lng>43.989868</lng>
+    </marker>
+
+    <marker>
+        <name>Парадиз, кафе ООО &quot;МСХП &quot;Агроинвест-НН&quot;</name>
+
+        <address> г. Нижний Новгород,  Советская ул., 18</address>
+        <lat>56.323875</lat>
+        <lng>43.953804</lng>
+    </marker>
+
+    <marker>
+        <name>Печка, кафе ООО &quot;Ассоль&quot;</name>
+        <address> г. Нижний Новгород,  Костина ул., 3</address>
+        <lat>56.310249</lat>
+
+        <lng>43.991329</lng>
+    </marker>
+
+    <marker>
+        <name>Печка, сеть кафе, ООО</name>
+        <address> г. Нижний Новгород,  Мотальный пер., 8</address>
+        <lat>56.293629</lat>
+        <lng>43.948708</lng>
+    </marker>
+
+    <marker>
+
+        <name>Печки-лавочки, кафе ООО &quot;ТрансТехЦентр&quot;</name>
+        <address> г. Нижний Новгород,  Стрелка ул., 4 а</address>
+        <lat>56.332970</lat>
+        <lng>43.971115</lng>
+    </marker>
+
+    <marker>
+        <name>Пиастры, таверна ООО &quot;Лавер&quot;</name>
+        <address> г. Нижний Новгород,  Молодежный пр., 19</address>
+
+        <lat>56.243969</lat>
+        <lng>43.833939</lng>
+    </marker>
+
+    <marker>
+        <name>Пилот, клуб, ООО</name>
+        <address> г. Нижний Новгород,  Южное шоссе, 2 а, корп. 1</address>
+        <lat>56.221115</lat>
+        <lng>43.855412</lng>
+    </marker>
+
+    <marker>
+        <name>Пирожковая, ИП Вольчева Т. Г.</name>
+        <address> г. Нижний Новгород,  Алексеевская ул., 3 б</address>
+        <lat>56.324661</lat>
+        <lng>44.005402</lng>
+    </marker>
+
+    <marker>
+        <name>Пирожковая, ИП Градобоев В. Н.</name>
+        <address> г. Нижний Новгород,  Рябцева героя ул., 3</address>
+
+        <lat>56.318336</lat>
+        <lng>43.867188</lng>
+    </marker>
+
+    <marker>
+        <name>Пирожковая, ООО &quot;Атлас&quot;</name>
+        <address> г. Нижний Новгород,  Коминтерна ул., 172</address>
+        <lat>56.351582</lat>
+        <lng>43.867023</lng>
+
+    </marker>
+
+    <marker>
+        <name>Пирушка у Ганса, ООО &quot;Черри&quot;</name>
+        <address> г. Нижний Новгород,  Костина ул., 3</address>
+        <lat>56.310249</lat>
+        <lng>43.991329</lng>
+    </marker>
+
+    <marker>
+        <name>Планета, закусочная ООО &quot;ПКФ &quot;РУСТ&quot;</name>
+
+        <address> г. Нижний Новгород,  Чаадаева ул., 14</address>
+        <lat>56.328941</lat>
+        <lng>43.848454</lng>
+    </marker>
+
+    <marker>
+        <name>Пляж, кафе ООО &quot;Валенсия&quot;</name>
+        <address> г. Нижний Новгород,  Полтавская ул., 11</address>
+        <lat>56.314201</lat>
+
+        <lng>44.026905</lng>
+    </marker>
+
+    <marker>
+        <name>Победа, кафе ООО &quot;120 стульев&quot;</name>
+        <address> г. Нижний Новгород,  50 лет Победы ул., 18</address>
+        <lat>56.226398</lat>
+        <lng>43.947922</lng>
+    </marker>
+
+    <marker>
+        <name>Покровка, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Б. Покровская ул., 22</address>
+        <lat>56.320961</lat>
+        <lng>43.999683</lng>
+    </marker>
+
+    <marker>
+        <name>Портобелло, ИП Калинин К. А.</name>
+        <address> г. Нижний Новгород,  Обухова ул., 11</address>
+
+        <lat>56.329918</lat>
+        <lng>44.009193</lng>
+    </marker>
+
+    <marker>
+        <name>При свечах, кафе ООО &quot;Меллоуз&quot;</name>
+        <address> г. Нижний Новгород,  Красносельская ул., 24</address>
+        <lat>56.308945</lat>
+        <lng>43.981243</lng>
+
+    </marker>
+
+    <marker>
+        <name>Привал, кафе, ИП Виноградова В. Н.</name>
+        <address> г. Нижний Новгород,  Рябцева героя ул., 2</address>
+        <lat>56.316574</lat>
+        <lng>43.869205</lng>
+    </marker>
+
+    <marker>
+        <name>Принц, кафе, ИП Базаева А. М.</name>
+
+        <address> г. Нижний Новгород,  Горная ул., 13 а</address>
+        <lat>56.257668</lat>
+        <lng>43.982773</lng>
+    </marker>
+
+    <marker>
+        <name>Проспект, кафе ООО &quot;Проспект-К&quot;</name>
+        <address> г. Нижний Новгород,  Ленина пр., 54 а</address>
+        <lat>56.276558</lat>
+
+        <lng>43.922226</lng>
+    </marker>
+
+    <marker>
+        <name>Прощай, товарищ, кафе КП ННГУ</name>
+        <address> г. Нижний Новгород,  Гагарина пр., 23</address>
+        <lat>56.298523</lat>
+        <lng>43.981304</lng>
+    </marker>
+
+    <marker>
+
+        <name>Пульс, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Кораблестроителей пр., 22/2</address>
+        <lat>56.363819</lat>
+        <lng>43.813377</lng>
+    </marker>
+
+    <marker>
+        <name>Путник, кафе, ИП Шенк В. В.</name>
+        <address> г. Нижний Новгород,  Студенческая ул., 15 в</address>
+
+        <lat>56.303982</lat>
+        <lng>43.982101</lng>
+    </marker>
+
+    <marker>
+        <name>Пышка, сеть кулинармаркетов ООО &quot;Райцентр&quot;</name>
+        <address> г. Нижний Новгород,  Малиновского маршала ул., 2 а</address>
+        <lat>56.279083</lat>
+        <lng>44.049534</lng>
+
+    </marker>
+
+    <marker>
+        <name>Пять минут, кафе, ИП Шеманский А. А.</name>
+        <address> г. Нижний Новгород,  Бекетова ул., 13 в</address>
+        <lat>56.290531</lat>
+        <lng>43.998238</lng>
+    </marker>
+
+    <marker>
+        <name>Разгуляй, кафе ООО &quot;Во-Люта!&quot;</name>
+
+        <address> г. Нижний Новгород,  Б. Покровская ул., 48</address>
+        <lat>56.316605</lat>
+        <lng>43.995686</lng>
+    </marker>
+
+    <marker>
+        <name>Рай, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Львовская ул., 3 а</address>
+        <lat>56.269531</lat>
+
+        <lng>43.873207</lng>
+    </marker>
+
+    <marker>
+        <name>Рамзес, кафе ООО &quot;Омега плюс&quot;</name>
+        <address> г. Нижний Новгород,  Варварская ул., 4</address>
+        <lat>56.325489</lat>
+        <lng>44.007927</lng>
+    </marker>
+
+    <marker>
+        <name>Рандеву, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Иванова ул., 35 б</address>
+        <lat>56.366074</lat>
+        <lng>43.826660</lng>
+    </marker>
+
+    <marker>
+        <name>Регина, ООО &quot;Витязь&quot;</name>
+        <address> г. Нижний Новгород,  Б. Починковская ул., 54</address>
+
+        <lat>56.368061</lat>
+        <lng>43.838501</lng>
+    </marker>
+
+    <marker>
+        <name>Ренессанс, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Ларина ул., 15 б</address>
+        <lat>56.236515</lat>
+        <lng>43.997101</lng>
+    </marker>
+
+    <marker>
+        <name>Ретро, кафе ОАО &quot;Восход&quot;</name>
+        <address> г. Нижний Новгород,  Райниса пер., 7 а</address>
+        <lat>56.264595</lat>
+        <lng>43.914639</lng>
+    </marker>
+
+    <marker>
+        <name>Родник, кафе, ИП Оруджев И. Ч.</name>
+
+        <address> г. Нижний Новгород,  Молодежный пр., 24 а</address>
+        <lat>56.242603</lat>
+        <lng>43.855370</lng>
+    </marker>
+
+    <marker>
+        <name>Ройл-НН, ООО</name>
+        <address> г. Нижний Новгород,  Березовская ул., 101</address>
+        <lat>56.325890</lat>
+
+        <lng>43.875057</lng>
+    </marker>
+
+    <marker>
+        <name>Русич, кафе ООО &quot;Русь&quot;</name>
+        <address> г. Нижний Новгород,  Ефремова ул., 3 а</address>
+        <lat>56.350487</lat>
+        <lng>43.866127</lng>
+    </marker>
+
+    <marker>
+        <name>Русская кухня, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Народная ул., 48</address>
+        <lat>56.335266</lat>
+        <lng>43.920883</lng>
+    </marker>
+
+    <marker>
+        <name>Русские пельмени, кафе, ИП Игошева Л. Ю.</name>
+        <address> г. Нижний Новгород,  Ленина пр., 49</address>
+
+        <lat>56.280174</lat>
+        <lng>43.923100</lng>
+    </marker>
+
+    <marker>
+        <name>Русский стол, кафе ООО &quot;Продюсер&quot;</name>
+        <address> г. Нижний Новгород,  Алексеевская ул., 1</address>
+        <lat>56.325169</lat>
+        <lng>44.005638</lng>
+
+    </marker>
+
+    <marker>
+        <name>Русский трактир, кафе ООО &quot;Дионис&quot;</name>
+        <address> г. Нижний Новгород,  Московское шоссе, 142</address>
+        <lat>56.312904</lat>
+        <lng>43.852318</lng>
+    </marker>
+
+    <marker>
+        <name>Салют, кафе, ООО</name>
+
+        <address> г. Нижний Новгород,  Веденяпина ул., 8 а</address>
+        <lat>56.234512</lat>
+        <lng>43.866539</lng>
+    </marker>
+
+    <marker>
+        <name>Самарканд, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Октябрьская ул., 12</address>
+        <lat>56.322086</lat>
+
+        <lng>44.004028</lng>
+    </marker>
+
+    <marker>
+        <name>Сандаловый дом, кафе, ИП Смирнова Н. И.</name>
+        <address> г. Нижний Новгород,  Рождественская ул., 26</address>
+        <lat>56.327888</lat>
+        <lng>43.987469</lng>
+    </marker>
+
+    <marker>
+
+        <name>Сахара, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Новые пески ул., 105</address>
+        <lat>56.377865</lat>
+        <lng>43.804443</lng>
+    </marker>
+
+    <marker>
+        <name>СВ-клуб, ООО</name>
+        <address> г. Нижний Новгород,  Советская пл., 3</address>
+
+        <lat>56.296162</lat>
+        <lng>44.038143</lng>
+    </marker>
+
+    <marker>
+        <name>Севан, закусочная, ИП Лысова Н. В.</name>
+        <address> г. Нижний Новгород,  Октября пр., 2 в</address>
+        <lat>56.243610</lat>
+        <lng>43.864437</lng>
+    </marker>
+
+    <marker>
+        <name>Седой граф, кафе ООО &quot;Золотая пирамида&quot;</name>
+        <address> г. Нижний Новгород,  Ларина ул., 2 а</address>
+        <lat>56.241756</lat>
+        <lng>43.979446</lng>
+    </marker>
+
+    <marker>
+        <name>Семен, кафе-ресторан, ИП Рамазанова Т. В.</name>
+
+        <address> г. Нижний Новгород,  Б. Покровская ул., 27 а</address>
+        <lat>56.320965</lat>
+        <lng>43.999043</lng>
+    </marker>
+
+    <marker>
+        <name>Смак, кафе ООО &quot;Надежда&quot;</name>
+        <address> г. Нижний Новгород,  Бекетова ул., 24</address>
+        <lat>56.291203</lat>
+
+        <lng>43.998707</lng>
+    </marker>
+
+    <marker>
+        <name>Снежинка, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Горбатовская ул., 43</address>
+        <lat>56.274387</lat>
+        <lng>44.004532</lng>
+    </marker>
+
+    <marker>
+
+        <name>Сова, кафе, ИП Литвинов Д. В.</name>
+        <address> г. Нижний Новгород,  Бекетова ул., 1 б</address>
+        <lat>56.291100</lat>
+        <lng>43.985558</lng>
+    </marker>
+
+    <marker>
+        <name>Сочи, кафе ООО &quot;Проект мой дом&quot;</name>
+        <address> г. Нижний Новгород,  Чернопрудский пер., 1</address>
+
+        <lat>56.329918</lat>
+        <lng>44.009193</lng>
+    </marker>
+
+    <marker>
+        <name>Союз, кафе ООО &quot;Союз регион&quot;</name>
+        <address> г. Нижний Новгород,  Революции пл., 9, ТЦ "Республика"</address>
+        <lat>56.352501</lat>
+        <lng>43.848789</lng>
+
+    </marker>
+
+    <marker>
+        <name>СССР, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Б. Покровская ул., 22 а</address>
+        <lat>56.320961</lat>
+        <lng>43.999683</lng>
+    </marker>
+
+    <marker>
+        <name>Стамбульские сладости, кафе ООО &quot;Чебаш&quot;</name>
+
+        <address> г. Нижний Новгород,  Коминтерна ул., 119</address>
+        <lat>56.347252</lat>
+        <lng>43.870079</lng>
+    </marker>
+
+    <marker>
+        <name>СТАР ГЭЛАКСИ, развлекательный центр, ЗАО</name>
+        <address> г. Нижний Новгород,  Ленина пр., 33, ТРЦ "Муравей", 5-й этаж</address>
+        <lat>56.268341</lat>
+
+        <lng>43.915131</lng>
+    </marker>
+
+    <marker>
+        <name>Старое Канавино, кафе-бар, ИП Тювикова О. В.</name>
+        <address> г. Нижний Новгород,  Октябрьской революции ул., 42</address>
+        <lat>56.311756</lat>
+        <lng>43.938580</lng>
+    </marker>
+
+    <marker>
+
+        <name>Старый Нижний, кафе ООО &quot;Джук Бокс&quot;</name>
+        <address> г. Нижний Новгород,  Ильинская ул., 43</address>
+        <lat>56.322830</lat>
+        <lng>43.990807</lng>
+    </marker>
+
+    <marker>
+        <name>Старый театр, кафе ООО &quot;Русское время&quot;</name>
+        <address> г. Нижний Новгород,  Алексеевская ул., 27 а</address>
+
+        <lat>56.320499</lat>
+        <lng>44.003654</lng>
+    </marker>
+
+    <marker>
+        <name>Стрелок, кафе, ИП Костромцов А. Л.</name>
+        <address> г. Нижний Новгород,  Рождественская ул., 18 д</address>
+        <lat>56.328739</lat>
+        <lng>43.990734</lng>
+    </marker>
+
+    <marker>
+        <name>Сушки, кафе, ООО &quot;Акид&quot;</name>
+        <address> г. Нижний Новгород,  Горького Максима ул., 148</address>
+        <lat>56.315239</lat>
+        <lng>43.999886</lng>
+    </marker>
+
+    <marker>
+        <name>Сыр Haus, кафе, ООО</name>
+
+        <address> г. Нижний Новгород,  Рождественская ул., 47 с</address>
+        <lat>56.326630</lat>
+        <lng>43.981609</lng>
+    </marker>
+
+    <marker>
+        <name>Таверна, ООО</name>
+        <address> г. Нижний Новгород,  Композиторская ул., 1</address>
+        <lat>56.266972</lat>
+
+        <lng>43.938736</lng>
+    </marker>
+
+    <marker>
+        <name>Тако, суши-бар ООО &quot;Компания &quot;Ресторанный Дом&quot;</name>
+        <address> г. Нижний Новгород,  Варварская ул., 33</address>
+        <lat>56.322510</lat>
+        <lng>44.010971</lng>
+    </marker>
+
+    <marker>
+        <name>Театральная площадь, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Театральная пл., 3</address>
+        <lat>56.324451</lat>
+        <lng>44.000828</lng>
+    </marker>
+
+    <marker>
+        <name>Тихий омут, кафе, ИП Чистякова Е. Б.</name>
+        <address> г. Нижний Новгород,  Новая ул., 26</address>
+
+        <lat>56.311981</lat>
+        <lng>43.994293</lng>
+    </marker>
+
+    <marker>
+        <name>Торнадо Лтд., кафе, ООО</name>
+        <address> г. Нижний Новгород,  Третьяковская ул., 11 а</address>
+        <lat>56.208286</lat>
+        <lng>43.758263</lng>
+    </marker>
+
+    <marker>
+        <name>Трактир, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Смирнова героя ул., 13 а</address>
+        <lat>56.238293</lat>
+        <lng>43.861462</lng>
+    </marker>
+
+    <marker>
+        <name>Трамплин, кафе, ИП Деулин А. В.</name>
+        <address> г. Нижний Новгород,  Сенная пл., 2</address>
+
+        <lat>56.323040</lat>
+        <lng>44.035591</lng>
+    </marker>
+
+    <marker>
+        <name>Три толстяка, кафе ООО &quot;Фирма &quot;Грот&quot;</name>
+        <address> г. Нижний Новгород,  Юбилейный б-р, 2 а</address>
+        <lat>56.347038</lat>
+        <lng>43.866379</lng>
+
+    </marker>
+
+    <marker>
+        <name>Три толстяка, кафе, ИП Красильников М. Ю.</name>
+        <address> г. Нижний Новгород,  Ошарская ул., 67</address>
+        <lat>56.308830</lat>
+        <lng>44.017319</lng>
+    </marker>
+
+    <marker>
+        <name>Троя, кафе-бар ООО &quot;Киликия&quot;</name>
+
+        <address> г. Нижний Новгород,  Тираспольская ул., 9</address>
+        <lat>56.301388</lat>
+        <lng>43.935440</lng>
+    </marker>
+
+    <marker>
+        <name>Ты и Я, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Рождественская ул., 24</address>
+        <lat>56.328217</lat>
+
+        <lng>43.988831</lng>
+    </marker>
+
+    <marker>
+        <name>У Ирины, кафе, ИП Наумова И. В.</name>
+        <address> г. Нижний Новгород,  Московское шоссе, 16</address>
+        <lat>56.312904</lat>
+        <lng>43.852318</lng>
+    </marker>
+
+    <marker>
+
+        <name>У камина, кафе-бар, ООО</name>
+        <address> г. Нижний Новгород,  Московское шоссе, 52 в</address>
+        <lat>56.312904</lat>
+        <lng>43.852318</lng>
+    </marker>
+
+    <marker>
+        <name>У Ксюши, кафе ООО &quot;Марко&quot;</name>
+        <address> г. Нижний Новгород,  Сурикова ул., 2</address>
+
+        <lat>56.277779</lat>
+        <lng>43.980419</lng>
+    </marker>
+
+    <marker>
+        <name>У озера, кафе ООО &quot;Мотель &quot;Московский&quot;</name>
+        <address> г. Нижний Новгород,  Смирнова героя ул., 18, ПКиО</address>
+        <lat>56.329918</lat>
+        <lng>44.009193</lng>
+
+    </marker>
+
+    <marker>
+        <name>У самолета, кафе, ИП Жаворонкова Л. Б.</name>
+        <address> г. Нижний Новгород,  Баранова ул., 9 а</address>
+        <lat>56.334946</lat>
+        <lng>43.847267</lng>
+    </marker>
+
+    <marker>
+        <name>У Тахира, кафе, ИП Спирина С. В.</name>
+
+        <address> г. Нижний Новгород,  Удмуртская ул., 35</address>
+        <lat>56.289413</lat>
+        <lng>43.888100</lng>
+    </marker>
+
+    <marker>
+        <name>У Тимофеича, кафе, ИП Нижегородцев В. Т.</name>
+        <address> г. Нижний Новгород,  Рождественская ул., 18 д</address>
+        <lat>56.328739</lat>
+
+        <lng>43.990734</lng>
+    </marker>
+
+    <marker>
+        <name>Улей, кофейня ООО &quot;Компания &quot;Ресторанный Дом&quot;</name>
+        <address> г. Нижний Новгород,  Ошарская ул., 14</address>
+        <lat>56.321056</lat>
+        <lng>44.009628</lng>
+    </marker>
+
+    <marker>
+        <name>Ультра, кафе, ИП Косомов С. Г.</name>
+        <address> г. Нижний Новгород,  Баумана ул., 48/1</address>
+        <lat>56.281471</lat>
+        <lng>43.950527</lng>
+    </marker>
+
+    <marker>
+        <name>Уют, кафе ООО &quot;Люкс ИА&quot;</name>
+
+        <address> г. Нижний Новгород,  Московское шоссе, 288</address>
+        <lat>56.312523</lat>
+        <lng>43.853188</lng>
+    </marker>
+
+    <marker>
+        <name>Фаворит, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Гагарина пр., 60</address>
+        <lat>56.284565</lat>
+
+        <lng>43.981976</lng>
+    </marker>
+
+    <marker>
+        <name>Феникс, кафе, ИП Цыбанова И. В.</name>
+        <address> г. Нижний Новгород,  Богородского ул., 5/6</address>
+        <lat>56.293896</lat>
+        <lng>44.041302</lng>
+    </marker>
+
+    <marker>
+
+        <name>Феникс, кафе-бар ООО &quot;Горстрой-НН&quot;</name>
+        <address> г. Нижний Новгород,  Минина ул., 4</address>
+        <lat>56.328972</lat>
+        <lng>44.010475</lng>
+    </marker>
+
+    <marker>
+        <name>Феникс-Д, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Голованова маршала ул., 37</address>
+
+        <lat>56.233467</lat>
+        <lng>43.961666</lng>
+    </marker>
+
+    <marker>
+        <name>Фламбэ, кофейня, ООО</name>
+        <address> г. Нижний Новгород,  Горького Максима пл., 2</address>
+        <lat>56.315411</lat>
+        <lng>43.991638</lng>
+    </marker>
+
+    <marker>
+        <name>Фортуна, ООО</name>
+        <address> г. Нижний Новгород,  Лоскутова ул., 2</address>
+        <lat>56.243641</lat>
+        <lng>43.861008</lng>
+    </marker>
+
+    <marker>
+        <name>Форум, кафе ООО &quot;Фирма &quot;Весна&quot;</name>
+
+        <address> г. Нижний Новгород,  Алексеевская ул., 26</address>
+        <lat>56.318123</lat>
+        <lng>44.003075</lng>
+    </marker>
+
+    <marker>
+        <name>Форум, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Кузнечиха д., 1, радиорынок "Герц"</address>
+        <lat>56.329918</lat>
+
+        <lng>44.009193</lng>
+    </marker>
+
+    <marker>
+        <name>Хамелеон, кафе-бар, ООО</name>
+        <address> г. Нижний Новгород,  Алексеевская ул., 25</address>
+        <lat>56.320499</lat>
+        <lng>44.003654</lng>
+    </marker>
+
+    <marker>
+
+        <name>Хитовая столовая № 1, ООО &quot;ЮС&quot;</name>
+        <address> г. Нижний Новгород,  Б. Покровская ул., 29 а</address>
+        <lat>56.320408</lat>
+        <lng>43.998440</lng>
+    </marker>
+
+    <marker>
+        <name>Чайный домик, ООО</name>
+        <address> г. Нижний Новгород,  Нестерова ул., 3</address>
+
+        <lat>56.328354</lat>
+        <lng>44.018311</lng>
+    </marker>
+
+    <marker>
+        <name>Часть суши, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Коминтерна ул., 115</address>
+        <lat>56.349174</lat>
+        <lng>43.869095</lng>
+    </marker>
+
+    <marker>
+        <name>Черный пруд, кафе ООО &quot;Ника&quot;</name>
+        <address> г. Нижний Новгород,  Пискунова ул., 14</address>
+        <lat>56.324169</lat>
+        <lng>44.005116</lng>
+    </marker>
+
+    <marker>
+        <name>ШокоЛатте, ООО</name>
+
+        <address> г. Нижний Новгород,  Б. Покровская ул., 60</address>
+        <lat>56.312038</lat>
+        <lng>43.989819</lng>
+    </marker>
+
+    <marker>
+        <name>Штат, кафе ООО &quot;Авантаж&quot;</name>
+        <address> г. Нижний Новгород,  Лебедева академика ул., 1</address>
+        <lat>56.234875</lat>
+
+        <lng>43.956421</lng>
+    </marker>
+
+    <marker>
+        <name>Щелоковский, спортивно-развлекательный комплекс ООО &quot;ФМ Бизнес&quot;</name>
+        <address> г. Нижний Новгород,  Горбатовская ул., 2 а</address>
+        <lat>56.274929</lat>
+        <lng>43.997829</lng>
+    </marker>
+
+    <marker>
+        <name>Экзотика, кафе, ИП Тагиева Ж. Э.</name>
+        <address> г. Нижний Новгород,  Комарова космонавта ул., 12</address>
+        <lat>56.282124</lat>
+        <lng>43.931042</lng>
+    </marker>
+
+    <marker>
+        <name>Экспресс, кафе, ИП Сорокин А. Н.</name>
+        <address> г. Нижний Новгород,  Октября пр., 33</address>
+
+        <lat>56.248474</lat>
+        <lng>43.865379</lng>
+    </marker>
+
+    <marker>
+        <name>Элат, кафе, ИП</name>
+        <address> г. Нижний Новгород,  Гагарина пр., 37 б</address>
+        <lat>56.257763</lat>
+        <lng>43.969387</lng>
+    </marker>
+
+    <marker>
+        <name>Эмир, кафе, ООО</name>
+        <address> г. Нижний Новгород,  Дружаева ул.</address>
+        <lat>56.260555</lat>
+        <lng>43.882565</lng>
+    </marker>
+
+    <marker>
+        <name>Энергетик, кафе ООО &quot;Арктур НН&quot;</name>
+
+        <address> г. Нижний Новгород,  Рождественская ул., 33</address>
+        <lat>56.329006</lat>
+        <lng>43.990337</lng>
+    </marker>
+
+    <marker>
+        <name>Эрми кофе, кафе ООО &quot;Арти-СПН&quot;</name>
+        <address> г. Нижний Новгород,  Б. Покровская ул., 21</address>
+        <lat>56.322067</lat>
+
+        <lng>44.000195</lng>
+    </marker>
+
+    <marker>
+        <name>Юлия, кафе ООО &quot;Предприятие &quot;Радар&quot;</name>
+        <address> г. Нижний Новгород,  Звездинка ул., 24</address>
+        <lat>56.317017</lat>
+        <lng>43.998711</lng>
+    </marker>
+
+    <marker>
+        <name>Якитория, кафе ООО &quot;ВАМ+&quot;</name>
+        <address> г. Нижний Новгород,  Горького Максима ул., 154</address>
+        <lat>56.316544</lat>
+        <lng>44.006321</lng>
+    </marker>
+
+</markers>

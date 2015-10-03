@@ -102,4 +102,51 @@ class Info extends CActiveRecord
 		return parent::model($className);
 	}
 
+    /**
+     *
+     */
+    /*public function find()
+    {
+        return array(
+            'select' => array('user_name' , 'user_address', 'lat', 'lng'),
+            'condition' => 'id=:id',
+            'params' => array(':id' => 2),
+        );
+    }*/
+
+    public function getUserById($id)
+    {
+        $info=array(Info::model()->find(array(
+            'select'=>array('user_name', 'user_address', 'lat', 'lng'),
+            'condition'=>'id=:id',
+            'params'=>array(':id'=>$id),
+        )),
+        );
+    }
+
+    /**
+     * @param $user_name
+     * @return array
+     */
+    public function getUserByName($user_name)
+    {
+        $info=array(Info::model()->find(array(
+            'select'=>array('user_name', 'user_address', 'lat', 'lng'),
+            'condition'=>'user_name=:user_name',
+            'params'=>array(':user_name'=>$user_name),
+        )),
+        );
+        /**
+         * Перечислим элементы массива find()
+         */
+        foreach($info as $key => $value) {
+            echo $value['user_name'], ' ', $value['user_address'], ' ', $value['lat'], ' ', $value['lng'], '<br />';
+            return array(
+                $this->user_name = $value['user_name'],
+                $this->user_address = $value['user_address'],
+                $this->lat = $value['lat'],
+                $this->lng = $value['lng']
+            );
+        }
+    }
 }

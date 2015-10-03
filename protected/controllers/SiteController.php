@@ -125,10 +125,44 @@ class SiteController extends Controller
 
         $fighter1 = new Fighter(new LightArmor(20, 15),new Bow(40, rand(10, 15)), 100, 5);
 
-        $this->render('map',array('fightersWeapon'=>$fighter1->getWeaponName()),false);
+        $person1=array(PersonForm::model()->find(array(
+            'select'=>array('name', 'age'),
+            'condition'=>'id=:id',
+            'params'=>array(':id'=>2),
+        )),
+        );
+
+        $person2=array(PersonForm::model()->find(array(
+            'select'=>array('name', 'age'),
+            'condition'=>'id=:id',
+            'params'=>array(':id'=>1),
+        )),
+        );
+
+        $info1=array(Info::model()->find(array(
+            'select'=>array('user_name', 'user_address', 'lat', 'lng'),
+            'condition'=>'user_address=:user_address',
+            'params'=>array(':user_address'=>'house'),
+        )),
+        );
+
+        $info2 = new Info();
+        $info = $info2->getUserByName('Ole');
+
+        $this->render('map',array(
+            'fightersWeapon'=>$fighter1->getWeaponName(),
+            'data1'=>$person1,
+            'data2'=>$person2,
+            'data3'=>$info1,
+            'data4'=>$info,
+            'data5'=>$info2->user_name,
+            'data6'=>$info2->user_address,
+            'data7'=>$info2->lat,
+            'data8'=>$info2->lng),
+            false);
     }
 
-    public function actionFortest()
+    public function actionForTest()
     {
         // var_dump('ole');
 
