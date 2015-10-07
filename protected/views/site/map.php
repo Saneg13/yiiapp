@@ -65,7 +65,10 @@ html, body, #map-canvas {
     <?php
     print $userLat.'<br />';
     echo $userLng.'<br />';
-    /*echo CHtml::image($image->url);*/
+    ?>
+</p>
+<p>More, for example.. </br>
+    <?php
     echo CHtml::image('/images/icons/png/viking-icon.png');
     ?>
 </p>
