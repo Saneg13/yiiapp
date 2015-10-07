@@ -45,6 +45,7 @@ html, body, #map-canvas {
             '<?php
             print $userName.'<br />';
             print $userAddress.'<br />';
+            echo CHtml::image($userIcon);
             ?>'
             });
             var marker = new google.maps.Marker({
@@ -64,6 +65,8 @@ html, body, #map-canvas {
     <?php
     print $userLat.'<br />';
     echo $userLng.'<br />';
+    /*echo CHtml::image($image->url);*/
+    echo CHtml::image('/images/icons/png/viking-icon.png');
     ?>
 </p>
 </body>

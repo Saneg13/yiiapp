@@ -43,6 +43,12 @@
 		<?php echo $form->error($model,'lng'); ?>
 	</div>
 
+	<div class="row">
+		<?php echo $form->labelEx($model,'icon'); ?>
+		<?php echo $form->textField($model,'icon',array('size'=>60,'maxlength'=>100)); ?>
+		<?php echo $form->error($model,'icon'); ?>
+	</div>
+
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>

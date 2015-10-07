@@ -7269,3 +7269,468 @@ REQUEST_URI=/index.php/site/map
 in /var/www/yiitestapp/protected/views/site/map.php (81)
 in /var/www/yiitestapp/protected/controllers/SiteController.php (168)
 in /var/www/yiitestapp/index.php (13)
+2015/10/05 16:22:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "person".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('person')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('person')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('person/person/e...')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/person/person/exam4?_=1444051363746
+HTTP_REFERER=http://localhost/index.php/person/exam3
+---
+2015/10/05 16:22:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "person".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('person')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('person')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('person/person/e...')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/person/person/exam4?_=1444051363747
+HTTP_REFERER=http://localhost/index.php/person/exam3
+---
+2015/10/05 16:23:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "person".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('person')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('person')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('person/person/e...')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/person/person/exam4?_=1444051407871
+HTTP_REFERER=http://localhost/index.php/person/exam3
+---
+2015/10/06 12:58:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Info".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('Info')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('Info')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('person/Info')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/person/Info
+HTTP_REFERER=http://localhost/index.php/person/exam5
+---
+2015/10/06 12:59:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Info".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('Info')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('Info')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('person/Info')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/person/Info
+HTTP_REFERER=http://localhost/index.php/person/exam5
+---
+2015/10/06 12:59:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Info".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('Info')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('Info')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('person/Info')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/person/Info
+HTTP_REFERER=http://localhost/index.php/person/exam5
+---
+2015/10/06 12:59:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Info".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('Info')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('Info')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('person/Info')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/person/Info
+HTTP_REFERER=http://localhost/index.php/person/exam5
+---
+2015/10/06 13:00:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Info".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('Info')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('Info')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('person/Info')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/person/Info
+HTTP_REFERER=http://localhost/index.php/person/exam5
+---
+2015/10/06 13:21:35 [error] [php] Undefined variable: [ (/var/www/yiitestapp/protected/controllers/PersonController.php:122)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(286): PersonController->runAction()
+#1 /var/www/yii/framework/web/CController.php(265): PersonController->runActionWithFilters()
+#2 /var/www/yii/framework/web/CWebApplication.php(282): PersonController->run()
+#3 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/person/exam5
+in /var/www/yiitestapp/protected/controllers/PersonController.php (122)
+in /var/www/yiitestapp/index.php (13)
+2015/10/06 13:31:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Info.php".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('Info.php')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('Info.php')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('person/Info.php')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/person/Info.php
+HTTP_REFERER=http://localhost/index.php/person/exam5
+---
+2015/10/06 13:31:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Info.php".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('Info.php')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('Info.php')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('person/Info.php')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/person/Info.php
+HTTP_REFERER=http://localhost/index.php/person/exam5
+---
+2015/10/06 14:30:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Info".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('Info')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('Info')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('person/Info')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/person/Info
+HTTP_REFERER=http://localhost/index.php/person/exam5
+---
+2015/10/06 14:32:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action ".Info".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('.Info')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('.Info')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('person/.Info')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/person/.Info
+HTTP_REFERER=http://localhost/index.php/person/exam5
+---
+2015/10/06 14:44:41 [error] [php] Invalid argument supplied for foreach() (/var/www/yiitestapp/protected/views/person/exam4.php:12)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(869): PersonController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(782): PersonController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/PersonController.php(90): PersonController->render()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): PersonController->actionFindAllPerson()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yii/framework/web/CController.php(286): PersonController->runAction()
+#6 /var/www/yii/framework/web/CController.php(265): PersonController->runActionWithFilters()
+#7 /var/www/yii/framework/web/CWebApplication.php(282): PersonController->run()
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/person/findallperson
+in /var/www/yiitestapp/protected/views/person/exam4.php (12)
+in /var/www/yiitestapp/protected/controllers/PersonController.php (90)
+in /var/www/yiitestapp/index.php (13)
+2015/10/06 14:47:42 [error] [php] Invalid argument supplied for foreach() (/var/www/yiitestapp/protected/views/person/exam4.php:12)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(869): PersonController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(782): PersonController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/PersonController.php(90): PersonController->render()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): PersonController->actionFindAllPerson()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yii/framework/web/CController.php(286): PersonController->runAction()
+#6 /var/www/yii/framework/web/CController.php(265): PersonController->runActionWithFilters()
+#7 /var/www/yii/framework/web/CWebApplication.php(282): PersonController->run()
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/person/findallperson
+in /var/www/yiitestapp/protected/views/person/exam4.php (12)
+in /var/www/yiitestapp/protected/controllers/PersonController.php (90)
+in /var/www/yiitestapp/index.php (13)
+2015/10/06 14:48:01 [error] [php] Invalid argument supplied for foreach() (/var/www/yiitestapp/protected/views/person/exam4.php:12)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(869): PersonController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(782): PersonController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/PersonController.php(90): PersonController->render()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): PersonController->actionFind()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yii/framework/web/CController.php(286): PersonController->runAction()
+#6 /var/www/yii/framework/web/CController.php(265): PersonController->runActionWithFilters()
+#7 /var/www/yii/framework/web/CWebApplication.php(282): PersonController->run()
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/person/find
+in /var/www/yiitestapp/protected/views/person/exam4.php (12)
+in /var/www/yiitestapp/protected/controllers/PersonController.php (90)
+in /var/www/yiitestapp/index.php (13)
+2015/10/06 14:54:21 [error] [php] Invalid argument supplied for foreach() (/var/www/yiitestapp/protected/views/person/exam4.php:10)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(869): PersonController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(782): PersonController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/PersonController.php(90): PersonController->render()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): PersonController->actionFind()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yii/framework/web/CController.php(286): PersonController->runAction()
+#6 /var/www/yii/framework/web/CController.php(265): PersonController->runActionWithFilters()
+#7 /var/www/yii/framework/web/CWebApplication.php(282): PersonController->run()
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/person/find
+in /var/www/yiitestapp/protected/views/person/exam4.php (10)
+in /var/www/yiitestapp/protected/controllers/PersonController.php (90)
+in /var/www/yiitestapp/index.php (13)
+2015/10/06 19:54:06 [error] [exception.CException] exception 'CException' with message 'CHttpRequest and its behaviors do not have a method or closure named "set".' in /var/www/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/yiitestapp/protected/controllers/PersonController.php(135): CComponent->__call('set', Array)
+#1 /var/www/yiitestapp/protected/controllers/PersonController.php(135): CHttpRequest->set('info')
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(49): PersonController->actionExam6()
+#3 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('exam6')
+#7 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('person/exam6')
+#8 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/yiitestapp/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/person/exam6
+---
+2015/10/06 19:54:23 [error] [exception.CException] exception 'CException' with message 'CHttpRequest and its behaviors do not have a method or closure named "setPost".' in /var/www/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/yiitestapp/protected/controllers/PersonController.php(135): CComponent->__call('setPost', Array)
+#1 /var/www/yiitestapp/protected/controllers/PersonController.php(135): CHttpRequest->setPost('info')
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(49): PersonController->actionExam6()
+#3 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('exam6')
+#7 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('person/exam6')
+#8 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/yiitestapp/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/person/exam6
+---
+2015/10/06 19:57:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "input1".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('input1')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('input1')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('person/input1')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/person/input1
+HTTP_REFERER=http://localhost/index.php/person/exam6
+---
+2015/10/06 21:35:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "phpinfo".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('phpinfo')
+#1 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/yiitestapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/phpinfo
+---
+2015/10/07 09:41:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "form".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('form')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('form')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/form')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/form
+---
+2015/10/07 09:45:49 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "form".' in /var/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('form', NULL, true)
+#1 /var/www/yiitestapp/protected/controllers/SiteController.php(41): CController->render('form')
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionUserForm()
+#3 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('userform')
+#7 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/userform')
+#8 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/yiitestapp/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/site/userform
+---
+2015/10/07 09:46:51 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "/pages/form".' in /var/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('/pages/form', NULL, true)
+#1 /var/www/yiitestapp/protected/controllers/SiteController.php(41): CController->render('/pages/form')
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionUserForm()
+#3 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('userform')
+#7 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/userform')
+#8 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/yiitestapp/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/site/userform
+---
+2015/10/07 09:47:05 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "pages/form.html".' in /var/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('pages/form.html', NULL, true)
+#1 /var/www/yiitestapp/protected/controllers/SiteController.php(41): CController->render('pages/form.html')
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionUserForm()
+#3 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('userform')
+#7 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/userform')
+#8 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/yiitestapp/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/site/userform
+---
+2015/10/07 09:47:48 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "pages/form.html".' in /var/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('pages/form.html', NULL, true)
+#1 /var/www/yiitestapp/protected/controllers/SiteController.php(41): CController->render('pages/form.html')
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionUserForm()
+#3 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('userform')
+#7 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/userform')
+#8 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/yiitestapp/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/site/userform
+---
+2015/10/07 09:47:56 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "pages/form".' in /var/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('pages/form', NULL, true)
+#1 /var/www/yiitestapp/protected/controllers/SiteController.php(41): CController->render('pages/form')
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionUserForm()
+#3 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('userform')
+#7 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/userform')
+#8 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/yiitestapp/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/site/userform
+---
+2015/10/07 09:48:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "userform" was not found.' in /var/www/yii/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/yii/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('userform')
+#1 /var/www/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /var/www/yiitestapp/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php/site/page?view=userform
+---
+2015/10/07 09:48:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "userform" was not found.' in /var/www/yii/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/yii/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('userform')
+#1 /var/www/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /var/www/yiitestapp/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php/site/page?view=userform
+---
+2015/10/07 09:49:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "userform" was not found.' in /var/www/yii/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/yii/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('userform')
+#1 /var/www/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /var/www/yiitestapp/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php/site/page?view=userform
+---
+2015/10/07 09:49:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "form" was not found.' in /var/www/yii/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/yii/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('form')
+#1 /var/www/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /var/www/yiitestapp/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php/site/page?view=form
+---
+2015/10/07 09:49:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "form" was not found.' in /var/www/yii/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/yii/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('form')
+#1 /var/www/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /var/www/yiitestapp/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php/site/page?view=form
+---
+2015/10/07 09:49:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "form" was not found.' in /var/www/yii/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/yii/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('form')
+#1 /var/www/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /var/www/yiitestapp/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php/site/page?view=form
+---
+2015/10/07 09:49:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "form" was not found.' in /var/www/yii/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/yii/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('form')
+#1 /var/www/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /var/www/yiitestapp/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php/site/page?view=form
+---
+2015/10/07 09:50:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "form.html" was not found.' in /var/www/yii/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/yii/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('form.html')
+#1 /var/www/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /var/www/yiitestapp/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php/site/page?view=form.html
+---
+2015/10/07 09:57:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "phpmyadmin".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('phpmyadmin')
+#1 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/yiitestapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/phpmyadmin
+---

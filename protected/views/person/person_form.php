@@ -42,9 +42,7 @@
 
     function send()
     {
-
         var data=$("person-form-edit_person-form").serialize();
-
 
         $.ajax({
             type: 'POST',
@@ -62,5 +60,4 @@
         });
 
     }
-
 </script>

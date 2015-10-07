@@ -7,8 +7,6 @@
  */
 
 
-
-
 foreach($data as $key => $value) {
     echo $value['name'], ' ', $value['age'], '<br />';
 }

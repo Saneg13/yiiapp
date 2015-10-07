@@ -118,4 +118,3 @@ class PersonForm extends CActiveRecord
         }
     }
 }
-

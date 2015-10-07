@@ -63,7 +63,8 @@
 <body onload="initialize()">
 <!--<body onload="initialize()">-->
 <h1>My second map..</h1>
-<div id="map_canvas" style="width:640px; height:480px"></div>
+<!--<div id="map_canvas" style="width:640px; height:480px"></div>-->
 <!--<div ><input type="button" id="map-canvas" value="Показать маркеры" /></div>-->
+<?php echo CHtml::ajaxButton('check', 'exam4'); ?>
 </body>
 </html>

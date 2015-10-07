@@ -3,7 +3,7 @@
 /* @var $model Info */
 
 $this->breadcrumbs=array(
-	'Info'=>array('index'),
+	'Infos'=>array('index'),
 	$model->id,
 );
 
@@ -26,5 +26,6 @@ $this->menu=array(
 		'user_address',
 		'lat',
 		'lng',
+		'icon',
 	),
 )); ?>
