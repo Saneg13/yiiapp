@@ -129,12 +129,30 @@ class SiteController extends Controller
             $info2->icon
         );
 
+        $inf = Info::model()->findAll("id>0");
+
+
+        /*return array(
+            $value->id,
+            $value->user_name,
+            $value->user_address,
+            $value->lat,
+            $value->lng,
+            $value->icon
+        );*/
+
+//        $info4 = $info2->getUserById();
+
         $this->render('map',array(
             'userName'=>$info3[0],
             'userAddress'=>$info3[1],
             'userLat'=>$info3[2],
             'userLng'=>$info3[3],
-            'userIcon'=>$info3[4]),
+            'userIcon'=>$info3[4],
+            'inf'=>$inf,
+            /*'name'=>$info4[1],
+            'icon'=>$info4[2]*/
+            ),
             false);
     }
 

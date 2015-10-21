@@ -121,7 +121,7 @@ class Info extends CActiveRecord
          * Перечислим элементы массива find()
          */
         foreach ($info as $key => $value) {
-            //echo $value['user_name'], ' ', $value['user_address'], ' ', $value['lat'], ' ', $value['lng'], '<br />';
+            // echo $value['user_name'], ' ', $value['user_address'], ' ', $value['lat'], ' ', $value['lng'], '<br />';
             return array(
                 $this->user_name = $value['user_name'],
                 $this->user_address = $value['user_address'],
@@ -130,5 +130,52 @@ class Info extends CActiveRecord
                 $this->icon = $value['icon']
             );
         }
+    }
+
+    public function getUserById()
+    {
+        $inf = Info::model()->findAll("id>0");
+
+        foreach ($inf as $value) {
+
+            echo $value->user_name.' '.$value->user_address.'<br />'.CHtml::image($value->icon).'<br />';
+        }
+        return array(
+                $value->id,
+                $value->user_name,
+                $value->user_address,
+                $value->lat,
+                $value->lng,
+                $value->icon
+            );
+
+        /*$info = Info::model()->findAllByAttributes(
+            array(),
+            $condition  = 'id = : id',
+            $params     = array(
+                ':id' => $id,
+            )
+        );
+
+        foreach ($info as $key => $value) {
+            //echo $value['user_name'], ' ', $value['user_address'], ' ', $value['lat'], ' ', $value['lng'], '<br />';
+            return array(
+                $this->id = $value['id'],
+                $this->user_name = $value['user_name'],
+                $this->user_address = $value['user_address'],
+                $this->lat = $value['lat'],
+                $this->lng = $value['lng'],
+                $this->icon = $value['icon']
+        );*/
+
+         // Example.. 'findAllByAttributes()'
+         /* $found = YourModelClass::model()->findAllByAttributes(
+            array(),
+            $condition  = 'columnNameInDb = :someVarName AND columnNameInDb02 > :someVarName02',
+            $params     = array(
+                ':someVarName' => $someVarNameValue,
+                ':someVarName02' => $someVarNameValue02,
+            )
+        );*/
     }
 }

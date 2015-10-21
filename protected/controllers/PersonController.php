@@ -80,6 +80,24 @@ class PersonController extends Controller
 
     public function actionExam2()
     {
+        /*$info2 = new Info();
+        $info3 = $info2->getUserByName('Barbar');
+        $info3 = array(
+            0=>$info2->user_name,
+            $info2->user_address,
+            $info2->lat,
+            $info2->lng
+        );
+
+        $json = json_encode($info3);
+
+        $this->render('exam2',array(
+            'userName'=>$json[0],
+            'userAddress'=>$json[1],
+            'userLat'=>$json[2],
+            'userLng'=>$json[3]),
+            false);*/
+
         $this->render('exam2');
     }
 
@@ -107,24 +125,6 @@ class PersonController extends Controller
 
     public function actionExam5()
     {
-        /*$info2 = new Info();
-        $info3 = $info2->getUserByName('Barbar');
-        $info3 = array(
-            0=>$info2->user_name,
-            $info2->user_address,
-            $info2->lat,
-            $info2->lng
-        );
-
-        $json = json_encode($info3);
-
-        $this->render('exam5',array(
-            'userName'=>$json[0],
-            'userAddress'=>$json[1],
-            'userLat'=>$json[2],
-            'userLng'=>$json[3]),
-            false);*/
-
         $this->render('exam5');
     }
 

@@ -76,6 +76,21 @@ html, body, #map-canvas {
     } else {
         echo "var is null";
     }
+
+    foreach ($inf as $value) {
+        echo $value->user_name.' '.$value->user_address.'<br />'.CHtml::image($value->icon).'<br />';
+    }
+
+    // var_dump($info);
+    // echo $info;
+
+    /*if ($id>0){
+        foreach($id as $value2){
+            echo $value2['$name'];
+        }
+    }
+    else echo 'ERROOORRRR!!!';*/
+
     ?>
 </p>
 </body>

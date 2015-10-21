@@ -46,7 +46,7 @@
         }
 
         xMAP.placeMarkers = function (filename) {
-            $.get(filename, function(xml){
+            $.post(filename, function(xml){
                 $(xml).find("marker").each(function(){
                     // find fields 'name' in 'markers2.xml'
                     var name = $(this).find('name').text();
@@ -93,11 +93,12 @@
                      maxZoom: 5,
                      gridSize: 50,
                      styles: null
-                     });*/
+                     });
+                    console.log(markerCluster);*/
 
                     var infoWindow = new google.maps.InfoWindow();
 
-                    console.log(src); // отладка в JS -- вывод всех значений поля 'somefield'*/
+                    //console.log(src); // отладка в JS -- вывод всех значений поля 'somefield'*/
 
                     // all content in string
                     var html='<strong>'+name+'</strong.><br />'+address+'<br />'+image1;
