@@ -27,6 +27,7 @@ MYMAP.init = function(selector, latLng, zoom) {
     }
     this.map = new google.maps.Map($(selector)[0], myOptions);
     this.bounds = new google.maps.LatLngBounds();
+    console.log(latLng);
 }
 
 MYMAP.placeMarkers = function(filename) {
@@ -39,6 +40,7 @@ MYMAP.placeMarkers = function(filename) {
             var lat = $(this).find('lat').text();
             var lng = $(this).find('lng').text();
             var point = new google.maps.LatLng(parseFloat(lat),parseFloat(lng));
+
 
             // extend the bounds to include the new point
             MYMAP.bounds.extend(point);

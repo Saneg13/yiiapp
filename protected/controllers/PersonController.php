@@ -107,7 +107,7 @@ class PersonController extends Controller
 
     public function actionExam5()
     {
-        $info2 = new Info();
+        /*$info2 = new Info();
         $info3 = $info2->getUserByName('Barbar');
         $info3 = array(
             0=>$info2->user_name,
@@ -123,9 +123,9 @@ class PersonController extends Controller
             'userAddress'=>$json[1],
             'userLat'=>$json[2],
             'userLng'=>$json[3]),
-            false);
+            false);*/
 
-        /*$this->render('exam5');*/
+        $this->render('exam5');
     }
 
     public function actionExam6()

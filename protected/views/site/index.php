@@ -14,7 +14,7 @@ $this->pageTitle=Yii::app()->name;
 	<li>Layout file: <code><?php echo $this->getLayoutFile('main'); ?></code></li>
 </ul>
 
-<p><b>Second map from example is not available. Troubles with JS in 'person/exam2'</b></p>
+<p><b>Map from example is not available. Troubles with JS in 'person/exam2'</b></p>
 
 <p>For more details on how to further develop this application, please read
 the <a href="http://www.yiiframework.com/doc/">documentation</a>.

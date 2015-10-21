@@ -4,14 +4,15 @@
     <marker>
         <name>Patrick Irish Pub</name>
         <address> улица Сумская, 36Б,Харків,Харківська область,61000</address>
+        <image>kharkov-Patrick-Irish-Pub.png</image>
         <lat>50.003579</lat>
         <lng>36.233298</lng>
     </marker>
 
     <marker>
         <name>Пицерія "Ті Амо"</name>
-
         <address>Сумська вулиця, 35,Харків,Харківська,61000</address>
+        <image>kharkov-ti-amo-pizza.png</image>
         <lat>50.003757</lat>
         <lng>36.230504</lng>
     </marker>
@@ -19,6 +20,7 @@
     <marker>
         <name>The Terrace</name>
         <address>Premier Palace Hotel Kharkiv, проспект Правди, 2,Харків,Харківська область,61000</address>
+        <image>kharkov-The-Terrace.png</image>
         <lat>50.006174</lat>
         <lng>36.232409</lng>
     </marker>
@@ -26,14 +28,15 @@
     <marker>
         <name>КОНТИНЕНТ, РЕСТОРАН</name>
         <address>вулиця Трінклера, 2,Харків,Харківська,61000</address>
+        <image>kharkov-restoran-kontinent.png</image>
         <lat>50.006002</lat>
         <lng>36.233326</lng>
     </marker>
 
     <marker>
-
         <name>IT cafe</name>
         <address>проспект Правди, 10A,Харків,Харківська область,61000</address>
+        <image>kharkov-it-cafe.png</image>
         <lat>50.005829</lat>
         <lng>36.234871</lng>
     </marker>
@@ -41,7 +44,7 @@
     <marker>
         <name>ФрешЛайн</name>
         <address>проспект Правди, 10,Харків,Харківська область,61000</address>
-
+        <image>kharkov-FreshLine.png</image>
         <lat>50.005743</lat>
         <lng>36.235547</lng>
     </marker>
@@ -49,6 +52,8 @@
     <marker>
         <name>ТАВЕРНА "ЧИЛИ", РЕСТОРАН</name>
         <address>майдан Свободи, 6,Харків,Харьковская,61000</address>
+        <image></image>
+        <!--<image>kharkov-chili-tavern.png</image>-->
         <lat>50.007589</lat>
         <lng>36.230877</lng>
     </marker>

@@ -7734,3 +7734,224 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/index.php/phpmyadmin
 ---
+2015/10/12 12:37:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "exam7".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('exam7')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('exam7')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('person/exam7')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/person/exam7
+---
+2015/10/12 13:41:54 [error] [php] Use of undefined constant icon - assumed 'icon' (/var/www/yiitestapp/protected/views/person/exam5.php:79)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(869): PersonController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(782): PersonController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/PersonController.php(126): PersonController->render()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): PersonController->actionExam5()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yii/framework/web/CController.php(286): PersonController->runAction()
+#6 /var/www/yii/framework/web/CController.php(265): PersonController->runActionWithFilters()
+#7 /var/www/yii/framework/web/CWebApplication.php(282): PersonController->run()
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/person/exam5
+in /var/www/yiitestapp/protected/views/person/exam5.php (79)
+in /var/www/yiitestapp/protected/controllers/PersonController.php (126)
+in /var/www/yiitestapp/index.php (13)
+2015/10/12 13:43:34 [error] [php] Use of undefined constant icon - assumed 'icon' (/var/www/yiitestapp/protected/views/person/exam5.php:79)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(869): PersonController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(782): PersonController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/PersonController.php(126): PersonController->render()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): PersonController->actionExam5()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yii/framework/web/CController.php(286): PersonController->runAction()
+#6 /var/www/yii/framework/web/CController.php(265): PersonController->runActionWithFilters()
+#7 /var/www/yii/framework/web/CWebApplication.php(282): PersonController->run()
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/person/exam5
+in /var/www/yiitestapp/protected/views/person/exam5.php (79)
+in /var/www/yiitestapp/protected/controllers/PersonController.php (126)
+in /var/www/yiitestapp/index.php (13)
+2015/10/12 13:46:09 [error] [php] Use of undefined constant icon - assumed 'icon' (/var/www/yiitestapp/protected/views/person/exam5.php:79)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(869): PersonController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(782): PersonController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/PersonController.php(126): PersonController->render()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): PersonController->actionExam5()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yii/framework/web/CController.php(286): PersonController->runAction()
+#6 /var/www/yii/framework/web/CController.php(265): PersonController->runActionWithFilters()
+#7 /var/www/yii/framework/web/CWebApplication.php(282): PersonController->run()
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/person/exam5
+in /var/www/yiitestapp/protected/views/person/exam5.php (79)
+in /var/www/yiitestapp/protected/controllers/PersonController.php (126)
+in /var/www/yiitestapp/index.php (13)
+2015/10/12 13:46:28 [error] [php] Use of undefined constant icon - assumed 'icon' (/var/www/yiitestapp/protected/views/person/exam5.php:79)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(869): PersonController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(782): PersonController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/PersonController.php(126): PersonController->render()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): PersonController->actionExam5()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yii/framework/web/CController.php(286): PersonController->runAction()
+#6 /var/www/yii/framework/web/CController.php(265): PersonController->runActionWithFilters()
+#7 /var/www/yii/framework/web/CWebApplication.php(282): PersonController->run()
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/person/exam5
+in /var/www/yiitestapp/protected/views/person/exam5.php (79)
+in /var/www/yiitestapp/protected/controllers/PersonController.php (126)
+in /var/www/yiitestapp/index.php (13)
+2015/10/15 18:27:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "kharkov-Patrick-Irish-Pub.png".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('kharkov-Patrick...')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('kharkov-Patrick...')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('person/kharkov-...')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/person/kharkov-Patrick-Irish-Pub.png
+HTTP_REFERER=http://localhost/index.php/person/exam5
+---
+2015/10/15 18:28:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "kharkov-Patrick-Irish-Pub.png".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('kharkov-Patrick...')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('kharkov-Patrick...')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('person/kharkov-...')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/person/kharkov-Patrick-Irish-Pub.png
+HTTP_REFERER=http://localhost/index.php/person/exam5
+---
+2015/10/15 18:29:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "kharkov-Patrick-Irish-Pub.png".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('kharkov-Patrick...')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('kharkov-Patrick...')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('person/kharkov-...')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/person/kharkov-Patrick-Irish-Pub.png
+HTTP_REFERER=http://localhost/index.php/person/exam5
+---
+2015/10/19 13:21:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('person/images/i...')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/person/images/icons/Food&Rest/kharkov-ti-amo-pizza.png
+HTTP_REFERER=http://localhost/index.php/person/exam5
+---
+2015/10/19 13:22:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('person/images/i...')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/person/images/icons/Food&Rest/kharkov-chili-tavern.png
+HTTP_REFERER=http://localhost/index.php/person/exam5
+---
+2015/10/19 13:22:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('person/images/i...')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/person/images/icons/Food&Rest/kharkov-The-Terrace.png
+HTTP_REFERER=http://localhost/index.php/person/exam5
+---
+2015/10/19 13:22:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('person/images/i...')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/person/images/icons/Food&Rest/kharkov-it-cafe.png
+HTTP_REFERER=http://localhost/index.php/person/exam5
+---
+2015/10/19 13:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('person/images/i...')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/person/images/icons/Food&Rest/kharkov-FreshLine.png
+HTTP_REFERER=http://localhost/index.php/person/exam5
+---
+2015/10/19 13:22:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('person/images/i...')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/person/images/icons/Food&Rest/kharkov-restoran-kontinent.png
+HTTP_REFERER=http://localhost/index.php/person/exam5
+---
+2015/10/20 16:04:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "$userIcon".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('$userIcon')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('$userIcon')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/$userIcon')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/$userIcon
+HTTP_REFERER=http://localhost/index.php/site/map
+---
+2015/10/20 16:04:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "$userIcon".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('$userIcon')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('$userIcon')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/$userIcon')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/$userIcon
+HTTP_REFERER=http://localhost/index.php/site/map
+---
+2015/10/20 16:04:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "$userIcon".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('$userIcon')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('$userIcon')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/$userIcon')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/$userIcon
+HTTP_REFERER=http://localhost/index.php/site/map
+---
+2015/10/20 16:04:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "$userIcon".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('$userIcon')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('$userIcon')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/$userIcon')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/$userIcon
+HTTP_REFERER=http://localhost/index.php/site/map
+---

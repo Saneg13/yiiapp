@@ -26,14 +26,14 @@
             xMAP.init('#map', myLatLng, 13);
 
             $("#showmarkers").click(function(e){
-                xMAP.placeMarkers('/Info');
+                xMAP.placeMarkers('/js/markers2.xml');
             });
         });
 
         var xMAP = {
             map: null,
             bounds: null
-        }
+            }
 
         xMAP.init = function(selector, latLng, zoom) {
             var myOptions = {
@@ -45,16 +45,36 @@
             this.bounds = new google.maps.LatLngBounds();
         }
 
-        xMAP.placeMarkers = function(filename) {
-            $.post(filename, function(json){
-                $(json).find("info").each(function(){
-                    var name = $(this).find('<?php echo $userName; ?>').text();
-                    var address = $(this).find('<?php echo $userAddress; ?>').text();
+        xMAP.placeMarkers = function (filename) {
+            $.get(filename, function(xml){
+                $(xml).find("marker").each(function(){
+                    // find fields 'name' in 'markers2.xml'
+                    var name = $(this).find('name').text();
+                    var address = $(this).find('address').text();
+
+                    // define source for images
+                    var pathSrc = '/images/icons/Food&Rest/';
+                    var img = $(this).find('image').text();
+                    var src;
+                    var DEFAULT_IMAGE = '/images/icons/avatar-default-icon.png';
+                    if (img !='')
+                    {
+                        src = pathSrc+img;
+                    }
+                    else
+                    {
+                        src = DEFAULT_IMAGE;
+                    }
+
+                    var image1 = '<div><IMG SRC='+src+' WIDTH="200" HEIGHT="160"></div>';
+                    console.log(src);
 
                     // create a new LatLng point for the marker
-                    var lat = $(this).find(<?php print $userLat; ?>).text();
-                    var lng = $(this).find(<?php print $userLng; ?>).text();
+                    var lat = $(this).find('lat').text();
+                    var lng = $(this).find('lng').text();
                     var point = new google.maps.LatLng(parseFloat(lat),parseFloat(lng));
+                    // some debug info
+                    // console.log(src); // отладка в JS -- вывод всех значений поля 'SRC+img'
 
                     // extend the bounds to include the new point
                     xMAP.bounds.extend(point);
@@ -67,6 +87,7 @@
 
                     markers.push(marker);
 
+
                     /*var markerCluster = new MarkerClusterer(xMAP.map, markers,
                      {
                      maxZoom: 5,
@@ -75,18 +96,30 @@
                      });*/
 
                     var infoWindow = new google.maps.InfoWindow();
-                    var html='<strong>'+name+'</strong.><br />'+address;
+
+                    console.log(src); // отладка в JS -- вывод всех значений поля 'somefield'*/
+
+                    // all content in string
+                    var html='<strong>'+name+'</strong.><br />'+address+'<br />'+image1;
+
                     google.maps.event.addListener(marker, 'click', function() {
+                        //set content
                         infoWindow.setContent(html);
+                        // and output markers on map
                         infoWindow.open(xMAP.map, marker);
                     });
                     xMAP.map.fitBounds(xMAP.bounds);
                 });
             });
         }
+        /*{
+            console.log("Code Log"); // выводит "Code Log" в панель консоли
+        }*/
     </script>
 </head>
-<body><div id="map"></div>
-<div ><input type="button" id="showmarkers" value="Показать" /></div>
+<body>
+<h1>Second Google map..</h1>
+<div id="map">Second Google map</div>
+<div ><input type="button" id="showmarkers" value="Показать маркеры" /></div>
 </body>
 </html>

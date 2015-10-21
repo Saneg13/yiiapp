@@ -69,7 +69,13 @@ html, body, #map-canvas {
 </p>
 <p>More, for example.. </br>
     <?php
-    echo CHtml::image('/images/icons/png/viking-icon.png');
+    $abc = '/images/icons/png/viking-icon.png';
+    $abd = '';
+    if ($abc !=''){
+        echo CHtml::image($abc);
+    } else {
+        echo "var is null";
+    }
     ?>
 </p>
 </body>

@@ -33,6 +33,7 @@
                 array('label'=>'Home', 'url'=>array('/site/index')),
                 array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
                 array('label'=>'Map', 'url'=>array('/site/map')),
+                array('label'=>'Second map', 'url'=>array('/person/exam5')),
                 array('label'=>'w/ Db', 'url'=>array('/info')),
                 array('label'=>'Test', 'url'=>array('/person/index')),
                 array('label'=>'Contact', 'url'=>array('/site/contact')),
