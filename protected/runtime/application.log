@@ -8545,3 +8545,20 @@ Stack trace:
 REQUEST_URI=/index.php/site/map
 in /var/www/yiitestapp/protected/controllers/SiteController.php (139)
 in /var/www/yiitestapp/index.php (13)
+2015/10/22 20:40:08 [error] [php] Undefined variable: abc (/var/www/yiitestapp/protected/views/site/map.php:73)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(156): SiteController->render()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionMap()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yii/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/map
+in /var/www/yiitestapp/protected/views/site/map.php (73)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (156)
+in /var/www/yiitestapp/index.php (13)

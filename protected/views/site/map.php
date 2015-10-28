@@ -69,19 +69,19 @@ html, body, #map-canvas {
 </p>
 <p>More, for example.. </br>
     <?php
-    $abc = '/images/icons/png/viking-icon.png';
-    $abd = '';
-    if ($abc !=''){
-        echo CHtml::image($abc);
-    } else {
-        echo "var is null";
-    }
-
+    $DEFAULT_IMAGE = '/images/icons/avatar-default-icon.png';
     foreach ($inf as $value) {
-        echo $value->user_name.' '.$value->user_address.'<br />'.CHtml::image($value->icon).'<br />';
+
+        if ($value->icon =='')
+        {
+            $value->icon = $DEFAULT_IMAGE;
+        }
+        echo '<div><b>User: '.$value->user_name.'</b><br />Who live in <u>'.$value->user_address.'</u><br />'.CHtml::image($value->icon).'<br /></div>';
+
+        /*echo $value->user_name.' '.$value->user_address.'<br />'.CHtml::image($value->icon).'<br />';*/
     }
 
-    // var_dump($info);
+    var_dump($inf);
     // echo $info;
 
     /*if ($id>0){
@@ -90,7 +90,7 @@ html, body, #map-canvas {
         }
     }
     else echo 'ERROOORRRR!!!';*/
-
+git
     ?>
 </p>
 </body>
