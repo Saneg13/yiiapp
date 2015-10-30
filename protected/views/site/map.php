@@ -51,7 +51,7 @@ html, body, #map-canvas {
             var marker = new google.maps.Marker({
                 position: latlng,
                 map: map,
-                title: 'Жмакни здесь!'
+                title: '<?php print $userName; ?>'
             });
             google.maps.event.addListener(marker, 'click', function() {infowindow.open(map,marker);
             });
@@ -65,6 +65,7 @@ html, body, #map-canvas {
     <?php
     print $userLat.'<br />';
     echo $userLng.'<br />';
+
     ?>
 </p>
 <p>More, for example.. </br>
@@ -90,7 +91,7 @@ html, body, #map-canvas {
         }
     }
     else echo 'ERROOORRRR!!!';*/
-git
+
     ?>
 </p>
 </body>
