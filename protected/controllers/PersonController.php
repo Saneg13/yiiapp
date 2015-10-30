@@ -97,8 +97,9 @@ class PersonController extends Controller
             'userLat'=>$json[2],
             'userLng'=>$json[3]),
             false);*/
+        $inf = Info::model()->findAll("id>0");
 
-        $this->render('exam2');
+        $this->render('exam2', array('person'=>$inf));
     }
 
     public function actionExam3()

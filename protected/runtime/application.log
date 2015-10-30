@@ -8562,3 +8562,31 @@ REQUEST_URI=/index.php/site/map
 in /var/www/yiitestapp/protected/views/site/map.php (73)
 in /var/www/yiitestapp/protected/controllers/SiteController.php (156)
 in /var/www/yiitestapp/index.php (13)
+2015/10/29 13:03:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "person".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('person')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('person')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('person/person/e...')
+#3 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/person/person/exam2
+HTTP_REFERER=http://localhost/index.php/person/exam2
+---
+2015/10/29 13:14:05 [error] [php] Array to string conversion (/var/www/yiitestapp/protected/views/person/exam2.php:47)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(869): PersonController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(782): PersonController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/PersonController.php(102): PersonController->render()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): PersonController->actionExam2()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yii/framework/web/CController.php(286): PersonController->runAction()
+#6 /var/www/yii/framework/web/CController.php(265): PersonController->runActionWithFilters()
+#7 /var/www/yii/framework/web/CWebApplication.php(282): PersonController->run()
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/person/exam2
+in /var/www/yiitestapp/protected/views/person/exam2.php (47)
+in /var/www/yiitestapp/protected/controllers/PersonController.php (102)
+in /var/www/yiitestapp/index.php (13)

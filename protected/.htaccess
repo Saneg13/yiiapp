@@ -1,10 +1,11 @@
-Deny from all
+# Deny from all
 
-<IfModule mod_rewrite.c>
-Options -MultiViews
-RewriteEngine On
-RewriteBase /
+RewriteEngine on
+
+# не позволять httpd отдавать файлы, начинающиеся с точки (.htaccess, .svn, .git и прочие)
+RedirectMatch 403 /\..*$
+# если директория или файл существуют, использовать их напрямую
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.php [L]
-</IfModule>
+# иначе отправлять запрос на файл index.php
+RewriteRule . index.php

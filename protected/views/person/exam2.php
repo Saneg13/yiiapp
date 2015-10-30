@@ -20,14 +20,14 @@
     <script type="text/javascript">
         $(document).ready(function() {
             $("#map").css({
-                height: 600,
-                width: 800
+                height: 500,
+                width: 600
             });
             var myLatLng = new google.maps.LatLng(49.988106, 36.229169);
             xMAP.init('#map', myLatLng, 13);
 
             $("#showmarkers").click(function(e){
-                xMAP.placeMarkers('person/exam2');
+                xMAP.placeMarkers('exam2');
             });
         });
 
@@ -45,6 +45,7 @@
             this.map = new google.maps.Map($(selector)[0], myOptions);
             this.bounds = new google.maps.LatLngBounds();
         }
+
 
         xMAP.placeMarkers = function (action) {
             $.get(action, function(xml){
