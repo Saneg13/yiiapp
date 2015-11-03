@@ -2,8 +2,8 @@
 /**
  * Created by PhpStorm.
  * User: sanek
- * Date: 15.09.15
- * Time: 11:40
+ * Date: 02.11.15
+ * Time: 20:49
  */
 ?>
 
@@ -27,7 +27,7 @@
             xMAP.init('#map', myLatLng, 13);
 
             $("#showmarkers").click(function(e){
-                xMAP.placeMarkers('/index.php/person/ajax');
+                xMAP.placeMarkers('/index.php/ajax/ajax2');
             });
         });
 
@@ -49,8 +49,11 @@
 
         xMAP.placeMarkers = function (action) {
             $.get(action, function(response){
-                '<?php echo json_decode('response') ?>'
+
                 alert(response);
+                var data = response;
+                console.log(data);
+
                 $(response).find("marker").each(function(){
                     // find fields 'name' in 'markers2.xml'
                     var name = $(this).find('name').text();
@@ -62,16 +65,11 @@
                     var src;
                     var DEFAULT_IMAGE = '/images/icons/avatar-default-icon.png';
                     if (img !='')
-                    {
-                        src = pathSrc+img;
-                    }
-                    else
-                    {
-                        src = DEFAULT_IMAGE;
-                    }
+                    {src = pathSrc+img; }
+                    else {src = DEFAULT_IMAGE; }
 
                     var image1 = '<div><IMG SRC='+src+' WIDTH="200" HEIGHT="160"></div>';
-                    console.log(src);
+                    /*console.log(src);*/
 
                     // create a new LatLng point for the marker
                     var lat = $(this).find('lat').text();
@@ -91,8 +89,7 @@
 
                     markers.push(marker);
 
-
-                    /*var markerCluster = new MarkerClusterer(xMAP.map, markers,
+                    /*var markerCluster = new MarkerClusterer(this.map, markers,
                      {
                      maxZoom: 5,
                      gridSize: 50,

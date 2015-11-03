@@ -178,4 +178,19 @@ class Info extends CActiveRecord
             )
         );*/
     }
+
+    public function getAllUserById()
+    {
+        $userList = Info::model()->findAll("id<0");
+        foreach ($userList as $value) {
+
+        }
+        return array(
+            $value->user_name,
+            $value->user_address,
+            $value->lat,
+            $value->lng,
+            $value->icon
+        );
+    }
 }
