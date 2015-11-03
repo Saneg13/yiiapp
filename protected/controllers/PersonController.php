@@ -102,6 +102,20 @@ class PersonController extends Controller
         $this->render('exam2', array('person'=>$inf));
     }
 
+    public function actionAjax()
+    {
+        /*if (Yii::app()->request->isAjax()) {
+
+            $model = new Info();
+            $inf = Info::model()->getUserInfo();;
+
+            echo json_encode($inf);
+        }*/
+        $somevar = 'xyyyyu!!';
+        echo $somevar;
+        Yii::app()->end();
+    }
+
     public function actionExam3()
     {
         $this->render('exam3');
@@ -178,33 +192,33 @@ class PersonController extends Controller
 	}
 	*/
 
-    public function actionAjax()
-    {
-        $model=new PersonForm;
-
-        // uncomment the following code to enable ajax-based validation
-
-        /*if(isset($_POST['ajax']) && $_POST['ajax']==='person-form-edit_person-form')
-        {
-            echo CActiveForm::validate($model);
-            Yii::app()->end();
-        }*/
-
-
-        if(isset($_POST['PersonForm']))
-        {
-            $model->attributes=$_POST['PersonForm'];
-            if($model->validate())
-            {
-                // form inputs are valid, do something here
-                print_r($_REQUEST);
-                return;
-            }
-        }
-
-        $this->render('person_form',array('model'=>$model));
-
-    }
+//    public function actionAjax()
+//    {
+//        $model=new PersonForm;
+//
+//        // uncomment the following code to enable ajax-based validation
+//
+//        /*if(isset($_POST['ajax']) && $_POST['ajax']==='person-form-edit_person-form')
+//        {
+//            echo CActiveForm::validate($model);
+//            Yii::app()->end();
+//        }*/
+//
+//
+//        if(isset($_POST['PersonForm']))
+//        {
+//            $model->attributes=$_POST['PersonForm'];
+//            if($model->validate())
+//            {
+//                // form inputs are valid, do something here
+//                print_r($_REQUEST);
+//                return;
+//            }
+//        }
+//
+//        $this->render('person_form',array('model'=>$model));
+//
+//    }
 
     public function actionExample()
     {
