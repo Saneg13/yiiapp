@@ -6,7 +6,7 @@
  * Time: 15:53
  */
 
-class AjaxController extends Controller
+class MapController extends Controller
 {
     public function accessRules()
     {
@@ -47,34 +47,32 @@ class AjaxController extends Controller
      */
     public function actionAjax1()
     {
-        $data = Info::model()->findAll("id>0");
+        $data = Info::model()->findAll();
 
         $this->renderPartial('_ajaxCont', array('infoList'=>$data), false, true);
     }
 
     public function actionExample2()
     {
-        // $inf = Info::model()->findAll("id>0");
-
         $this->render('example2');
-        // $this->render('example2', array('person'=>$inf));
     }
 
     public function actionAjax2()
     {
-        /*if (Yii::app()->request->isAjax()) {
+        if (Yii::app()->request->isAjax()) {
 
             $model = new Info();
             $inf = Info::model()->getUserInfo();;
 
             echo json_encode($inf);
-        }*/
-        $somevar = Info::model()->findAll("id>0");
-        // echo json_encode($somevar).'<br />';
+        }
+
+
+       /* $somevar = Info::model()->findAll();
 
         foreach ($somevar as $value) {
             echo $value->user_name.' with coords: ('.$value->lat.','.$value->lng.').<br />';
-        }
+        }*/
         Yii::app()->end();
     }
 
