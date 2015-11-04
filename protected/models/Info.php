@@ -132,6 +132,23 @@ class Info extends CActiveRecord
         }
     }
 
+    public function getUserInfo()
+    {
+        // в response только первая запить из таблицы, здесь скорее всего ошибка в способе вывода массива
+        $content = Info::model()->findAll();
+        foreach ($content as $key => $value) {
+
+            return array(
+                $value->user_name = $value['user_name'],
+                $value->user_address = $value['user_address'],
+                $value->lat = $value['lat'],
+                $value->lng = $value['lng'],
+                $value->icon = $value['icon']
+            );
+        }
+        return $content;
+    }
+
     public function getUserById()
     {
         $inf = Info::model()->findAll("id>0");
@@ -140,14 +157,14 @@ class Info extends CActiveRecord
 
             echo $value->user_name.' '.$value->user_address.'<br />'.CHtml::image($value->icon).'<br />';
         }
-        return array(
+        /*return array(
                 $value->id,
                 $value->user_name,
                 $value->user_address,
                 $value->lat,
                 $value->lng,
                 $value->icon
-            );
+            );*/
 
         /*$info = Info::model()->findAllByAttributes(
             array(),

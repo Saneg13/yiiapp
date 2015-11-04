@@ -35,7 +35,7 @@
 	methods = {
 		/**
 		 * yiiGridView set function.
-		 * @param options map settings for the grid view. Available options are as follows:
+		 * @param options ajax settings for the grid view. Available options are as follows:
 		 * - ajaxUpdate: array, IDs of the containers whose content may be updated by ajax response
 		 * - ajaxVar: string, the name of the request variable indicating the ID of the element triggering the AJAX request
 		 * - ajaxType: string, the type (GET or POST) of the AJAX request
@@ -243,7 +243,7 @@
 
 		/**
 		 * Performs an AJAX-based update of the grid view contents.
-		 * @param options map the AJAX request options (see jQuery.ajax API manual). By default,
+		 * @param options ajax the AJAX request options (see jQuery.ajax API manual). By default,
 		 * the URL to be requested is the one that generates the current content of the grid view.
 		 * @return object the jQuery object
 		 */
@@ -465,7 +465,7 @@
 	/**
 	 * Performs an AJAX-based update of the grid view contents.
 	 * @param id string the ID of the grid view container
-	 * @param options map the AJAX request options (see jQuery.ajax API manual). By default,
+	 * @param options ajax the AJAX request options (see jQuery.ajax API manual). By default,
 	 * the URL to be requested is the one that generates the current content of the grid view.
 	 */
 	$.fn.yiiGridView.update = function (id, options) {

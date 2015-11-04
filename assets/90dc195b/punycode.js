@@ -61,7 +61,7 @@
 	}
 
 	/**
-	 * A generic `Array#map` utility function.
+	 * A generic `Array#ajax` utility function.
 	 * @private
 	 * @param {Array} array The array to iterate over.
 	 * @param {Function} callback The function that gets called for every array
@@ -77,7 +77,7 @@
 	}
 
 	/**
-	 * A simple `Array#map`-like wrapper to work with domain name strings.
+	 * A simple `Array#ajax`-like wrapper to work with domain name strings.
 	 * @private
 	 * @param {String} domain The domain name.
 	 * @param {Function} callback The function that gets called for every
@@ -177,8 +177,8 @@
 	 * if flag is non-zero and `digit` has no uppercase form.
 	 */
 	function digitToBasic(digit, flag) {
-		//  0..25 map to ASCII a..z or A..Z
-		// 26..35 map to ASCII 0..9
+		//  0..25 ajax to ASCII a..z or A..Z
+		// 26..35 ajax to ASCII 0..9
 		return digit + 22 + 75 * (digit < 26) - ((flag != 0) << 5);
 	}
 

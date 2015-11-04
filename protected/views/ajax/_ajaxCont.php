@@ -11,8 +11,7 @@ foreach ($infoList as $value) {
     {
         $value->icon = $DEFAULT_IMAGE;
     }
-    echo '<br /><b>'.$value->user_name.' live at '.$value->user_address.'</b><br />'.CHtml::image(Yii::app()->request->baseUrl.$value->icon,
-            'alt tag',
+    echo '<br /><b>'.$value->user_name.' live at '.$value->user_address.'</b><br />'.CHtml::image(Yii::app()->request->baseUrl.$value->icon,'',
             array('width'=>'160px','height'=>'160px','title'=>'image title')).'<br />';
 
     /*echo CHtml::image(Yii::app()->request->baseUrl.$value->icon,

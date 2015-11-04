@@ -53,7 +53,7 @@ MYMAP.placeMarkers = function(filename) {
 
             markers.push(marker);
 
-            /*var markerCluster = new MarkerClusterer(MYMAP.map, markers,
+            /*var markerCluster = new MarkerClusterer(MYMAP.ajax, markers,
                 {
                     maxZoom: 5,
                     gridSize: 50,
