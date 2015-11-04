@@ -19,7 +19,7 @@
 <div id="example">
     <?php $this->renderPartial('_ajaxCont', array('infoList'=>$nullArr)); ?>
 </div>
-<button onclick="style.display='none'">Нажми и кнопка исчезнет</button><br /><br />
+<button onclick="style.display='none'">Press..</button><br /><br />
 <?php
 
 echo CHtml::ajaxButton ("Обновить данные",

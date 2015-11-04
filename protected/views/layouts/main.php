@@ -13,6 +13,8 @@
     <![endif]-->
 
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css">
+    <!--add bootstrap-->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css">
 
     <title><?php echo CHtml::encode($this->pageTitle); ?></title>
@@ -31,9 +33,11 @@
         <?php $this->widget('zii.widgets.CMenu',array(
             'items'=>array(
                 array('label'=>'Home', 'url'=>array('/site/index')),
-                array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
-                array('label'=>'Map', 'url'=>array('/site/map')),
-                array('label'=>'Second map', 'url'=>array('/person/exam5')),
+                /*array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),*/
+                array('label'=>'Map w/ AJAX', 'url'=>array('/ajax/example2')),
+                array('label'=>'Yandex map', 'url'=>array('/ajax/example3')),
+                array('label'=>'Google map', 'url'=>array('/site/map')),
+                array('label'=>'Second Google map', 'url'=>array('/person/exam5')),
                 array('label'=>'w/ Db', 'url'=>array('/info')),
                 array('label'=>'Test', 'url'=>array('/person/index')),
                 array('label'=>'Contact', 'url'=>array('/site/contact')),
