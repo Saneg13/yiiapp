@@ -52,8 +52,8 @@ class Arena
         while ($this->getFighter1()->getHealth() > 0 && $this->getFighter2()->getHealth() > 0) {
             $this->fighter1->setHealth($this->fighter1->getHealth() - $this->fighter2->getDamage());
             $this->fighter2->setHealth($this->fighter2->getHealth() - $this->fighter1->getDamage());
-            print $this->getFighter1()->getHealth() . " health remains a fighter 1. <br />";
-            print $this->getFighter2()->getHealth() . " health remains a fighter 2. <br />";
+            echo $this->getFighter1()->getHealth() . " health remains a fighter 1. <br />";
+            echo $this->getFighter2()->getHealth() . " health remains a fighter 2. <br />";
         }
 
     }

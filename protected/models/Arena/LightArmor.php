@@ -53,4 +53,9 @@ class LightArmor extends Armor {
         return $this->defense;
     }
 
+    public function name()
+    {
+        return get_class($this);
+    }
+
 }

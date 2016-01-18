@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="language" content="en">
+    <meta name="language" content="ru">
 
     <!-- blueprint CSS framework -->
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/screen.css" media="screen, projection">
@@ -13,9 +13,11 @@
     <![endif]-->
 
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css">
-    <!--add bootstrap-->
-    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <!--for enable bootstrap uncomment next code-->
+    <!--<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">-->
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css">
+    <!--add my css style-->
+    <link rel="stylesheet" type="text/css" href="/css/my_css.css" >
 
     <title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
@@ -25,24 +27,72 @@
 <div class="container" id="page">
 
     <div id="header">
-        <div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
-        <div id="SinoptikInformer" style="width:716px;" class="SinoptikInformer type1c1 htic1"><div class="siHeader"><div class="siLh"><div class="siMh"><a onmousedown="siClickCount();" href="https://sinoptik.ua/" target="_blank">Погода</a><a onmousedown="siClickCount();" class="siLogo" href="https://sinoptik.ua/" target="_blank"> </a> <span id="siHeader"></span></div></div></div><div class="siBody"><table><tbody><tr><td class="siCityV" style="width:33.333333333333336%;"><div class="siCityName"><a onmousedown="siClickCount();" href="https://sinoptik.ua/погода-киев" target="_blank">Погода в <span>Киеве</span></a><td class="siCityV" style="width:33.333333333333336%;"><div class="siCityName"><a onmousedown="siClickCount();" href="https://sinoptik.ua/погода-харьков" target="_blank">Погода в <span>Харькове</span></a><td class="siCityV" style="width:33.333333333333336%;"><div class="siCityName"><a onmousedown="siClickCount();" href="https://sinoptik.ua/погода-лисичанск" target="_blank">Погода в <span>Лисичанске</span></a></div></tr><tr><td style="width:33.333333333333336%;"><div class="siCityV2"><div id="siCont0" class="siBodyContent"><div class="siLeft"><div class="siTerm"></div><div class="siT" id="siT0"></div><div id="weatherIco0"></div></div><div class="siInf"><p>влажность: <span id="vl0"></span></p><p>давление: <span id="dav0"></span></p><p>ветер: <span id="wind0"></span></p></div></div></div></td><td style="width:33.333333333333336%;"><div class="siCityV2"><div id="siCont1" class="siBodyContent"><div class="siLeft"><div class="siTerm"></div><div class="siT" id="siT1"></div><div id="weatherIco1"></div></div><div class="siInf"><p>влажность: <span id="vl1"></span></p><p>давление: <span id="dav1"></span></p><p>ветер: <span id="wind1"></span></p></div></div></div></td><td style="width:33.333333333333336%;"><div class="siCityV2"><div id="siCont2" class="siBodyContent"><div class="siLeft"><div class="siTerm"></div><div class="siT" id="siT2"></div><div id="weatherIco2"></div></div><div class="siInf"><p>влажность: <span id="vl2"></span></p><p>давление: <span id="dav2"></span></p><p>ветер: <span id="wind2"></span></p></div></div></div></td></tr></tbody></table><div class="siLinks"><span><a onmousedown="siClickCount();" href="https://sinoptik.ua/погода-кременчуг" target="_blank">Погода в Кременчуге</a>&nbsp;</span><span><a onmousedown="siClickCount();" href="https://sinoptik.ua/погода-мелитополь" target="_blank">Погода в Мелитополе</a>&nbsp;</span></div></div><div class="siFooter"><div class="siLf"><div class="siMf"></div></div></div></div><script type="text/javascript" charset="UTF-8" src="//sinoptik.ua/informers_js.php?title=1&amp;wind=3&amp;cities=303010783,303027839,303013956&amp;lang=ru"></script>
+        <!--<div id="logo"><?php /*echo CHtml::encode(Yii::app()->name); */?></div>-->
+        <div>
+            <?php
+            $image1 = CHtml::image('/images/logo.png',
+                'CHtml::encode(Yii::app()->name)',
+            array(
+                'width'=>'172px',
+                'height'=>'100px',
+                'title'=>CHtml::encode(Yii::app()->name),
+            ));
+            $image2 = CHtml::image('/images/knitting-blog-logo.png',
+                'CHtml::encode(Yii::app()->name)',
+                array(
+                    'width'=>'320px',
+                    'height'=>'100px',
+                    'title'=>'Блог о вязании',
+                ));
+            $image3 = CHtml::image('/images/japan-watch-logo.png',
+                'CHtml::encode(Yii::app()->name)',
+                array(
+                    'width'=>'275px',
+                    'height'=>'100px',
+                    'title'=>'Japan Watch Store',
+                ));
+            echo CHtml::link($image1,'http://saneg13-test-site.pp.ua');
+            echo CHtml::link($image2,'http://saneg13-test-site.pp.ua/wp_blog');
+            echo CHtml::link($image3,'http://saneg13-test-site.pp.ua/oc_shop');
+            ?>
+
     </div><!-- header -->
 
-    <div id="mainmenu">
-        <?php $this->widget('zii.widgets.CMenu',array(
+    <div id="mainMbMenu">
+        <?php
+        $image1 = CHtml::image('/images/small-logo-100x75.png',
+            'CHtml::encode(Yii::app()->name)',
+            array(
+                'width'=>'23px',
+                'height'=>'13px',
+                'title'=>CHtml::encode(Yii::app()->name),
+            ));
+        $this->widget('application.extensions.mbmenu.MbMenu',array(
+            'encodeLabel'=>false,
             'items'=>array(
-                array('label'=>'Home', 'url'=>array('/site/index')),
-                /*array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),*/
-                array('label'=>'Map w/ AJAX', 'url'=>array('/ajax/example2')),
-                array('label'=>'Yandex map', 'url'=>array('/ajax/example3')),
-                array('label'=>'Google map', 'url'=>array('/site/map')),
-                array('label'=>'Second Google map', 'url'=>array('/person/exam5')),
-                array('label'=>'w/ Db', 'url'=>array('/info')),
-                array('label'=>'Test', 'url'=>array('/person/index')),
-                array('label'=>'Contact', 'url'=>array('/site/contact')),
-                array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-                array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
+                array('label'=>$image1.' Домой', 'url'=>array('/site/index')),
+                array('label'=>$image1.' ООП игра Арена', 'url'=>array('/test/arena')),
+                array('label'=>$image1.' Работа с картами', 'url'=>array('/test/gmap1'), 'items'=>array(
+                    array('label'=>$image1.' My first map', 'url'=>array('/test/gmap1')),
+                    array('label'=>$image1.' GM API + MySQL', 'url'=>array('/test/gmap2')),
+                    array('label'=>$image1.' GM API + jQuery + XML', 'url'=>array('/test/gmap3')),
+                    array('label'=>$image1.' Simple Yandex Map', 'url'=>array('/test/ymap'), 'items'=>array(
+                        array('label'=>$image1.' Invalid action 1', 'url'=>array('/test/test')),
+                        array('label'=>$image1.' Invalid action 2', 'url'=>array('/test/test2')),
+                    )),
+                )),
+                array('label'=>$image1.' Работа с БД', 'url'=>array('/exercise/index'), 'items'=>array(
+                    array('label'=>$image1.' Упражнения', 'url'=>array('/exercise/index')),
+                    array('label'=>$image1.' Info data (CRUD)', 'url'=>array('/info/index')),
+                    array('label'=>$image1.' w/ renderPartial', 'url'=>array('/person/index')),
+                    array('label'=>$image1.' w/ Drag&Drop', 'url'=>array('/test/dragdrop')),
+                )),
+                // array('label'=>$image1.' Contact', 'url'=>array('/site/contact')),
+                array('label'=>'О сайте', 'url'=>array('/site/page', 'view'=>'about'), 'items'=>array(
+                    array('label'=>$image1.' CSS test', 'url'=>array('/test/css')),
+                )),
+                array('label'=>$image1.' Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
+                array('label'=>$image1.' Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest),
             ),
         )); ?>
     </div><!-- mainmenu -->
@@ -57,8 +107,9 @@
     <div class="clear"></div>
 
     <div id="footer">
-        Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
-        All Rights Reserved.<br/>
+        Copyright &copy; <?php echo date('Y'); ?> by SaNeG13.<br/>
+        <!--All Rights Reserved.-->
+        <br/>
         <?php echo Yii::powered(); ?>
     </div><!-- footer -->
 

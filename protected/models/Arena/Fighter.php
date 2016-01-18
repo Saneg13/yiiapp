@@ -81,12 +81,21 @@ class Fighter {
         return $this->weapon->name();
     }
 
+    /*
+     * @return mixed
+     */
+    public function getArmorName()
+    {
+        return $this->armor->name();
+    }
+
     /**
      * @return string
      */
     public function getSum()
     {
-        return $this->armor->getCost() + $this->weapon->getCost() . " - cost Fighter's things with " . $this->weapon->name() . " <br />";
+        //return $this->armor->getCost() + $this->weapon->getCost() . " - cost Fighter's things with " . $this->weapon->name() . " <br />";
+        return $this->armor->getCost() + $this->weapon->getCost(). " <br />";
     }
 
 }

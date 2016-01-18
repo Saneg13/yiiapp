@@ -7,7 +7,8 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'Mess Around (by Ray Charles)',
+	'name'=>'Mess Around ..',
+    'language'=>'ru',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -43,11 +44,19 @@ return array(
             'class' => 'system.web.CClientScript'
         ),
 
+        'syntaxhighlighter' => array(
+            'class' => 'ext.JMSyntaxHighlighter.JMSyntaxHighlighter',
+            'theme' => 'Eclipse',
+        ),
+        /*'CssMenu' => array(
+            'class' => 'ext.cssmenu.CssMenu',
+        ),*/
+
 		// uncomment the following to enable URLs in path-format
 
 		'urlManager'=>array(
 			'urlFormat'=>'path',
-            'showScriptName'=>true, // убираем название скрипта из урл
+            'showScriptName'=>false, // убираем название скрипта из урл
             'rules'=>array(
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
@@ -86,6 +95,6 @@ return array(
 	// using Yii::app()->params['paramName']
 	'params'=>array(
 		// this is used in contact page
-		'adminEmail'=>'admin@exampleapp.com',
+		'adminEmail'=>'admin@yiitestapp.com',
 	),
 );

@@ -3,16 +3,16 @@
 /* @var $model Info */
 
 $this->breadcrumbs=array(
-	'Infos'=>array('index'),
-	'Create',
+	'Информация'=>array('index'),
+	'Создать',
 );
 
 $this->menu=array(
-	array('label'=>'List Info', 'url'=>array('index')),
-	array('label'=>'Manage Info', 'url'=>array('admin')),
+	array('label'=>'Список информации', 'url'=>array('index')),
+	array('label'=>'Управление инфрмацией', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Info</h1>
+<h1>Создать инфо-блок</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>
