@@ -18,7 +18,7 @@ class Info extends CActiveRecord
      */
     public function tableName()
     {
-        return 'info';
+        return 'yii_info';
     }
 
     /**
@@ -135,18 +135,18 @@ class Info extends CActiveRecord
     public function getUserInfo()
     {
         // в response только первая запить из таблицы, здесь скорее всего ошибка в способе вывода массива
-        $content = Info::model()->findAll();
+        $content = Info::model()->findAll('id>0');
+
         foreach ($content as $key => $value) {
 
             return array(
-                $value->user_name = $value['user_name'],
-                $value->user_address = $value['user_address'],
-                $value->lat = $value['lat'],
-                $value->lng = $value['lng'],
-                $value->icon = $value['icon']
+                'user_name' => $value->user_name,
+                'user_address' => $value->user_address,
+                'lat' => $value->lat,
+                'lng' => $value->lng,
+                'icon' => $value->icon
             );
         }
-        return $content;
     }
 
     public function getUserById()

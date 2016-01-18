@@ -3,16 +3,16 @@
 /* @var $model Info */
 
 $this->breadcrumbs=array(
-	'Infos'=>array('index'),
+	'Информация'=>array('index'),
 	$model->id=>array('view','id'=>$model->id),
-	'Update',
+	'Обновить',
 );
 
 $this->menu=array(
-	array('label'=>'List Info', 'url'=>array('index')),
-	array('label'=>'Create Info', 'url'=>array('create')),
-	array('label'=>'View Info', 'url'=>array('view', 'id'=>$model->id)),
-	array('label'=>'Manage Info', 'url'=>array('admin')),
+	array('label'=>'Список информации', 'url'=>array('index')),
+	array('label'=>'оздать инфо-блок', 'url'=>array('create')),
+	array('label'=>'Просмотр информации', 'url'=>array('view', 'id'=>$model->id)),
+	array('label'=>'Управление информацией', 'url'=>array('admin')),
 );
 ?>
 

@@ -5,7 +5,6 @@
 * Date: 08.07.15
 * Time: 20:32
 */
-
 ?>
 
 <!DOCSTYLE HTML>
@@ -13,14 +12,17 @@
 <head>
     <meta charset="utf-8">
     <title>Страница для тестов с renderPartial</title>
-    <link rel="stylesheet" type="text/css" href="/css/my_css.css" ><link rel="stylesheet" type="text/css" href="/css/my_css.css" >
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+    <script type="text/javascript">
+        document.getElementById('t').style.color = '#00ff00';
+    </script>
 </head>
 <body>
+    <h3>Страница для тестов с renderPartial</h3>
 <div id="view">
     <?php $this->renderPartial('_ajaxContent', array('myValue1'=>$myValue, 'myValue3'=>$myValue2)); ?>
-</div>
 
+</div>
 <?php echo CHtml::ajaxButton ("Update data",
     CController::createUrl('Person/UpdateAjax'),
     array('update' => '#view'));

@@ -154,7 +154,7 @@ class InfoController extends Controller
 	{
 		$model=Info::model()->findByPk($id);
 		if($model===null)
-			throw new CHttpException(404,'The requested page does not exist.');
+			throw new CHttpException(404,'Запрашиваемая страница не существует.');
 		return $model;
 	}
 

@@ -11,7 +11,7 @@ $(document).ready(function() {
     xMAP.init('#map', myLatLng, 13);
 
     $("#showmarkers").click(function(e){
-        xMAP.placeMarkers('/index.php/ajax/ajax2');
+        xMAP.placeMarkers('/test/showusers');
     });
 });
 
@@ -33,19 +33,21 @@ xMAP.init = function(selector, latLng, zoom) {
 xMAP.placeMarkers = function (action) {
     $.get(action, function(response){
 
-        /*alert(response);*/
+        // alert(response);
+
         var data = JSON.parse(response);
-        // console.log(data['0']);
+        // alert(data);
+        console.log(data);
 
         $(data).each(function(){
-            // find fields 'name' in 'markers2.xml'
-            var name = data['0'];
-            var address = data['1'];
-            console.log(name);
+            // find fields
+            var name = data.user_name;
+            var address = data.user_address;
+            // console.log(name);
             //
             // define source for images
-            // var pathSrc = '/images/icons/Food&Rest/';
-            var img = data['4'];
+            var pathSrc = '/images/icons/png/';
+            var img = data.icon;
             var src;
             var DEFAULT_IMAGE = '/images/icons/avatar-default-icon.png';
             if (img !='')
@@ -54,8 +56,8 @@ xMAP.placeMarkers = function (action) {
             //
             var image1 = '<div><IMG SRC='+src+' WIDTH="160" HEIGHT="160"></div>';
             // create a new LatLng point for the marker
-            var lat = data['2'];
-            var lng = data['3'];
+            var lat = data.lat;
+            var lng = data.lng;
             var point = new google.maps.LatLng(parseFloat(lat),parseFloat(lng));
 
             // extend the bounds to include the new point
@@ -64,7 +66,8 @@ xMAP.placeMarkers = function (action) {
             var markers = [];
             var marker = new google.maps.Marker({
                 position: point,
-                map: xMAP.map
+                map: xMAP.map,
+                title: name
             });
 
             markers.push(marker);
@@ -82,6 +85,7 @@ xMAP.placeMarkers = function (action) {
             // console.log(src); // отладка в JS -- вывод всех значений поля 'somefield'*/
 
             // all content in string
+            //var html='<strong>'+name+'</strong.><br />'+address;
             var html='<strong>'+name+'</strong.><br />'+address+'<br />'+image1;
 
             google.maps.event.addListener(marker, 'click', function() {

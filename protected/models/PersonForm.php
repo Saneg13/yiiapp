@@ -15,7 +15,7 @@ class PersonForm extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'person';
+		return 'yii_person';
 	}
 
 	/**
