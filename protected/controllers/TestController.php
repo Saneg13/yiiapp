@@ -5,6 +5,7 @@
  * Date: 15.01.16
  * Time: 14:28
  */
+Yii::app()->theme = 'classic';
 
 class TestController extends Controller {
 
@@ -96,6 +97,13 @@ class TestController extends Controller {
         //$this->renderPartial('_ajaxCont', array('infoList'=>$data), false, true);
     }
 
+    public function actionTheme()
+    {
+        $a = new CThemeManager();
+
+        $this->render('theme', array('a'=>$a));
+    }
+
     public function actionGmap2()
     {
         // $inf = Info::model()->getUserInfo();
@@ -173,5 +181,12 @@ class TestController extends Controller {
     public function actionCss()
     {
         $this->render('css');
+    }
+
+    public function actionTable()
+    {
+        $table = new Table(8,10);
+
+        $this->render('table', array('table' => $table));
     }
 }

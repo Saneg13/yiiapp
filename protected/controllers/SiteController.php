@@ -1,7 +1,10 @@
 <?php
+Yii::app()->theme = 'test';
+
 
 class SiteController extends Controller
 {
+
 	/**
 	 * Declares class-based actions.
 	 */
@@ -21,6 +24,16 @@ class SiteController extends Controller
 		);
 	}
 
+    /*public function init()
+    {
+        if(Yii::app()->user->isGuest)
+            Yii::app()->theme = 'test';
+        else
+            Yii::app()->theme = 'classic';
+
+        parent::init();
+    }*/
+
 	/**
 	 * This is the default 'index' action that is invoked
 	 * when an action is not explicitly requested by users.
@@ -29,12 +42,33 @@ class SiteController extends Controller
 	{
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
-		$this->render('index');
+
+        $this->render('index');
 
         /*for example..
         echo ("Привет! Это actionIndex()");*/
     }
 
+    public function actionPortfolio()
+    {
+        $this->render('portfolio');
+    }
+
+    public function actionProject()
+    {
+        $this->render('project');
+    }
+
+    public function actionContactMe()
+    {
+
+        $this->render('contact');
+    }
+
+    public function actionSource()
+    {
+        $this->render('source');
+    }
 
 	/**
 	 * This is the action to handle external exceptions.
@@ -105,9 +139,42 @@ class SiteController extends Controller
 	/**
 	 * Logs out the current user and redirect to homepage.
 	 */
+
+
 	public function actionLogout()
 	{
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
+
+    public function actionMyClassicTheme()
+    {
+//        $a = new CThemeManager();
+//
+//        foreach ($a->themeNames as $theme){
+//            echo $theme.'<hr/>';
+//        }
+
+        $a = CHtml::encode(Yii::app()->theme = 'classic');
+        echo $a;
+        $this->redirect(Yii::app()->homeUrl);
+//        $name = $a->themeNames[0];
+//        $theme = new MyTheme($name);
+//        Yii::app()->mytheme->setTheme($name);
+//        Yii::app()->mytheme->getTheme();
+//        $this->redirect(Yii::app()->homeUrl);
+        //$theme = 'classic';
+        //$form = new CThemeManager();
+        //$form->radioButtonList($form,'theme',array('classic'=>$name = $a->themeNames[0],'test'=>$name = $a->themeNames[1]), array('separator'=>' '));
+        //$this->render('index',array('a'=>$a));
+    }
+
+    public function actionMyTestTheme()
+    {
+
+        //$this->redirect(Yii::app()->theme = 'test');
+        $this->redirect(Yii::app()->theme->getTheme('test'));
+
+        //$this->redirect(Yii::app()->homeUrl);
+    }
 }

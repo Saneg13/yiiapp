@@ -6,7 +6,17 @@ h1,h3{
 p{
     color:green;
 }
-
+.logo {
+    border-radius: 25px; /* Радиус скругления */
+    border: 3px solid green; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+    margin-left: 2%; /* Отступ слева */
+    margin-right: 2%; /* Отступ справа */
+    margin-top: 10px; /* Отступ сверху */
+    margin-bottom: 10px; /* Отступ снизу */
+}
+/*for Drag&Drop*/
+/*first script*/
 .family {
     width: 256px;
     height: 256px;
@@ -14,11 +24,9 @@ p{
     padding: 5px;
     font-style: italic;
 }
-
 .friends {
     background: url(/images/icons/png/friends-icon.png) no-repeat;
 }
-
 .draggable {
     cursor: pointer;
 }
