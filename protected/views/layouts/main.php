@@ -107,10 +107,28 @@
     <div class="clear"></div>
 
     <div id="footer">
-        Copyright &copy; <?php echo date('Y'); ?> by SaNeG13.<br/>
+        Copyright &copy; 2015 - <?php echo date('Y'); ?> by SaNeG13.<br/>
         <!--All Rights Reserved.-->
         <br/>
-        <?php echo Yii::powered(); ?>
+        <?php echo Yii::powered(); ?><br/>
+        <hr/><h6>Для перехода в часть сайта с Test-темой выберите пункт <b>Меню->Домой</b></h6><hr/>
+        <!--<form name="form1" id="form1" method='post' action="<?php /*echo CHtml::normalizeUrl(array('index'))*/?>" style="margin:0;padding:0;">
+            &nbsp;&nbsp;
+            Theme: <SELECT name='mytheme' onchange=”Javascript:document.form1.submit()">
+                <?php
+/*                $arrTheme = Yii::app()->params['arrTheme'];
+                foreach($arrTheme as $value=>$display)
+                {
+                $dynamicTheme = (isset(Yii::app()->request->cookies['dynamicTheme']->value)) ? Yii::app()->request->cookies['dynamicTheme']->value : ";
+                $s = ";
+                if($value == $dynamicTheme) $s = 'selected';
+                echo "<option value='$value' $s>$display</option>";
+                }
+                */?>
+            </SELECT>
+        </form>-->
+<!--        --><?php //echo CHtml::button('Classic Theme', array('submit' => array('/site/myclassictheme'))); ?>
+<!--        --><?php //echo CHtml::button('Test Theme', array('submit' => array('/site/mytesttheme'))); ?>
     </div><!-- footer -->
 
 </div><!-- page -->

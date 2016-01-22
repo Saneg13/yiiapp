@@ -2,152 +2,185 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84ce664b-7537-4830-8ae9-40a0a3981fae" name="Default" comment="some shit2">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/down.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/gmaps.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/japan-watch-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/knitting-blog-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/mbmenu/source/nav1_active.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/mbmenu/source/nav1_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/mbmenu/source/nav1_sep.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/mbmenu/source/nav2_last_li_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/mbmenu/source/nav2_li_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/mbmenu/source/nav2_link_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/mbmenu/source/nav2_parent_arrow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/mbmenu/source/nav3_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/right.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/small-logo-100x75.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/mbmenu/Browser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/cssmenu/CssMenu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/DragManager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/JMSyntaxHighlighter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/mbmenu/MbMenu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/components/SHDetailView.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/controllers/TestController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/test/arena.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/test/css.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/cssmenu/assets/cssmenu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/test/debugging.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/test/dragdrop.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/scripts/jqueryslidemenu/jqueryslidemenu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/scripts/jqueryslidemenu/jqueryslidemenu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/mbmenu/source/mbmenu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/mbmenu/source/mbmenu_iestyles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/scroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/scripts/shAutoloader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/scripts/shBrushAS3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/scripts/shBrushAppleScript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/scripts/shBrushBash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/scripts/shBrushCSharp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/scripts/shBrushColdFusion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/scripts/shBrushCpp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/scripts/shBrushCss.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/scripts/shBrushDelphi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/scripts/shBrushDiff.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/scripts/shBrushErlang.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/scripts/shBrushGroovy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/scripts/shBrushJScript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/scripts/shBrushJava.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/scripts/shBrushJavaFX.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/scripts/shBrushPerl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/scripts/shBrushPhp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/scripts/shBrushPlain.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/scripts/shBrushPowerShell.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/scripts/shBrushPython.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/scripts/shBrushRuby.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/scripts/shBrushSass.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/scripts/shBrushScala.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/scripts/shBrushSql.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/scripts/shBrushVb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/scripts/shBrushXml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/styles/shCore.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/scripts/shCore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/styles/shCoreDefault.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/styles/shCoreDjango.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/styles/shCoreEclipse.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/styles/shCoreEmacs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/styles/shCoreFadeToGrey.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/styles/shCoreMDUltra.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/styles/shCoreMidnight.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/styles/shCoreRDark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/scripts/shLegacy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/styles/shThemeDefault.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/styles/shThemeDjango.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/styles/shThemeEclipse.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/styles/shThemeEmacs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/styles/shThemeFadeToGrey.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/styles/shThemeMDUltra.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/styles/shThemeMidnight.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/JMSyntaxHighlighter/syntaxhighlighter/styles/shThemeRDark.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/protected/controllers/AjaxController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/protected/views/ajax/example1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/protected/views/person/exam.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/protected/views/person/exam1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/protected/views/person/exam2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/protected/views/person/exam3.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/protected/views/person/exam4.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/protected/views/person/new1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/protected/views/person/person_form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/protected/views/site/dotest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/protected/views/site/fortest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/protected/views/site/phones.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/protected/views/site/test.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/fonts/YanoneKaffeesatz.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/fonts/YanoneKaffeesatzBold/YanoneKaffeesatzBold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/fonts/YanoneKaffeesatzExtraLight/YanoneKaffeesatzExtraLight.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/fonts/YanoneKaffeesatzLight/YanoneKaffeesatzLight.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/fonts/YanoneKaffeesatzRegular/YanoneKaffeesatzRegular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/aboutme.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/address-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/axis.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/prettyPhoto/light_square/btnNext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/prettyPhoto/light_square/btnPrevious.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/contact.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/prettyPhoto/light_square/default_thumbnail.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/download.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/dribbble.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/enlarge-ico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/facebook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/flickr.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/h2-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/inner-shadow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/linkedin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/list-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/list-check.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/prettyPhoto/light_square/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/site/contact-form/img/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/contact-form/img/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/mail-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/online-btn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/page-shadow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/phone-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/photo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/play-ico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-big1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-big10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-big11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-big12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-big13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-big14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-big15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-big16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-big17.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-big18.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-big2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-big3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-big4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-big5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-big6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-big7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-big8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-big9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/portfolio-btn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-min1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-min10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-min11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-min12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-min13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-min14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-min15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-min16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-min17.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-min18.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-min19.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-min2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-min20.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-min3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-min4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-min5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-min6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-min7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-min8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/sample/portfolio-min9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/portfolio-opacity.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/portfolio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/prev-next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/project.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/quote-top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/readmore-ico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/resume.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/prettyPhoto/light_square/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/star-active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/star-inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/stripe.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/submit-btn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/tweets-btn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/twitter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/vimeo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/visit-ico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/img/youtube.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/models/MyTheme.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/models/Table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/fonts/YanoneKaffeesatzBold/YanoneKaffeesatzBold.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/fonts/YanoneKaffeesatzBold/YanoneKaffeesatzBold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/fonts/YanoneKaffeesatzExtraLight/YanoneKaffeesatzExtraLight.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/fonts/YanoneKaffeesatzExtraLight/YanoneKaffeesatzExtraLight.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/fonts/YanoneKaffeesatzLight/YanoneKaffeesatzLight.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/fonts/YanoneKaffeesatzLight/YanoneKaffeesatzLight.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/fonts/YanoneKaffeesatzRegular/YanoneKaffeesatzRegular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/fonts/YanoneKaffeesatzRegular/YanoneKaffeesatzRegular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/person/_ajaxContent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/exercise/_form.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/info/_form.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/exercise/_search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/info/_search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/exercise/_view.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/info/_view.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/site/pages/about.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/exercise/admin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/info/admin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/site/contact-form/phpmailer/class.phpmailer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/contact-form/phpmailer/class.phpmailer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/layouts/column1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/layouts/column2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/site/contact.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/exercise/create.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/info/create.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/site/error.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/css/ie-fix.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/exercise/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/info/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/person/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/site/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/js/jquery-1.5.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/js/jquery.ScrollTo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/js/jquery.easing.1.3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/js/jquery.prettyPhoto.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/js/jquery.quicksand-config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/js/jquery.quicksand.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/js/jquery.tweet.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/site/contact-form/formValidator/jquery.validationEngine.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/contact-form/formValidator/jquery.validationEngine.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/jw-logo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/site/login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/layouts/main.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/site/portfolio.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/css/prettyPhoto.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/css/print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/site/project.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/site/contact-form/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/contact-form/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/js/scripts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/site/source.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/site/submit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/test/table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/test/theme.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/exercise/update.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/info/update.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/site/contact-form/formValidator/validationEngine.jquery.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/system/contact-form/formValidator/validationEngine.jquery.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/exercise/view.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/test/views/info/view.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test-site" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/yiiapp" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/yiitestapp" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/protected/views/ajax/_ajaxCont.php" afterPath="$PROJECT_DIR$/protected/views/test/_ajaxCont.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/protected/views/ajax/example2.php" afterPath="$PROJECT_DIR$/protected/views/test/map2.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/protected/views/ajax/example3.php" afterPath="$PROJECT_DIR$/protected/views/test/ymap.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/protected/views/person/exam5.php" afterPath="$PROJECT_DIR$/protected/views/test/map3.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/protected/views/person/form.php" afterPath="$PROJECT_DIR$/protected/views/test/form.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/protected/views/person/server1.php" afterPath="$PROJECT_DIR$/protected/views/test/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/protected/views/site/arena.php" afterPath="$PROJECT_DIR$/protected/components/Sinoptik.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/protected/views/site/map.php" afterPath="$PROJECT_DIR$/protected/views/test/map.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/bootstrap-3.3.5-dist.zip" afterPath="$PROJECT_DIR$/protected/modules/bootstrap-3.3.5-dist.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/protected/modules/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/protected/modules/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/protected/modules/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Arena/Arena.php" afterPath="$PROJECT_DIR$/protected/models/Arena/Arena.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Arena/Fighter.php" afterPath="$PROJECT_DIR$/protected/models/Arena/Fighter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Info.php" afterPath="$PROJECT_DIR$/protected/models/Info.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/InfoController.php" afterPath="$PROJECT_DIR$/protected/controllers/InfoController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Arena/LightArmor.php" afterPath="$PROJECT_DIR$/protected/models/Arena/LightArmor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/PersonController.php" afterPath="$PROJECT_DIR$/protected/controllers/PersonController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/PersonForm.php" afterPath="$PROJECT_DIR$/protected/models/PersonForm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/81135b3e/nav1_active.gif" afterPath="$PROJECT_DIR$/assets/81135b3e/nav1_active.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/81135b3e/nav1_bg.gif" afterPath="$PROJECT_DIR$/assets/81135b3e/nav1_bg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/81135b3e/nav1_sep.gif" afterPath="$PROJECT_DIR$/assets/81135b3e/nav1_sep.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/81135b3e/nav2_last_li_bg.png" afterPath="$PROJECT_DIR$/assets/81135b3e/nav2_last_li_bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/81135b3e/nav2_li_bg.png" afterPath="$PROJECT_DIR$/assets/81135b3e/nav2_li_bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/81135b3e/nav2_link_bg.gif" afterPath="$PROJECT_DIR$/assets/81135b3e/nav2_link_bg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/81135b3e/nav2_parent_arrow.gif" afterPath="$PROJECT_DIR$/assets/81135b3e/nav2_parent_arrow.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/81135b3e/nav3_bg.png" afterPath="$PROJECT_DIR$/assets/81135b3e/nav3_bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/small-logo-100x75.png" afterPath="$PROJECT_DIR$/images/small-logo-100x75.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/ContactForm.php" afterPath="$PROJECT_DIR$/protected/models/ContactForm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/components/Controller.php" afterPath="$PROJECT_DIR$/protected/components/Controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/components/Sinoptik.php" afterPath="$PROJECT_DIR$/protected/components/Sinoptik.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/SiteController.php" afterPath="$PROJECT_DIR$/protected/controllers/SiteController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/info/_form.php" afterPath="$PROJECT_DIR$/protected/views/info/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/pages/about.php" afterPath="$PROJECT_DIR$/protected/views/site/pages/about.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/info/admin.php" afterPath="$PROJECT_DIR$/protected/views/info/admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/TestController.php" afterPath="$PROJECT_DIR$/protected/controllers/TestController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/test/_ajaxCont.php" afterPath="$PROJECT_DIR$/protected/views/test/_ajaxCont.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/application.log" afterPath="$PROJECT_DIR$/protected/runtime/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/bootstrap-3.3.5-dist/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/protected/modules/bootstrap-3.3.5-dist/css/bootstrap-theme.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/bootstrap-3.3.5-dist/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/protected/modules/bootstrap-3.3.5-dist/css/bootstrap-theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/bootstrap-3.3.5-dist/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/protected/modules/bootstrap-3.3.5-dist/css/bootstrap-theme.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/bootstrap-3.3.5-dist/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/protected/modules/bootstrap-3.3.5-dist/css/bootstrap.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/bootstrap-3.3.5-dist/css/bootstrap.css" afterPath="$PROJECT_DIR$/protected/modules/bootstrap-3.3.5-dist/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/bootstrap-3.3.5-dist/js/bootstrap.js" afterPath="$PROJECT_DIR$/protected/modules/bootstrap-3.3.5-dist/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/bootstrap-3.3.5-dist/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/protected/modules/bootstrap-3.3.5-dist/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/bootstrap-3.3.5-dist/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/protected/modules/bootstrap-3.3.5-dist/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/info/create.php" afterPath="$PROJECT_DIR$/protected/views/info/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/config/database.php" afterPath="$PROJECT_DIR$/protected/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/frameworkRootSettings.xml" afterPath="$PROJECT_DIR$/.idea/frameworkRootSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/protected/modules/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/protected/modules/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/info/index.php" afterPath="$PROJECT_DIR$/protected/views/info/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/person/index.php" afterPath="$PROJECT_DIR$/protected/views/person/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/index.php" afterPath="$PROJECT_DIR$/protected/views/site/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/insertInfo.php" afterPath="$PROJECT_DIR$/protected/models/insertInfo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index-test.php" afterPath="$PROJECT_DIR$/index-test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/test/index.php" afterPath="$PROJECT_DIR$/protected/views/test/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/config/main.php" afterPath="$PROJECT_DIR$/protected/config/main.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/layouts/main.php" afterPath="$PROJECT_DIR$/protected/views/layouts/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/markers2.js" afterPath="$PROJECT_DIR$/js/markers2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/81135b3e/mbmenu.css" afterPath="$PROJECT_DIR$/assets/81135b3e/mbmenu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/81135b3e/mbmenu_iestyles.css" afterPath="$PROJECT_DIR$/assets/81135b3e/mbmenu_iestyles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/my_css.css" afterPath="$PROJECT_DIR$/css/my_css.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/my_script.js" afterPath="$PROJECT_DIR$/js/my_script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/bootstrap-3.3.5-dist/js/npm.js" afterPath="$PROJECT_DIR$/protected/modules/bootstrap-3.3.5-dist/js/npm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/info/update.php" afterPath="$PROJECT_DIR$/protected/views/info/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/info/view.php" afterPath="$PROJECT_DIR$/protected/views/info/view.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="62f55475-4959-41da-8f7e-e19d4ecd7665" name="Rejected commit: Default" comment="some shit2" />
@@ -185,22 +218,52 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
+        <entry file="file://$PROJECT_DIR$/protected/config/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0" vertical-offset="900" max-vertical-offset="1860">
-              <caret line="68" column="14" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
+            <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="1710">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/controllers/TestController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="2880">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
               <folding>
-                <marker date="1452871741834" expanded="true" signature="5212:5254" placeholder="..." />
+                <element signature="e#6#85#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6818182" vertical-offset="0" max-vertical-offset="525">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state vertical-scroll-proportion="51.875" vertical-offset="1260" max-vertical-offset="2775">
+              <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/test/views/layouts/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7553018" vertical-offset="767" max-vertical-offset="2700">
+              <caret line="82" column="110" selection-start-line="82" selection-start-column="110" selection-end-line="82" selection-end-column="110" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.666667" vertical-offset="1367" max-vertical-offset="2130">
+              <caret line="113" column="100" selection-start-line="113" selection-start-column="100" selection-end-line="113" selection-end-column="100" />
               <folding />
             </state>
           </provider>
@@ -219,57 +282,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/protected/extensions/exercise/_search.php" />
-        <option value="$PROJECT_DIR$/protected/views/exercise/_search.php" />
-        <option value="$PROJECT_DIR$/protected/views/exercise/_view.php" />
-        <option value="$PROJECT_DIR$/protected/extensions/exercise/admin.php" />
-        <option value="$PROJECT_DIR$/protected/views/exercise/admin.php" />
-        <option value="$PROJECT_DIR$/protected/extensions/exercise/create.php" />
-        <option value="$PROJECT_DIR$/protected/views/exercise/create.php" />
-        <option value="$PROJECT_DIR$/protected/extensions/exercise/index.php" />
-        <option value="$PROJECT_DIR$/protected/views/exercise/index.php" />
-        <option value="$PROJECT_DIR$/protected/extensions/exercise/update.php" />
-        <option value="$PROJECT_DIR$/protected/views/exercise/update.php" />
-        <option value="$PROJECT_DIR$/protected/extensions/exercise/view.php" />
-        <option value="$PROJECT_DIR$/protected/views/exercise/view.php" />
-        <option value="$PROJECT_DIR$/protected/views/exercise/_form.php" />
-        <option value="$PROJECT_DIR$/protected/views/ajax/example1.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/InfoController.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/Test.php" />
-        <option value="$PROJECT_DIR$/protected/views/test/index.php" />
-        <option value="$PROJECT_DIR$/protected/config/main.php" />
-        <option value="$PROJECT_DIR$/protected/models/Arena/LightArmor.php" />
-        <option value="$PROJECT_DIR$/protected/models/Arena/Fighter.php" />
-        <option value="$PROJECT_DIR$/protected/views/site/dotest.php" />
-        <option value="$PROJECT_DIR$/protected/views/site/arena.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
-        <option value="$PROJECT_DIR$/protected/views/test/_ajaxCont.php" />
-        <option value="$PROJECT_DIR$/protected/views/ajax/_ajaxCont.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/AjaxController.php" />
-        <option value="$PROJECT_DIR$/protected/views/test/example2.php" />
-        <option value="$PROJECT_DIR$/js/markers2.js" />
-        <option value="$PROJECT_DIR$/protected/views/test/ymap.php" />
         <option value="$PROJECT_DIR$/css/my_css.css" />
+        <option value="$PROJECT_DIR$/themes/test/views/layouts/column1.php" />
+        <option value="$PROJECT_DIR$/themes/test/views/system/index.html" />
+        <option value="$PROJECT_DIR$/themes/test/views/system/css/stylename.css" />
+        <option value="$PROJECT_DIR$/themes/test/views/system/css/print.css" />
+        <option value="$PROJECT_DIR$/themes/test/views/system/portfolio.html" />
+        <option value="$PROJECT_DIR$/themes/test/views/exercise/index.php" />
+        <option value="$PROJECT_DIR$/themes/test/views/site/index.php" />
+        <option value="$PROJECT_DIR$/themes/test/views/exercise/admin.php" />
+        <option value="$PROJECT_DIR$/themes/test/views/exercise/create.php" />
+        <option value="$PROJECT_DIR$/themes/test/views/exercise/update.php" />
+        <option value="$PROJECT_DIR$/themes/test/views/exercise/view.php" />
+        <option value="$PROJECT_DIR$/themes/test/views/layouts/column2.php" />
+        <option value="$PROJECT_DIR$/themes/test/views/info/admin.php" />
+        <option value="$PROJECT_DIR$/themes/test/views/info/create.php" />
+        <option value="$PROJECT_DIR$/themes/test/views/info/index.php" />
+        <option value="$PROJECT_DIR$/themes/test/views/info/update.php" />
+        <option value="$PROJECT_DIR$/themes/test/views/info/view.php" />
+        <option value="$PROJECT_DIR$/themes/test/views/person/index.php" />
+        <option value="$PROJECT_DIR$/themes/test/views/site/pages/form.html" />
+        <option value="$PROJECT_DIR$/themes/test/views/site/error.php" />
+        <option value="$PROJECT_DIR$/themes/test/views/site/login.php" />
+        <option value="$PROJECT_DIR$/themes/test/views/test/arena.php" />
+        <option value="$PROJECT_DIR$/themes/test/views/site/pages/about.php" />
+        <option value="$PROJECT_DIR$/themes/test/views/site/portfolio.php" />
+        <option value="$PROJECT_DIR$/themes/test/views/site/project.php" />
+        <option value="$PROJECT_DIR$/themes/test/views/site/contactme.php" />
+        <option value="$PROJECT_DIR$/index-test.php" />
+        <option value="$PROJECT_DIR$/themes/test/views/system/submit.php" />
+        <option value="$PROJECT_DIR$/themes/test/views/site/contact-form/script.js" />
+        <option value="$PROJECT_DIR$/themes/test/views/site/contact.php" />
+        <option value="$PROJECT_DIR$/themes/test/views/site/submit.php" />
+        <option value="$PROJECT_DIR$/themes/test/Template/Style-3/index.html" />
+        <option value="$PROJECT_DIR$/themes/test/views/system/css/main.css" />
+        <option value="$PROJECT_DIR$/themes/test/views/test/css.php" />
+        <option value="$PROJECT_DIR$/themes/test/views/test/debugging.php" />
+        <option value="$PROJECT_DIR$/themes/test/views/test/dragdrop.php" />
+        <option value="$PROJECT_DIR$/themes/test/views/site/sourse.php" />
+        <option value="$PROJECT_DIR$/themes/test/views/site/source.php" />
+        <option value="$PROJECT_DIR$/protected/models/MyTheme.php" />
         <option value="$PROJECT_DIR$/protected/views/test/map.php" />
-        <option value="$PROJECT_DIR$/protected/views/test/example4.php" />
-        <option value="$PROJECT_DIR$/protected/views/person/exam.php" />
-        <option value="$PROJECT_DIR$/protected/views/person/exam1.php" />
-        <option value="$PROJECT_DIR$/protected/views/person/exam3.php" />
-        <option value="$PROJECT_DIR$/protected/views/test/map2.php" />
+        <option value="$PROJECT_DIR$/protected/views/test/theme.php" />
         <option value="$PROJECT_DIR$/protected/views/site/index.php" />
-        <option value="$PROJECT_DIR$/protected/views/person/form.php" />
-        <option value="$PROJECT_DIR$/protected/views/test/css.php" />
-        <option value="$PROJECT_DIR$/protected/views/person/_ajaxContent.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/PersonController.php" />
-        <option value="$PROJECT_DIR$/protected/views/person/index.php" />
-        <option value="$PROJECT_DIR$/protected/views/test/map3.php" />
+        <option value="$PROJECT_DIR$/protected/views/test/table.php" />
+        <option value="$PROJECT_DIR$/yii-fr/framework/messages/config.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/protected/controllers/TestController.php" />
-        <option value="$PROJECT_DIR$/protected/views/test/arena.php" />
-        <option value="$PROJECT_DIR$/protected/views/info/_form.php" />
+        <option value="$PROJECT_DIR$/protected/components/Controller.php" />
+        <option value="$PROJECT_DIR$/protected/config/main.php" />
         <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
-        <option value="$PROJECT_DIR$/protected/views/test/dragdrop.php" />
-        <option value="$PROJECT_DIR$/protected/views/site/pages/about.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/themes/test/views/layouts/main.php" />
       </list>
     </option>
   </component>
@@ -350,26 +413,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiitestapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiitestapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiitestapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -522,10 +565,164 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yiitestapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yiitestapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yiitestapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yiitestapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yiitestapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yiitestapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yiitestapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yiitestapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yiitestapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yiitestapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yiitestapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yiitestapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yiitestapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yiitestapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yiitestapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yiitestapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yiitestapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../newsite3.com/symfony" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test-site" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Ignored.Files" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -534,7 +731,7 @@
     <property name="FullScreen" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///var/www/yiitestapp/images/nature_1.jpeg" />
+    <property name="SearchEverywhereHistoryKey" value="config.php&#9;FILE&#9;file:///var/www/yiitestapp/yii-fr/framework/messages/config.php" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="jsx.switch.disabled" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
@@ -542,18 +739,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/protected/views/test" />
-      <recent name="$PROJECT_DIR$/protected/extensions" />
-      <recent name="$PROJECT_DIR$/images" />
-      <recent name="$PROJECT_DIR$/protected" />
-      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/themes/test/views/site" />
+      <recent name="$PROJECT_DIR$/protected/models" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/themes/test/views" />
+      <recent name="$PROJECT_DIR$/themes/test/views/system/fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes/test/views/site" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/protected/views/person" />
       <recent name="$PROJECT_DIR$/protected" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/protected/models/Arena" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Web Application.test">
@@ -599,6 +796,9 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -606,9 +806,6 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <configuration default="false" name="test" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="test">
@@ -671,29 +868,29 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1215" height="804" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.49957228" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34117648" sideWeight="0.49957228" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34117648" sideWeight="0.49957228" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.49957228" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24978614" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3421728" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2035928" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16766468" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5004277" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.49957228" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33235294" sideWeight="0.49957228" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.49957228" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31323528" sideWeight="0.49957228" order="0" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -726,161 +923,150 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protected/scripts/jqueryslidemenu/jqueryslidemenu.js">
+    <entry file="file://$PROJECT_DIR$/themes/test/views/info/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
+        <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="555">
+          <caret line="18" column="83" selection-start-line="18" selection-start-column="83" selection-end-line="18" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/test/views/person/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="435">
+          <caret line="20" column="76" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/test/views/info/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33546326" vertical-offset="0" max-vertical-offset="626">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/test/views/info/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="345">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/test/views/site/error.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23961662" vertical-offset="0" max-vertical-offset="626">
+          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/test/views/site/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26357827" vertical-offset="0" max-vertical-offset="885">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/test/views/info/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64057505" vertical-offset="19" max-vertical-offset="960">
+          <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/test/views/site/pages/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.5416665" vertical-offset="137" max-vertical-offset="1200">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/test/views/site/portfolio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7063621" vertical-offset="3707" max-vertical-offset="4320">
+          <caret line="276" column="0" selection-start-line="276" selection-start-column="0" selection-end-line="276" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/test/views/site/project.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.291666" vertical-offset="752" max-vertical-offset="1425">
+          <caret line="89" column="32" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/test/views/system/contact-form/formValidator/jquery.validationEngine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.5102043" vertical-offset="3510" max-vertical-offset="10425">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/extensions/mbmenu/source/mbmenu.css">
+    <entry file="file://$PROJECT_DIR$/index-test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.095846646" vertical-offset="0" max-vertical-offset="626">
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/Sinoptik.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.291666" vertical-offset="872" max-vertical-offset="1545">
-          <caret line="97" column="126" selection-start-line="8" selection-start-column="0" selection-end-line="97" selection-end-column="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/layouts/column2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4313099" vertical-offset="0" max-vertical-offset="626">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/layouts/column1.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/ExerciseController.php">
+    <entry file="file://$PROJECT_DIR$/themes/test/views/site/contact-form/phpmailer/class.phpmailer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.375" vertical-offset="1575" max-vertical-offset="2685">
-          <caret line="128" column="5" selection-start-line="128" selection-start-column="5" selection-end-line="128" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.3670473" vertical-offset="885" max-vertical-offset="34875">
+          <caret line="74" column="37" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Info.php">
+    <entry file="file://$PROJECT_DIR$/themes/test/views/site/submit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0" vertical-offset="60" max-vertical-offset="3285">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        <state vertical-scroll-proportion="-7.3333335" vertical-offset="484" max-vertical-offset="1830">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Exercise.php">
+    <entry file="file://$PROJECT_DIR$/themes/test/views/system/css/print.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-36.25" vertical-offset="0" max-vertical-offset="1605">
-          <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1119" max-vertical-offset="3270">
+          <caret line="98" column="1" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/exercise/_search.php">
+    <entry file="file://$PROJECT_DIR$/themes/test/views/system/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.798722" vertical-offset="25" max-vertical-offset="675">
-          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2880" max-vertical-offset="15180">
+          <caret line="219" column="45" selection-start-line="219" selection-start-column="45" selection-end-line="219" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/exercise/_view.php">
+    <entry file="file://$PROJECT_DIR$/protected/views/test/dragdrop.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26357827" vertical-offset="0" max-vertical-offset="626">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        <state vertical-scroll-proportion="-3.125" vertical-offset="90" max-vertical-offset="1260">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="29" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/exercise/admin.php">
+    <entry file="file://$PROJECT_DIR$/css/form.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.95106035" vertical-offset="242" max-vertical-offset="915">
-          <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/exercise/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41598696" vertical-offset="0" max-vertical-offset="613">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/exercise/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47923324" vertical-offset="0" max-vertical-offset="626">
-          <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/exercise/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85318106" vertical-offset="2" max-vertical-offset="615">
-          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/exercise/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40734825" vertical-offset="0" max-vertical-offset="626">
-          <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/DragManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="2490">
+        <state vertical-scroll-proportion="-2.9230769" vertical-offset="1900" max-vertical-offset="2550">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/InfoController.php">
+    <entry file="file://$PROJECT_DIR$/themes/test/views/site/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5926518" vertical-offset="1519" max-vertical-offset="2685">
-          <caret line="126" column="42" selection-start-line="126" selection-start-column="42" selection-end-line="126" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.3115016" vertical-offset="0" max-vertical-offset="3630">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="285">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/test/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16773163" vertical-offset="0" max-vertical-offset="626">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Arena/LightArmor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.928115" vertical-offset="214" max-vertical-offset="915">
-          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Arena/Bow.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7364217" vertical-offset="334" max-vertical-offset="960">
-          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="61" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Arena/Sword.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.31789136" vertical-offset="199" max-vertical-offset="960">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Arena/Weapon.php">
+    <entry file="file://$PROJECT_DIR$/protected/models/Arena/Armor.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -889,54 +1075,104 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/Arena/Fighter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.541666" vertical-offset="887" max-vertical-offset="1515">
-          <caret line="97" column="77" selection-start-line="97" selection-start-column="77" selection-end-line="97" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/LoginForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.40734825" vertical-offset="615" max-vertical-offset="1245">
-          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.413738" vertical-offset="259" max-vertical-offset="885">
+        <state vertical-scroll-proportion="-0.5872757" vertical-offset="360" max-vertical-offset="1515">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
+    <entry file="file://$PROJECT_DIR$/protected/views/test/arena.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="1770">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/markers2.js">
+    <entry file="file://$PROJECT_DIR$/themes/test/views/site/source.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56153846" vertical-offset="850" max-vertical-offset="1575">
-          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.53833604" vertical-offset="0" max-vertical-offset="613">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/my_css.css">
+    <entry file="file://$PROJECT_DIR$/protected/views/exercise/create.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.046153847" vertical-offset="0" max-vertical-offset="660">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/PersonForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5159744" vertical-offset="949" max-vertical-offset="1890">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50319487" vertical-offset="0" max-vertical-offset="3285">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Arena/Bow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.98242813" vertical-offset="0" max-vertical-offset="960">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Exercise.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47923324" vertical-offset="0" max-vertical-offset="1605">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/test/debugging.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16773163" vertical-offset="0" max-vertical-offset="626">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/test/form.php">
+    <entry file="file://$PROJECT_DIR$/protected/controllers/PersonController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0063897" vertical-offset="0" max-vertical-offset="1410">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/test/map2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Arena/Arena.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.45833334" vertical-offset="94" max-vertical-offset="900">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/test/map.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8564437" vertical-offset="540" max-vertical-offset="1440">
+          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/MyTheme.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5990415" vertical-offset="0" max-vertical-offset="626">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/test/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -945,144 +1181,107 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5497553" vertical-offset="488" max-vertical-offset="1125">
-          <caret line="55" column="86" selection-start-line="55" selection-start-column="86" selection-end-line="55" selection-end-column="86" />
+        <state vertical-scroll-proportion="0.5350734" vertical-offset="512" max-vertical-offset="1125">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/test/css.php">
+    <entry file="file://$PROJECT_DIR$/protected/views/test/theme.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="390">
-          <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+        <state vertical-scroll-proportion="0.095846646" vertical-offset="0" max-vertical-offset="626">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/person/_ajaxContent.php">
+    <entry file="file://$PROJECT_DIR$/protected/views/test/table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="195">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="210">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding>
+            <element signature="e#6#85#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/PersonController.php">
+    <entry file="file://$PROJECT_DIR$/protected/models/ContactForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.0846646" vertical-offset="0" max-vertical-offset="1410">
-          <caret line="87" column="7" selection-start-line="87" selection-start-column="7" selection-end-line="87" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/person/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28753993" vertical-offset="0" max-vertical-offset="626">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.023961661" vertical-offset="150" max-vertical-offset="1590">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/test/map.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="1440">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/test/map2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45527157" vertical-offset="0" max-vertical-offset="626">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/test/map3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.833334" vertical-offset="1264" max-vertical-offset="1890">
-          <caret line="121" column="56" selection-start-line="121" selection-start-column="56" selection-end-line="121" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/test/ymap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.916666" vertical-offset="218" max-vertical-offset="855">
-          <caret line="53" column="29" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/info/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/exercise/_form.php">
+    <entry file="file://$PROJECT_DIR$/protected/controllers/ExerciseController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0833335" vertical-offset="109" max-vertical-offset="765">
-          <caret line="17" column="97" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="97" />
+        <state vertical-scroll-proportion="2.827476" vertical-offset="0" max-vertical-offset="2685">
+          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/info/_form.php">
+    <entry file="file://$PROJECT_DIR$/themes/test/views/site/contact.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40734825" vertical-offset="0" max-vertical-offset="945">
-          <caret line="17" column="97" selection-start-line="17" selection-start-column="97" selection-end-line="17" selection-end-column="97" />
+        <state vertical-scroll-proportion="0.11341853" vertical-offset="49" max-vertical-offset="1350">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/test/arena.php">
+    <entry file="file://$PROJECT_DIR$/yii-fr/framework/messages/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.122349106" vertical-offset="0" max-vertical-offset="613">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.4649266" vertical-offset="0" max-vertical-offset="613">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/test/_ajaxCont.php">
+    <entry file="file://$PROJECT_DIR$/protected/components/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="180">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/test/dragdrop.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875" vertical-offset="270" max-vertical-offset="1260">
-          <caret line="34" column="38" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/pages/about.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21565495" vertical-offset="0" max-vertical-offset="626">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.22022839" vertical-offset="195" max-vertical-offset="1035">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/TestController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39151713" vertical-offset="720" max-vertical-offset="2655">
-          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="2880">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="e#6#85#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="1710">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="51.875" vertical-offset="1260" max-vertical-offset="2775">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0" vertical-offset="900" max-vertical-offset="1860">
-          <caret line="68" column="14" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
-          <folding>
-            <marker date="1452871741834" expanded="true" signature="5212:5254" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="-13.666667" vertical-offset="1367" max-vertical-offset="2130">
+          <caret line="113" column="100" selection-start-line="113" selection-start-column="100" selection-end-line="113" selection-end-column="100" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/themes/test/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6818182" vertical-offset="0" max-vertical-offset="525">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.7553018" vertical-offset="767" max-vertical-offset="2700">
+          <caret line="82" column="110" selection-start-line="82" selection-start-column="110" selection-end-line="82" selection-end-column="110" />
           <folding />
         </state>
       </provider>

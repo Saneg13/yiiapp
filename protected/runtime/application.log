@@ -10802,3 +10802,1993 @@ Stack trace:
 REQUEST_URI=/Ajax/Ajax1?_=1452871814716
 HTTP_REFERER=http://localhost/test/dragdrop
 ---
+2016/01/20 10:30:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/yiitestapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/01/20 11:33:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "css".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('css')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/css/main.c...')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/css/main.css
+HTTP_REFERER=http://localhost/site/page?view=about
+---
+2016/01/20 11:33:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "css".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('css')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/css/print....')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/css/print.css
+HTTP_REFERER=http://localhost/site/page?view=about
+---
+2016/01/20 11:33:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('js')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('js')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/js/jquery.tweet.js
+HTTP_REFERER=http://localhost/site/page?view=about
+---
+2016/01/20 11:33:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "css".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('css')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/css/pretty...')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/css/prettyPhoto.css
+HTTP_REFERER=http://localhost/site/page?view=about
+---
+2016/01/20 11:33:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('js')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('js')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/js/jquery.easing.1.3.js
+HTTP_REFERER=http://localhost/site/page?view=about
+---
+2016/01/20 11:33:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('js')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('js')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/js/jquery-...')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/js/jquery-1.5.2.min.js
+HTTP_REFERER=http://localhost/site/page?view=about
+---
+2016/01/20 11:33:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('js')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('js')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/js/jquery.ScrollTo.js
+HTTP_REFERER=http://localhost/site/page?view=about
+---
+2016/01/20 11:33:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('js')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('js')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/js/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/site/page?view=about
+---
+2016/01/20 11:33:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('js')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('js')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/js/scripts...')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/js/scripts.js
+HTTP_REFERER=http://localhost/site/page?view=about
+---
+2016/01/20 11:33:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('js')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('js')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/js/jquery.quicksand.js
+HTTP_REFERER=http://localhost/site/page?view=about
+---
+2016/01/20 11:33:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('js')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('js')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/js/jquery.quicksand-config.js
+HTTP_REFERER=http://localhost/site/page?view=about
+---
+2016/01/20 11:33:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "css".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('css')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/css/main.c...')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/css/main.css
+HTTP_REFERER=http://localhost/site/page?view=about
+---
+2016/01/20 11:33:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('js')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('js')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/js/jquery.tweet.js
+HTTP_REFERER=http://localhost/site/page?view=about
+---
+2016/01/20 11:33:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('js')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('js')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/js/jquery.ScrollTo.js
+HTTP_REFERER=http://localhost/site/page?view=about
+---
+2016/01/20 11:33:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('js')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('js')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/js/jquery.prettyPhoto.js
+HTTP_REFERER=http://localhost/site/page?view=about
+---
+2016/01/20 11:33:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('js')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('js')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/js/jquery.easing.1.3.js
+HTTP_REFERER=http://localhost/site/page?view=about
+---
+2016/01/20 11:33:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('js')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('js')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/js/jquery.quicksand.js
+HTTP_REFERER=http://localhost/site/page?view=about
+---
+2016/01/20 11:33:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('js')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('js')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/js/jquery.quicksand-config.js
+HTTP_REFERER=http://localhost/site/page?view=about
+---
+2016/01/20 11:33:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "js".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('js')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('js')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/js/scripts...')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/js/scripts.js
+HTTP_REFERER=http://localhost/site/page?view=about
+---
+2016/01/20 12:00:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "view".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('view')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('view')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/view')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/view?=about
+---
+2016/01/20 12:01:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "view".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('view')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('view')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/view')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/view?=about
+---
+2016/01/20 12:01:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "view".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('view')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('view')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/view')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/view?=about
+---
+2016/01/20 16:01:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/yiitestapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/01/20 16:01:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/yiitestapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/01/21 09:06:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/yiitestapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/01/21 09:06:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/yiitestapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/01/21 12:23:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Запрашиваемый шаблон вида "index" не найден.' in /var/www/yiitestapp/yii-fr/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('index')
+#1 /var/www/yiitestapp/yii-fr/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /var/www/yiitestapp/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/site/page?=about
+---
+2016/01/21 12:24:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "page=about".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('page=about')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('page=about')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page=about')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/page=about
+---
+2016/01/21 12:24:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "view".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('view')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('view')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/view')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/view?=about
+---
+2016/01/21 12:24:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "about".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('about')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('about')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/about')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/about
+---
+2016/01/21 12:34:54 [error] [php] Array to string conversion (/var/www/yiitestapp/themes/test/views/layouts/main.php:73)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/widgets/CContentDecorator.php(76): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#2 /var/www/yiitestapp/yii-fr/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CBaseController.php(214): CContentDecorator->run()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CBaseController.php(308): SiteController->endWidget()
+#5 /var/www/yiitestapp/themes/test/views/layouts/column1.php(6): SiteController->endContent()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CBaseController.php(126): require()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CController.php(784): SiteController->renderFile()
+#9 /var/www/yiitestapp/protected/controllers/SiteController.php(32): SiteController->render()
+#10 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#12 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#13 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#14 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#15 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#17 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/index
+in /var/www/yiitestapp/themes/test/views/layouts/main.php (73)
+in /var/www/yiitestapp/themes/test/views/layouts/column1.php (6)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (32)
+2016/01/21 12:39:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "img".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('img')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/img/sample...')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/img/sample/photo.jpg
+HTTP_REFERER=http://localhost/site/page?view=about
+---
+2016/01/21 12:39:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "img".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('img')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/img/sample...')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/img/sample/photo.jpg
+HTTP_REFERER=http://localhost/site/page?view=about
+---
+2016/01/21 12:39:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "img".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('img')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/img/sample...')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/img/sample/photo.jpg
+HTTP_REFERER=http://localhost/site/page?view=about
+---
+2016/01/21 12:48:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "img".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('img')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/img/sample...')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/img/sample/photo.jpg
+HTTP_REFERER=http://localhost/site/page?view=about
+---
+2016/01/21 12:49:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "img".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('img')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/img/sample...')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/img/sample/photo.jpg
+HTTP_REFERER=http://localhost/site/page?view=about
+---
+2016/01/21 12:50:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "img".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('img')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/img/sample...')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/img/sample/photo.jpg
+HTTP_REFERER=http://localhost/site/page?view=about
+---
+2016/01/21 13:05:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "contact-me".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('contact-me')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('contact-me')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/contact-me')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/contact-me
+HTTP_REFERER=http://localhost/site/page?view=about
+---
+2016/01/21 13:07:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "contact-me".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('contact-me')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('contact-me')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/contact-me')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/contact-me
+HTTP_REFERER=http://localhost/site/page?view=about
+---
+2016/01/21 13:36:12 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contactme.php:18)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contactme.php (18)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 13:37:31 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contactme.php:18)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contactme.php (18)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 13:38:30 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contactme.php:18)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contactme.php (18)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 13:38:33 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contactme.php:18)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contactme.php (18)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 13:39:10 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contactme.php:18)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contactme.php (18)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 13:39:20 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contactme.php:18)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contactme.php (18)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 13:39:23 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contactme.php:18)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contactme.php (18)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 13:41:24 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contactme.php:18)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contactme.php (18)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 13:43:31 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contactme.php:18)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contactme.php (18)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 13:43:39 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contactme.php:18)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contactme.php (18)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 13:44:17 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contactme.php:18)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contactme.php (18)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 13:51:15 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contactme.php:18)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contactme.php (18)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 13:51:46 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contactme.php:18)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contactme.php (18)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 13:54:55 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contactme.php:18)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contactme.php (18)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 13:55:00 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contactme.php:18)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contactme.php (18)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 13:57:07 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contactme.php:18)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contactme.php (18)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 13:58:02 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contactme.php:18)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contactme.php (18)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 13:58:04 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contactme.php:18)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contactme.php (18)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 13:59:39 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contactme.php:18)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contactme.php (18)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 14:01:10 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contact.php:18)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contact.php (18)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 14:01:16 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contact.php:18)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contact.php (18)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 14:01:33 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contact.php:18)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contact.php (18)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 14:02:56 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contact.php:18)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContact()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contact
+in /var/www/yiitestapp/themes/test/views/site/contact.php (18)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 14:03:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "contactme".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('contactme')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('contactme')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/contactme')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/contactme
+---
+2016/01/21 14:03:08 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contact.php:18)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContact()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contact
+in /var/www/yiitestapp/themes/test/views/site/contact.php (18)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 14:03:31 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contact.php:18)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contact.php (18)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 14:08:30 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contact.php:18)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contact.php (18)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 14:13:52 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contact.php:13)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contact.php (13)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 14:14:48 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contact.php:13)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contact.php (13)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 14:15:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "theme/test/system/contact.php".' in /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('theme/test/syst...')
+#1 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/yiitestapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/theme/test/system/contact.php
+---
+2016/01/21 14:15:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "theme/test/view/system/contact.php".' in /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('theme/test/view...')
+#1 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/yiitestapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/theme/test/view/system/contact.php
+---
+2016/01/21 14:16:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "themes/test/view/system/contact.php".' in /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/test/vie...')
+#1 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/yiitestapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/test/view/system/contact.php
+---
+2016/01/21 14:24:25 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contact.php:13)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contact.php (13)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 14:25:10 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contact.php:13)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contact.php (13)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 14:28:30 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contact.php:13)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contact.php (13)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 14:29:41 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contact.php:13)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(50): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contact.php (13)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (50)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 14:41:17 [error] [php] require(contact-form/phpmailer/class.phpmailer.php): failed to open stream: No such file or directory (/var/www/yiitestapp/protected/controllers/SiteController.php:57)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#2 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/protected/controllers/SiteController.php (57)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (57)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 14:43:44 [error] [php] require(contact-form/phpmailer/class.phpmailer.php): failed to open stream: No such file or directory (/var/www/yiitestapp/protected/controllers/SiteController.php:57)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#2 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/protected/controllers/SiteController.php (57)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (57)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 14:43:50 [error] [php] require(contact-form/phpmailer/class.phpmailer.php): failed to open stream: No such file or directory (/var/www/yiitestapp/protected/controllers/SiteController.php:57)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#2 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/protected/controllers/SiteController.php (57)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (57)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 14:44:25 [error] [php] require(contact-form/phpmailer/class.phpmailer.php): failed to open stream: No such file or directory (/var/www/yiitestapp/protected/controllers/SiteController.php:57)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#2 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/protected/controllers/SiteController.php (57)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (57)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 14:44:30 [error] [php] require(contact-form/phpmailer/class.phpmailer.php): failed to open stream: No such file or directory (/var/www/yiitestapp/protected/controllers/SiteController.php:57)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#2 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/protected/controllers/SiteController.php (57)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (57)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 14:44:54 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contact.php:13)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(51): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contact.php (13)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (51)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 14:51:18 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contact.php:13)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(51): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contact.php (13)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (51)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 14:51:22 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contact.php:13)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(51): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contact.php (13)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (51)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 14:52:53 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contact.php:13)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(51): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contact.php (13)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (51)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 14:52:58 [error] [php] Undefined index: errStr (/var/www/yiitestapp/themes/test/views/site/contact.php:13)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(51): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionContactMe()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/contactme
+in /var/www/yiitestapp/themes/test/views/site/contact.php (13)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (51)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 16:11:16 [error] [php] Undefined variable: image1 (/var/www/yiitestapp/themes/test/views/layouts/main.php:82)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/widgets/CContentDecorator.php(76): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#2 /var/www/yiitestapp/yii-fr/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CBaseController.php(214): CContentDecorator->run()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CBaseController.php(308): SiteController->endWidget()
+#5 /var/www/yiitestapp/themes/test/views/layouts/column1.php(6): SiteController->endContent()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CBaseController.php(126): require()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CController.php(784): SiteController->renderFile()
+#9 /var/www/yiitestapp/protected/controllers/SiteController.php(32): SiteController->render()
+#10 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#12 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#13 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#14 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#15 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#17 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/index
+in /var/www/yiitestapp/themes/test/views/layouts/main.php (82)
+in /var/www/yiitestapp/themes/test/views/layouts/column1.php (6)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (32)
+2016/01/21 18:26:52 [error] [exception.CException] exception 'CException' with message 'Контроллер SiteController не может найти представление "source".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): CController->renderPartial('source', NULL, true)
+#1 /var/www/yiitestapp/protected/controllers/SiteController.php(56): CController->render('source')
+#2 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionSource()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('source')
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/source')
+#8 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/yiitestapp/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/source
+---
+2016/01/21 19:20:36 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CTheme.homeUrl".' in /var/www/yiitestapp/yii-fr/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/yiitestapp/protected/controllers/SiteController.php(143): CComponent->__get('homeUrl')
+#1 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionMyTestTheme()
+#2 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('mytesttheme')
+#6 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/mytestthem...')
+#7 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /var/www/yiitestapp/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/site/mytesttheme
+HTTP_REFERER=http://localhost/
+---
+2016/01/21 19:21:30 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CTheme.homeUrl".' in /var/www/yiitestapp/yii-fr/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/yiitestapp/protected/controllers/SiteController.php(143): CComponent->__get('homeUrl')
+#1 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionMyTestTheme()
+#2 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('mytesttheme')
+#6 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/mytestthem...')
+#7 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /var/www/yiitestapp/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/site/mytesttheme
+HTTP_REFERER=http://localhost/
+---
+2016/01/21 19:21:54 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CTheme.homeUrl".' in /var/www/yiitestapp/yii-fr/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/yiitestapp/protected/controllers/SiteController.php(143): CComponent->__get('homeUrl')
+#1 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionMyTestTheme()
+#2 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('mytesttheme')
+#6 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/mytestthem...')
+#7 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /var/www/yiitestapp/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/site/mytesttheme
+HTTP_REFERER=http://localhost/
+---
+2016/01/21 19:23:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "themes/test/site/index".' in /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/test/sit...')
+#1 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/yiitestapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/test/site/index
+HTTP_REFERER=http://localhost/
+---
+2016/01/21 19:24:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "themes/test/site/index".' in /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/test/sit...')
+#1 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/yiitestapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/test/site/index
+HTTP_REFERER=http://localhost/
+---
+2016/01/21 19:33:04 [error] [exception.CException] exception 'CException' with message 'В классе CWebApplication и его поведениях не найден метод или замыкание с именем "theme".' in /var/www/yiitestapp/yii-fr/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/yiitestapp/protected/controllers/SiteController.php(137): CComponent->__call('theme', Array)
+#1 /var/www/yiitestapp/protected/controllers/SiteController.php(137): CWebApplication->theme('classic')
+#2 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionMyClassicTheme()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('myclassictheme')
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/myclassict...')
+#8 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/yiitestapp/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/myclassictheme
+HTTP_REFERER=http://localhost/
+---
+2016/01/21 19:44:59 [error] [exception.CException] exception 'CException' with message 'Контроллер SiteController не может найти представление "index".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /var/www/yiitestapp/protected/controllers/SiteController.php(38): CController->render('index')
+#2 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('')
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#8 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/yiitestapp/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2016/01/21 19:46:45 [error] [exception.CException] exception 'CException' with message 'Контроллер SiteController не может найти представление "index".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /var/www/yiitestapp/protected/controllers/SiteController.php(38): CController->render('index')
+#2 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('')
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#8 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/yiitestapp/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2016/01/21 21:49:27 [error] [php] Missing argument 1 for MyTheme::__construct(), called in /var/www/yiitestapp/protected/controllers/SiteController.php on line 33 and defined (/var/www/yiitestapp/protected/models/MyTheme.php:12)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#2 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/yiitestapp/protected/models/MyTheme.php (12)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (33)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 21:50:09 [error] [php] Missing argument 1 for MyTheme::__construct(), called in /var/www/yiitestapp/protected/controllers/SiteController.php on line 33 and defined (/var/www/yiitestapp/protected/models/MyTheme.php:12)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#2 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/yiitestapp/protected/models/MyTheme.php (12)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (33)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 21:50:14 [error] [php] Missing argument 1 for MyTheme::__construct(), called in /var/www/yiitestapp/protected/controllers/SiteController.php on line 33 and defined (/var/www/yiitestapp/protected/models/MyTheme.php:12)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#2 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/yiitestapp/protected/models/MyTheme.php (12)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (33)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 21:51:01 [error] [php] Missing argument 1 for MyTheme::__construct(), called in /var/www/yiitestapp/protected/controllers/SiteController.php on line 33 and defined (/var/www/yiitestapp/protected/models/MyTheme.php:12)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#2 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/yiitestapp/protected/models/MyTheme.php (12)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (33)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 21:52:09 [error] [php] Missing argument 1 for MyTheme::__construct(), called in /var/www/yiitestapp/protected/controllers/SiteController.php on line 33 and defined (/var/www/yiitestapp/protected/models/MyTheme.php:12)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#2 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/yiitestapp/protected/models/MyTheme.php (12)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (33)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 21:52:20 [error] [php] Missing argument 1 for MyTheme::__construct(), called in /var/www/yiitestapp/protected/controllers/SiteController.php on line 33 and defined (/var/www/yiitestapp/protected/models/MyTheme.php:12)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#2 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/yiitestapp/protected/models/MyTheme.php (12)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (33)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 21:53:57 [error] [php] Missing argument 1 for MyTheme::__construct(), called in /var/www/yiitestapp/protected/controllers/SiteController.php on line 33 and defined (/var/www/yiitestapp/protected/models/MyTheme.php:12)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#2 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/yiitestapp/protected/models/MyTheme.php (12)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (33)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 21:54:43 [error] [php] Undefined variable: name (/var/www/yiitestapp/protected/views/site/index.php:59)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(40): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/yiitestapp/protected/views/site/index.php (59)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (40)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 21:55:26 [error] [php] Undefined variable: theme (/var/www/yiitestapp/protected/controllers/SiteController.php:34)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/yiitestapp/protected/controllers/SiteController.php (34)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 21:58:22 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebApplication.myTheme".' in /var/www/yiitestapp/yii-fr/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/base/CModule.php(105): CComponent->__get('myTheme')
+#1 /var/www/yiitestapp/protected/controllers/SiteController.php(34): CModule->__get('myTheme')
+#2 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('')
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#8 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/yiitestapp/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2016/01/21 21:59:14 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebApplication.myTheme".' in /var/www/yiitestapp/yii-fr/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/base/CModule.php(105): CComponent->__get('myTheme')
+#1 /var/www/yiitestapp/protected/controllers/SiteController.php(35): CModule->__get('myTheme')
+#2 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('')
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#8 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/yiitestapp/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2016/01/21 21:59:42 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebApplication.myTheme".' in /var/www/yiitestapp/yii-fr/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/base/CModule.php(105): CComponent->__get('myTheme')
+#1 /var/www/yiitestapp/protected/controllers/SiteController.php(35): CModule->__get('myTheme')
+#2 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('')
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#8 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/yiitestapp/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2016/01/21 21:59:51 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebApplication.myTheme".' in /var/www/yiitestapp/yii-fr/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/base/CModule.php(105): CComponent->__get('myTheme')
+#1 /var/www/yiitestapp/protected/controllers/SiteController.php(35): CModule->__get('myTheme')
+#2 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('')
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#8 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/yiitestapp/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2016/01/21 22:00:30 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebApplication.MyTheme".' in /var/www/yiitestapp/yii-fr/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/base/CModule.php(105): CComponent->__get('MyTheme')
+#1 /var/www/yiitestapp/protected/controllers/SiteController.php(35): CModule->__get('MyTheme')
+#2 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('')
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#8 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/yiitestapp/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://localhost/
+---
+2016/01/21 22:09:25 [error] [php] Missing argument 1 for MyTheme::__construct(), called in /var/www/yiitestapp/protected/models/MyTheme.php on line 36 and defined (/var/www/yiitestapp/protected/models/MyTheme.php:16)
+Stack trace:
+#0 unknown(0): autoload()
+#1 /var/www/yiitestapp/protected/controllers/SiteController.php(34): spl_autoload_call()
+#2 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/yiitestapp/protected/models/MyTheme.php (16)
+in /var/www/yiitestapp/protected/models/MyTheme.php (36)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (34)
+2016/01/21 22:13:16 [error] [php] Undefined variable: theme (/var/www/yiitestapp/protected/models/MyTheme.php:14)
+Stack trace:
+#0 unknown(0): autoload()
+#1 /var/www/yiitestapp/protected/controllers/SiteController.php(34): spl_autoload_call()
+#2 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/yiitestapp/protected/models/MyTheme.php (14)
+in /var/www/yiitestapp/protected/models/MyTheme.php (32)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (34)
+2016/01/21 22:14:12 [error] [php] Undefined variable: theme (/var/www/yiitestapp/protected/models/MyTheme.php:14)
+Stack trace:
+#0 unknown(0): autoload()
+#1 /var/www/yiitestapp/protected/controllers/SiteController.php(34): spl_autoload_call()
+#2 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/yiitestapp/protected/models/MyTheme.php (14)
+in /var/www/yiitestapp/protected/models/MyTheme.php (32)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (34)
+2016/01/21 22:15:46 [error] [php] Undefined variable: theme (/var/www/yiitestapp/protected/models/MyTheme.php:14)
+Stack trace:
+#0 unknown(0): autoload()
+#1 /var/www/yiitestapp/protected/controllers/SiteController.php(34): spl_autoload_call()
+#2 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/yiitestapp/protected/models/MyTheme.php (14)
+in /var/www/yiitestapp/protected/models/MyTheme.php (33)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (34)
+2016/01/21 22:16:15 [error] [php] Missing argument 1 for MyTheme::__construct(), called in /var/www/yiitestapp/protected/models/MyTheme.php on line 33 and defined (/var/www/yiitestapp/protected/models/MyTheme.php:12)
+Stack trace:
+#0 unknown(0): autoload()
+#1 /var/www/yiitestapp/protected/controllers/SiteController.php(34): spl_autoload_call()
+#2 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/yiitestapp/protected/models/MyTheme.php (12)
+in /var/www/yiitestapp/protected/models/MyTheme.php (33)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (34)
+2016/01/21 22:16:42 [error] [php] Missing argument 1 for MyTheme::__construct(), called in /var/www/yiitestapp/protected/models/MyTheme.php on line 33 and defined (/var/www/yiitestapp/protected/models/MyTheme.php:12)
+Stack trace:
+#0 unknown(0): autoload()
+#1 /var/www/yiitestapp/protected/controllers/SiteController.php(34): spl_autoload_call()
+#2 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/yiitestapp/protected/models/MyTheme.php (12)
+in /var/www/yiitestapp/protected/models/MyTheme.php (33)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (34)
+2016/01/21 22:18:07 [error] [php] Object of class MyTheme could not be converted to string (/var/www/yiitestapp/protected/views/site/index.php:59)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(37): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/yiitestapp/protected/views/site/index.php (59)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (37)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 22:34:45 [error] [php] Array to string conversion (/var/www/yiitestapp/protected/controllers/SiteController.php:36)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/yiitestapp/protected/controllers/SiteController.php (36)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 22:35:58 [error] [php] Array to string conversion (/var/www/yiitestapp/protected/controllers/SiteController.php:38)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/yiitestapp/protected/controllers/SiteController.php (38)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 22:40:59 [error] [php] Undefined variable: a (/var/www/yiitestapp/protected/views/site/index.php:59)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(38): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/yiitestapp/protected/views/site/index.php (59)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (38)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 22:53:15 [error] [php] Uninitialized string offset: -10 (/var/www/yiitestapp/protected/views/site/index.php:60)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(38): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/yiitestapp/protected/views/site/index.php (60)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (38)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 22:53:23 [error] [php] Uninitialized string offset: 10 (/var/www/yiitestapp/protected/views/site/index.php:60)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(38): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in /var/www/yiitestapp/protected/views/site/index.php (60)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (38)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 23:08:30 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebApplication.mytheme".' in /var/www/yiitestapp/yii-fr/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/base/CModule.php(105): CComponent->__get('mytheme')
+#1 /var/www/yiitestapp/protected/controllers/SiteController.php(146): CModule->__get('mytheme')
+#2 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionMyClassicTheme()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('MyClassicTheme')
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/MyClassicT...')
+#8 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/yiitestapp/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/MyClassicTheme
+---
+2016/01/21 23:09:21 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebApplication.mytheme".' in /var/www/yiitestapp/yii-fr/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/base/CModule.php(105): CComponent->__get('mytheme')
+#1 /var/www/yiitestapp/protected/controllers/SiteController.php(149): CModule->__get('mytheme')
+#2 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionMyClassicTheme()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('MyClassicTheme')
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/MyClassicT...')
+#8 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/yiitestapp/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/MyClassicTheme
+---
+2016/01/21 23:20:35 [error] [php] Undefined variable: form (/var/www/yiitestapp/protected/views/site/index.php:67)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(38): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/index
+in /var/www/yiitestapp/protected/views/site/index.php (67)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (38)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 23:21:32 [error] [exception.CException] exception 'CException' with message 'В классе CThemeManager и его поведениях не найден метод или замыкание с именем "radioButtonList".' in /var/www/yiitestapp/yii-fr/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/yiitestapp/protected/controllers/SiteController.php(38): CComponent->__call('radioButtonList', Array)
+#1 /var/www/yiitestapp/protected/controllers/SiteController.php(38): CThemeManager->radioButtonList(Object(CThemeManager), 'theme', Array, Array)
+#2 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('index')
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/index')
+#8 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/yiitestapp/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/index
+---
+2016/01/21 23:22:16 [error] [php] Undefined variable: form (/var/www/yiitestapp/protected/controllers/SiteController.php:38)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/index
+in /var/www/yiitestapp/protected/controllers/SiteController.php (38)
+in /var/www/yiitestapp/index.php (13)
+2016/01/21 23:24:03 [error] [php] Undefined variable: form (/var/www/yiitestapp/protected/views/site/index.php:67)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yiitestapp/protected/controllers/SiteController.php(38): SiteController->render()
+#3 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/index
+in /var/www/yiitestapp/protected/views/site/index.php (67)
+in /var/www/yiitestapp/protected/controllers/SiteController.php (38)
+in /var/www/yiitestapp/index.php (13)
+2016/01/22 00:24:07 [error] [php] Trying to get property of non-object (/var/www/yiitestapp/protected/controllers/SiteController.php:35)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/index
+in /var/www/yiitestapp/protected/controllers/SiteController.php (35)
+in /var/www/yiitestapp/index.php (13)
+2016/01/22 00:24:43 [error] [php] Trying to get property of non-object (/var/www/yiitestapp/protected/controllers/SiteController.php:35)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/index
+in /var/www/yiitestapp/protected/controllers/SiteController.php (35)
+in /var/www/yiitestapp/index.php (13)
+2016/01/22 00:25:24 [error] [php] Trying to get property of non-object (/var/www/yiitestapp/protected/controllers/SiteController.php:35)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/index
+in /var/www/yiitestapp/protected/controllers/SiteController.php (35)
+in /var/www/yiitestapp/index.php (13)
+2016/01/22 00:25:49 [error] [php] Trying to get property of non-object (/var/www/yiitestapp/protected/controllers/SiteController.php:35)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/index
+in /var/www/yiitestapp/protected/controllers/SiteController.php (35)
+in /var/www/yiitestapp/index.php (13)
+2016/01/22 00:26:06 [error] [php] Trying to get property of non-object (/var/www/yiitestapp/protected/controllers/SiteController.php:35)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/index
+in /var/www/yiitestapp/protected/controllers/SiteController.php (35)
+in /var/www/yiitestapp/index.php (13)
+2016/01/22 00:27:10 [error] [exception.CException] exception 'CException' with message 'В классе CWebApplication и его поведениях не найден метод или замыкание с именем "theme".' in /var/www/yiitestapp/yii-fr/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/yiitestapp/protected/controllers/SiteController.php(35): CComponent->__call('theme', Array)
+#1 /var/www/yiitestapp/protected/controllers/SiteController.php(35): CWebApplication->theme('test')
+#2 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('index')
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/index')
+#8 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/yiitestapp/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/index
+---
+2016/01/22 00:30:49 [error] [php] Trying to get property of non-object (/var/www/yiitestapp/protected/controllers/SiteController.php:35)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/index
+in /var/www/yiitestapp/protected/controllers/SiteController.php (35)
+in /var/www/yiitestapp/index.php (13)
+2016/01/22 00:31:41 [error] [php] Missing argument 1 for CThemeManager::getTheme(), called in /var/www/yiitestapp/yii-fr/framework/base/CComponent.php on line 111 and defined (/var/www/yiitestapp/yii-fr/framework/web/CThemeManager.php:58)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/index
+in /var/www/yiitestapp/protected/controllers/SiteController.php (36)
+in /var/www/yiitestapp/index.php (13)
+2016/01/22 00:32:20 [error] [php] Missing argument 1 for CThemeManager::getTheme(), called in /var/www/yiitestapp/yii-fr/framework/base/CComponent.php on line 111 and defined (/var/www/yiitestapp/yii-fr/framework/web/CThemeManager.php:58)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#4 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#5 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/index
+in /var/www/yiitestapp/protected/controllers/SiteController.php (36)
+in /var/www/yiitestapp/index.php (13)
+2016/01/22 00:36:15 [error] [php] Undefined variable: currentTheme (/var/www/yiitestapp/protected/controllers/SiteController.php:36)
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): SiteController->runAction()
+#1 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/yiitestapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/index
+in /var/www/yiitestapp/protected/controllers/SiteController.php (36)
+in /var/www/yiitestapp/index.php (13)
+2016/01/22 00:40:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "views/system/img/twitter.png".' in /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('views/system/im...')
+#1 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/yiitestapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/views/system/img/twitter.png
+HTTP_REFERER=http://localhost/site/index
+---
+2016/01/22 00:48:58 [error] [exception.CException] exception 'CException' with message 'Контроллер SiteController не может найти представление "source".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(782): CController->renderPartial('source', NULL, true)
+#1 /var/www/yiitestapp/protected/controllers/SiteController.php(58): CController->render('source')
+#2 /var/www/yiitestapp/yii-fr/framework/web/actions/CInlineAction.php(49): SiteController->actionSource()
+#3 /var/www/yiitestapp/yii-fr/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/yiitestapp/yii-fr/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/yiitestapp/yii-fr/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('source')
+#7 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/source')
+#8 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/yiitestapp/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/source
+HTTP_REFERER=http://localhost/site/index
+---
+2016/01/22 11:05:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "contact".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('contact')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('contact')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/contact')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/contact
+---
+2016/01/22 11:05:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/yiitestapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/01/22 11:05:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/yiitestapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/01/22 11:10:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "submit.php".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('submit.php')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('submit.php')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/submit.php')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/submit.php
+HTTP_REFERER=http://localhost/site/contact
+---
+2016/01/22 11:46:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "test".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/test
+HTTP_REFERER=http://localhost/
+---
+2016/01/22 11:47:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "test".' in /var/www/yiitestapp/yii-fr/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yiitestapp/yii-fr/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yiitestapp/yii-fr/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yiitestapp/yii-fr/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/yiitestapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/test
+HTTP_REFERER=http://localhost/
+---

@@ -5,9 +5,13 @@
 
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
+
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'Mess Around ..',
+    //'theme'=>'test',
+    'theme'=>'',
+    //'theme'=>$_COOKIE["theme"],
     'language'=>'ru',
 
 	// preloading 'log' component
@@ -96,5 +100,9 @@ return array(
 	'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'admin@yiitestapp.com',
+        'arrTheme'=>array(
+                        'classic'=>'Classic',
+                        'test'=>'Test',
+                    ),
 	),
 );
