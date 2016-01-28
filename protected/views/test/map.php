@@ -24,8 +24,8 @@ html, body, #map-canvas {
     <script type="text/javascript">
         function initialize() {
             var latlng = new google.maps.LatLng(
-                <?php print $userLat; ?>,
-                <?php print $userLng; ?>);
+                <?php print $info[2]; ?>,
+                <?php print $info[3]; ?>);
             var settings = {
                 zoom: 15,
                 center: latlng,
@@ -41,15 +41,15 @@ html, body, #map-canvas {
             var infowindow = new google.maps.InfoWindow({
                 content:
             '<?php
-            print $userName.'<br />';
-            print $userAddress.'<br />';
-            echo CHtml::image($userIcon);
+            print $info[0].'<br />';
+            print $info[1].'<br />';
+            echo CHtml::image($info[4]);
             ?>'
             });
             var marker = new google.maps.Marker({
                 position: latlng,
                 map: map,
-                title: '<?php print $userName; ?>'
+                title: '<?php print $info[0]; ?>'
             });
             google.maps.event.addListener(marker, 'click', function() {infowindow.open(map,marker);
             });
@@ -61,8 +61,8 @@ html, body, #map-canvas {
 <div id="map_canvas" style="width:640px; height:480px"></div>
 <p>Coords.. </br>
     <?php
-    print $userLat.'<br />';
-    echo $userLng.'<br />';
+    print $info[2].'<br />';
+    echo $info[3].'<br />';
     // var_dump($inf);
     ?>
 </p>

@@ -9,6 +9,7 @@ $this->breadcrumbs=array(
 $this->menu=array(
 	array('label'=>'Создать инфо-блок', 'url'=>array('create')),
 	array('label'=>'Управление информацией', 'url'=>array('admin')),
+	array('label'=>'Cлайдер', 'url'=>array('design/index')),
 );
 ?>
 

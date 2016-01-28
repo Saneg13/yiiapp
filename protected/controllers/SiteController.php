@@ -24,16 +24,6 @@ class SiteController extends Controller
 		);
 	}
 
-    /*public function init()
-    {
-        if(Yii::app()->user->isGuest)
-            Yii::app()->theme = 'test';
-        else
-            Yii::app()->theme = 'classic';
-
-        parent::init();
-    }*/
-
 	/**
 	 * This is the default 'index' action that is invoked
 	 * when an action is not explicitly requested by users.
@@ -146,35 +136,4 @@ class SiteController extends Controller
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
-
-    public function actionMyClassicTheme()
-    {
-//        $a = new CThemeManager();
-//
-//        foreach ($a->themeNames as $theme){
-//            echo $theme.'<hr/>';
-//        }
-
-        $a = CHtml::encode(Yii::app()->theme = 'classic');
-        echo $a;
-        $this->redirect(Yii::app()->homeUrl);
-//        $name = $a->themeNames[0];
-//        $theme = new MyTheme($name);
-//        Yii::app()->mytheme->setTheme($name);
-//        Yii::app()->mytheme->getTheme();
-//        $this->redirect(Yii::app()->homeUrl);
-        //$theme = 'classic';
-        //$form = new CThemeManager();
-        //$form->radioButtonList($form,'theme',array('classic'=>$name = $a->themeNames[0],'test'=>$name = $a->themeNames[1]), array('separator'=>' '));
-        //$this->render('index',array('a'=>$a));
-    }
-
-    public function actionMyTestTheme()
-    {
-
-        //$this->redirect(Yii::app()->theme = 'test');
-        $this->redirect(Yii::app()->theme->getTheme('test'));
-
-        //$this->redirect(Yii::app()->homeUrl);
-    }
 }

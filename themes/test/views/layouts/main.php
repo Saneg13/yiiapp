@@ -9,7 +9,7 @@
 
     <title><?php echo CHtml::encode($this->pageTitle); ?></title>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="<?php echo Yii::app()->theme->baseUrl; ?>/views/system/css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="<?php echo Yii::app()->request->baseUrl; ?>/themes/test/views/system/css/main.css" />
 
     <link rel="stylesheet" type="text/css" media="print" href="<?php echo Yii::app()->theme->baseUrl; ?>/views/system/css/print.css"  />
 
@@ -78,7 +78,6 @@
 
             <?php echo $content; ?>
 
-
             <div class="clear"></div>
             <hr/><h6>Для перехода в часть сайта с Classic-темой выберите пункт <b>Меню->Exercise</b></h6><hr/>
             <div class="clear"></div>
@@ -109,7 +108,7 @@
 
                     <h5>Help</h5>
                     <ul>
-                        <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/source">Install manual<span class="raquo">&#187;</span></a></li>
+                        <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/source">Instructions settings<span class="raquo">&#187;</span></a></li>
                     </ul>
                 </div><!-- footer-contact end -->
 
@@ -141,25 +140,6 @@
                 <div></div>
 
                 <div id="go-top"></div>
-                <!--<form name="form1" id="form1" method='post' action="<?php /*echo CHtml::normalizeUrl(array('index'))*/?>" style="margin:0;padding:0;">
-                    &nbsp;&nbsp;
-                    Theme: <SELECT name='mytheme' onchange=”Javascript:document.form1.submit()">
-                        <?php
-/*                        $arrTheme = Yii::app()->params['arrTheme'];
-                        foreach($arrTheme as $value=>$display)
-                        {
-                            $dynamicTheme = (isset(Yii::app()->request->cookies['dynamicTheme']->value)) ? Yii::app()->request->cookies['dynamicTheme']->value : ";
-                $s = ";
-                            if($value == $dynamicTheme) $s = 'selected';
-                            echo "<option value='$value' $s>$display</option>";
-                        }
-                        */?>
-                    </SELECT>
-                </form>-->
-
-<!--                --><?php //echo CHtml::button('Classic Theme', array('submit' => array('/site/myclassictheme'))); ?>
-<!--                --><?php //echo CHtml::button('Test Theme', array('submit' => array('/site/mytesttheme'))); ?>
-<!--                <?php //Yii::app()->theme = 'classic'; ?>-->
 
                 <div class="clear"></div>
 

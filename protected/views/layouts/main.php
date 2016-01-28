@@ -83,6 +83,7 @@
                 )),
                 array('label'=>$image1.' Работа с БД', 'url'=>array('/exercise/index'), 'items'=>array(
                     array('label'=>$image1.' Упражнения', 'url'=>array('/exercise/index')),
+                    array('label'=>$image1.' Parallax slider w/ Db', 'url'=>array('/design/index')),
                     array('label'=>$image1.' Info data (CRUD)', 'url'=>array('/info/index')),
                     array('label'=>$image1.' w/ renderPartial', 'url'=>array('/person/index')),
                     array('label'=>$image1.' w/ Drag&Drop', 'url'=>array('/test/dragdrop')),
@@ -107,28 +108,18 @@
     <div class="clear"></div>
 
     <div id="footer">
-        Copyright &copy; 2015 - <?php echo date('Y'); ?> by SaNeG13.<br/>
+        <b>Copyright &copy; 2015 - <?php echo date('Y'); ?> by SaNeG13.</b><br/>
         <!--All Rights Reserved.-->
         <br/>
-        <?php echo Yii::powered(); ?><br/>
-        <hr/><h6>Для перехода в часть сайта с Test-темой выберите пункт <b>Меню->Домой</b></h6><hr/>
-        <!--<form name="form1" id="form1" method='post' action="<?php /*echo CHtml::normalizeUrl(array('index'))*/?>" style="margin:0;padding:0;">
-            &nbsp;&nbsp;
-            Theme: <SELECT name='mytheme' onchange=”Javascript:document.form1.submit()">
-                <?php
-/*                $arrTheme = Yii::app()->params['arrTheme'];
-                foreach($arrTheme as $value=>$display)
-                {
-                $dynamicTheme = (isset(Yii::app()->request->cookies['dynamicTheme']->value)) ? Yii::app()->request->cookies['dynamicTheme']->value : ";
-                $s = ";
-                if($value == $dynamicTheme) $s = 'selected';
-                echo "<option value='$value' $s>$display</option>";
-                }
-                */?>
-            </SELECT>
-        </form>-->
-<!--        --><?php //echo CHtml::button('Classic Theme', array('submit' => array('/site/myclassictheme'))); ?>
-<!--        --><?php //echo CHtml::button('Test Theme', array('submit' => array('/site/mytesttheme'))); ?>
+        <b><?php echo Yii::powered(); ?></b><br/>
+        <hr/><h6>Для перехода в часть сайта с Test-темой выберите пункт Меню :</h6><hr/>
+        <b><ul>
+                <h6><li>Домой</li></h6>
+                <h6><li>О сайте</li></h6>
+                <h6><li>Login/Logout</li></h6>
+        </ul></b>
+        <!--                --><?php //echo CHtml::button('Classic Theme', array('submit' => array('/site/myclassictheme'))); ?>
+        <!--                --><?php //echo CHtml::button('Test Theme', array('submit' => array('/site/mytesttheme'))); ?>
     </div><!-- footer -->
 
 </div><!-- page -->
