@@ -8,11 +8,12 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Списко информации', 'url'=>array('index')),
+	array('label'=>'Список информации', 'url'=>array('index')),
 	array('label'=>'Создать инфо-блок', 'url'=>array('create')),
 	array('label'=>'Обновить информацию', 'url'=>array('update', 'id'=>$model->id)),
 	array('label'=>'Удалить информацию', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
 	array('label'=>'Управление информацией', 'url'=>array('admin')),
+    array('label'=>'Cлайдер', 'url'=>array('design/index')),
 );
 ?>
 

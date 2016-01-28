@@ -31,23 +31,12 @@ class TestController extends Controller {
     public function actionGmap1()
     {
         $info2 = new Info();
-        $info3 = $info2->getUserByName('Alee');
-        $info3 = array(
-            0=>$info2->user_name,
-            $info2->user_address,
-            $info2->lat,
-            $info2->lng,
-            $info2->icon
-        );
+        $info = $info2->getUserByName('Alee');
 
         $inf = Info::model()->findAll();
 
         $this->render('map',array(
-            'userName'=>$info3[0],
-            'userAddress'=>$info3[1],
-            'userLat'=>$info3[2],
-            'userLng'=>$info3[3],
-            'userIcon'=>$info3[4],
+            'info'=>$info,
             'inf'=>$inf
         ),
             false);

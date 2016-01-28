@@ -2,14 +2,12 @@
 /* @var $this SiteController */
 /* @var $model ContactForm */
 /* @var $form CActiveForm */
-
-$this->pageTitle=Yii::app()->name . ' - Contact Us';
-$this->breadcrumbs=array(
-    'Contact',
-);
 ?>
+<body>
+    <div id="text"><img src="<?php echo Yii::app()->request->baseUrl; ?>/themes/test/views/system/img/contact.png" alt="" title=""></div>
+    <div id="stripe"></div>
 
-    <h1>Contact Us</h1>
+    <ul id="contact-columns" class="clearfix">
 
 <?php if(Yii::app()->user->hasFlash('contact')): ?>
 

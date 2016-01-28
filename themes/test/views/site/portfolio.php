@@ -7,8 +7,7 @@
  */
 ?>
 <body>
-<div id="text"><img src="<?php echo Yii::app()->request->baseUrl; ?>/themes/test/views/system/img/portfolio.png" alt=""
-                    title=""></div>
+<div id="text"><img src="<?php echo Yii::app()->request->baseUrl; ?>/themes/test/views/system/img/portfolio.png" alt="" title=""></div>
 <div id="stripe"></div>
 
 <ul class="portfolio-nav clearfix">
